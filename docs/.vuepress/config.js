@@ -66,8 +66,8 @@ module.exports = {
         path: "/git/",
         children: [ 
           {
-            title: "Clone Repo",
-            path: "/git/clone-repo/"
+            title: "Clone Repo | Specific Branch",
+            path: "/git/clone-repo-specific-branch/"
           },
           {
             title: "Rebase",
