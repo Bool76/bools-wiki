@@ -38,26 +38,45 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Git',
+        link: '/git/',
+      },
+      {
+        text: 'GitHub',
+        link: '/github/',
+      },
+      {
+        text: 'SRAM Dev',
+        link: '/sram-dev/'
       },
       {
         text: 'VuePress',
         link: 'https://v1.vuepress.vuejs.org'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      {
+        title: 'Home',   // required
+        path: '/',      // optional, link of the title, which should be an absolute path and must exist
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 1    // optional, defaults to 1
+      },
+      {
+        title: 'Git',
+        path: "/git/",
+        children: [ 
+          {
+            title: "Clone Repo",
+            path: "/git/clone-repo/"
+          },
+          {
+            title: "Rebase",
+            path: "/git/rebase/"
+          }
+        ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      }
+    ],
   },
 
   /**
