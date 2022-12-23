@@ -62,6 +62,17 @@ module.exports = {
         sidebarDepth: 1    // optional, defaults to 1
       },
       {
+        title: 'C#',
+        path: "/c-sharp/",
+        children: [ 
+          {
+            title: "Any Method",
+            path: "/c-sharp/any-method"
+          }
+        ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
         title: 'Git',
         path: "/git/",
         children: [ 
