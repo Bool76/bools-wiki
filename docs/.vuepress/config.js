@@ -67,7 +67,7 @@ module.exports = {
         children: [ 
           {
             title: "Any Method",
-            path: "/c-sharp/any-method"
+            path: "/c-sharp/any-method/"
           }
         ],
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
