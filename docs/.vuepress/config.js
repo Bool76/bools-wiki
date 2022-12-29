@@ -62,6 +62,17 @@ module.exports = {
         sidebarDepth: 1    // optional, defaults to 1
       },
       {
+        title: 'C#',
+        path: "/c-sharp/",
+        children: [ 
+          {
+            title: "Any Method",
+            path: "/c-sharp/any-method/"
+          }
+        ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
         title: 'Git',
         path: "/git/",
         children: [ 
@@ -75,7 +86,47 @@ module.exports = {
           }
         ],
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
-      }
+      },
+      {
+        title: 'Sramconnect',
+        path: "/sramconnect/",
+        initialOpenGroupIndex: -1,
+        children: [ 
+          {
+            title: "Compile C#",
+            path: "/sramconnect/compile-c-sharp/"
+          },
+          {
+            title: "Compile chtml",
+            path: "/sramconnect/compile-chtml/"
+          },
+          {
+            title: "Compile CSS",
+            path: "/sramconnect/compile-css/"
+          },
+          {
+            title: "Start Environment",
+            path: "/sramconnect/start-environment/"
+          }
+        ], // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
+        title: 'SRAM Dev',   // required
+        path: '/sram-dev/',      // optional, link of the title, which should be an absolute path and must exist
+        children: [ 
+          {
+            title: "SRAM | .COM",
+            path: "/sram-dev/sram-com/",
+            children: [ 
+              {
+                title: ".COM | Start Local",
+                path: "/sram-dev/sram-com/start-local/",
+                
+              }
+            ],
+          }
+        ],
+      },
     ],
   },
 
