@@ -73,6 +73,17 @@ module.exports = {
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
+        title: 'Frontend Development',
+        path: "/frontend-development/",
+        children: [ 
+          {
+            title: "Block Elements",
+            path: "/frontend-development/block-elements/"
+          },
+        ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
         title: 'Git',
         path: "/git/",
         children: [ 
@@ -101,7 +112,7 @@ module.exports = {
             path: "/sramconnect/compile-chtml/"
           },
           {
-            title: "Compile CSS",
+            title: "Compile CSS+JS",
             path: "/sramconnect/compile-css/"
           },
           {
