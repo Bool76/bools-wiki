@@ -6,6 +6,11 @@ Summary - One possible value for the "display" attribute for page element's is B
 display: block
 ```
 
+**Common behavior** - By default you'll see the following:  
+Width = Will stretch across the entire width of the parent container (width of 100%)  
+Height = 0px (will adjust based on content)  
+Stacking = Block level elements will stack on top of each other. Even if there is room they will not display next to each other.
+
 The following html elements by default have a display value of "block":
 
 - p
