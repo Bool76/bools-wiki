@@ -126,6 +126,11 @@ module.exports = {
         path: '/sram-dev/',      // optional, link of the title, which should be an absolute path and must exist
         children: [ 
           {
+            title: "Azure | Deployment",
+            path: "/sram-dev/azure-deployment/",
+            
+          },
+          {
             title: "SRAM | .COM",
             path: "/sram-dev/sram-com/",
             children: [ 
