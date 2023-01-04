@@ -134,22 +134,6 @@ module.exports = {
             title: "Azure | Deployment",
             path: "/sram-dev/azure-deployment/",
             
-          },
-          {
-            title: "SRAM | .COM",
-            path: "/sram-dev/sram-com/",
-            children: [ 
-              {
-                title: ".COM | Debug",
-                path: "/sram-dev/sram-com/start-local/",
-                
-              },
-              {
-                title: ".COM | Start Local",
-                path: "/sram-dev/sram-com/start-local/",
-                
-              }
-            ],
           }
         ],
       },
