@@ -116,6 +116,11 @@ module.exports = {
             path: "/sramconnect/compile-css/"
           },
           {
+            title: "Debug",
+            path: "/sramconnect/debug/",
+            
+          },
+          {
             title: "Start Environment",
             path: "/sramconnect/start-environment/"
           }
@@ -134,6 +139,11 @@ module.exports = {
             title: "SRAM | .COM",
             path: "/sram-dev/sram-com/",
             children: [ 
+              {
+                title: ".COM | Debug",
+                path: "/sram-dev/sram-com/start-local/",
+                
+              },
               {
                 title: ".COM | Start Local",
                 path: "/sram-dev/sram-com/start-local/",
