@@ -137,6 +137,17 @@ module.exports = {
           }
         ],
       },
+      {
+        title: 'VS Code',
+        path: "/vscode/",
+        children: [ 
+          {
+            title: "Debugging",
+            path: "/vscode/debugging/"
+          }
+        ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      },
     ],
   },
 
