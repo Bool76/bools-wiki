@@ -73,6 +73,17 @@ module.exports = {
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
+        title: 'Frontend Development',
+        path: "/frontend-development/",
+        children: [ 
+          {
+            title: "Block Elements",
+            path: "/frontend-development/block-elements/"
+          },
+        ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
         title: 'Git',
         path: "/git/",
         children: [ 
@@ -88,44 +99,85 @@ module.exports = {
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
-        title: 'Sramconnect',
-        path: "/sramconnect/",
-        initialOpenGroupIndex: -1,
-        children: [ 
-          {
-            title: "Compile C#",
-            path: "/sramconnect/compile-c-sharp/"
-          },
-          {
-            title: "Compile chtml",
-            path: "/sramconnect/compile-chtml/"
-          },
-          {
-            title: "Compile CSS",
-            path: "/sramconnect/compile-css/"
-          },
-          {
-            title: "Start Environment",
-            path: "/sramconnect/start-environment/"
-          }
-        ], // optional, defaults to 0, defines the index of initially opened subgroup
-      },
-      {
         title: 'SRAM Dev',   // required
         path: '/sram-dev/',      // optional, link of the title, which should be an absolute path and must exist
         children: [ 
           {
-            title: "SRAM | .COM",
-            path: "/sram-dev/sram-com/",
+            title: "Azure | Deployment",
+            path: "/sram-dev/azure-deployment/",
+            
+          },
+          {
+            title: "Epi",
+            path: "/sram-dev/epi/",
             children: [ 
               {
-                title: ".COM | Start Local",
-                path: "/sram-dev/sram-com/start-local/",
-                
+                title: "Find object",
+                path: "/sram-dev/epi/epi-find-object/",
               }
-            ],
+            ]
+          },
+          {
+            title: 'slr2',
+            path: '/sram-dev/slr2/',
+            children: [
+              {
+                title: 'Model View Controller',
+                path:'/sram-dev/slr2/model-view-controller/'
+              }
+            ]
+          },
+          {
+            title: 'Sramconnect',
+            path: "/sram-dev/sramconnect/",
+            initialOpenGroupIndex: -1,
+            children: [ 
+              {
+                title: "Compile C#",
+                path: "/sram-dev/sramconnect/compile-c-sharp/"
+              },
+              {
+                title: "Compile chtml",
+                path: "/sram-dev/sramconnect/compile-chtml/"
+              },
+              {
+                title: "Compile CSS+JS",
+                path: "/sram-dev/sramconnect/compile-css/"
+              },
+              {
+                title: "Debug",
+                path: "/sram-dev/sramconnect/debug/",
+                
+              },
+              {
+                title: "Start Environment",
+                path: "/sram-dev/sramconnect/start-environment/"
+              }
+            ], // optional, defaults to 0, defines the index of initially opened subgroup
+          },
+          {
+            title: "Sram-ui",
+            path: "/sram-dev/sram-ui/",
+            initialOpenGroupIndex: -1,
+            children: [
+              {
+                title: "Install Package",
+                path: "/sram-dev/sram-ui/install-package/"
+              }
+            ]
           }
         ],
+      },
+      {
+        title: 'VS Code',
+        path: "/vscode/",
+        children: [ 
+          {
+            title: "Debugging",
+            path: "/vscode/debugging/"
+          }
+        ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
     ],
   },
