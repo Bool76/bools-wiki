@@ -99,34 +99,6 @@ module.exports = {
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
-        title: 'Sramconnect',
-        path: "/sramconnect/",
-        initialOpenGroupIndex: -1,
-        children: [ 
-          {
-            title: "Compile C#",
-            path: "/sramconnect/compile-c-sharp/"
-          },
-          {
-            title: "Compile chtml",
-            path: "/sramconnect/compile-chtml/"
-          },
-          {
-            title: "Compile CSS+JS",
-            path: "/sramconnect/compile-css/"
-          },
-          {
-            title: "Debug",
-            path: "/sramconnect/debug/",
-            
-          },
-          {
-            title: "Start Environment",
-            path: "/sramconnect/start-environment/"
-          }
-        ], // optional, defaults to 0, defines the index of initially opened subgroup
-      },
-      {
         title: 'SRAM Dev',   // required
         path: '/sram-dev/',      // optional, link of the title, which should be an absolute path and must exist
         children: [ 
@@ -134,6 +106,65 @@ module.exports = {
             title: "Azure | Deployment",
             path: "/sram-dev/azure-deployment/",
             
+          },
+          {
+            title: "Epi",
+            path: "/sram-dev/epi/",
+            children: [ 
+              {
+                title: "Find object",
+                path: "/sram-dev/epi/epi-find-object/",
+              }
+            ]
+          },
+          {
+            title: 'slr2',
+            path: '/sram-dev/slr2/',
+            children: [
+              {
+                title: 'Model View Controller',
+                path:'/sram-dev/slr2/model-view-controller/'
+              }
+            ]
+          },
+          {
+            title: 'Sramconnect',
+            path: "/sram-dev/sramconnect/",
+            initialOpenGroupIndex: -1,
+            children: [ 
+              {
+                title: "Compile C#",
+                path: "/sram-dev/sramconnect/compile-c-sharp/"
+              },
+              {
+                title: "Compile chtml",
+                path: "/sram-dev/sramconnect/compile-chtml/"
+              },
+              {
+                title: "Compile CSS+JS",
+                path: "/sram-dev/sramconnect/compile-css/"
+              },
+              {
+                title: "Debug",
+                path: "/sram-dev/sramconnect/debug/",
+                
+              },
+              {
+                title: "Start Environment",
+                path: "/sram-dev/sramconnect/start-environment/"
+              }
+            ], // optional, defaults to 0, defines the index of initially opened subgroup
+          },
+          {
+            title: "Sram-ui",
+            path: "/sram-dev/sram-ui/",
+            initialOpenGroupIndex: -1,
+            children: [
+              {
+                title: "Install Package",
+                path: "/sram-dev/sram-ui/install-package/"
+              }
+            ]
           }
         ],
       },

@@ -2,6 +2,6 @@
 
 Summary - This is the guide page
 
-## This is a different type of header
+#### Steps
 
-Stuff and stuffin' stuff
+\*Place steps here
