@@ -1,4 +1,4 @@
-# Sramconnect | Compile CSS
+# Sramconnect | Compile CSS+JS
 
 Summary - How you compile SCSS in the Sramconnect / C# project and see your changes in your local environment
 
