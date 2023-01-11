@@ -55,6 +55,8 @@ git rm --cached .env
 git rm -r --cached node_modules/@vuepress/core/node_modules/.cache
 ```
 
+> :memo: **Note:** You need "-r" or recursive to remove all files within that directory
+
 3. RUN
 
 ```
