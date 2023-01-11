@@ -52,7 +52,7 @@ git rm --cached .env
 2. For a directory:
 
 ```
-node_modules/@vuepress/core/node_modules/.cache
+git rm -r --cached node_modules/@vuepress/core/node_modules/.cache
 ```
 
 3. RUN
