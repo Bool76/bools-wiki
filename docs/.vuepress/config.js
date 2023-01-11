@@ -92,6 +92,10 @@ module.exports = {
             path: "/git/clone-repo-specific-branch/"
           },
           {
+            title: 'Gitignore',
+            path: '/git/gitignore/'
+          },
+          {
             title: "Rebase",
             path: "/git/rebase/"
           }
