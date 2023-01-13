@@ -167,6 +167,10 @@ module.exports = {
               {
                 title: "Install Package",
                 path: "/sram-dev/sram-ui/install-package/"
+              },
+              {
+                title: "Start Project",
+                path: "/sram-dev/sram-ui/start-project/"
               }
             ]
           }
@@ -183,6 +187,20 @@ module.exports = {
         ],
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
+      {
+        title: "Vue",
+        path: "/vue/",
+        children: [
+          {
+            title: "Custom Props",
+            path: "/vue/custom-props/"
+          },
+          {
+            title: 'Custom Prop Inheritance',
+            path: '/vue/custom-prop-inheritance/'
+          }
+        ]
+      }
     ],
   },
 
