@@ -100,6 +100,14 @@ module.exports = {
             path: '/git/commit-log/'
           },
           {
+            title: 'Delete Branch',
+            path: '/git/delete-branch/'
+          },
+          {
+            title: 'Discard File Changes',
+            path: '/git/discard-file-changes/'
+          },
+          {
             title: 'Gitignore',
             path: '/git/gitignore/'
           },
