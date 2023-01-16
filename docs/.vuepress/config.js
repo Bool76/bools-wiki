@@ -114,6 +114,10 @@ module.exports = {
           {
             title: "Rebase",
             path: "/git/rebase/"
+          },
+          {
+            title: 'Reset',
+            path: '/git/reset/'
           }
         ],
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
