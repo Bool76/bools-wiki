@@ -92,6 +92,14 @@ module.exports = {
             path: "/git/clone-repo-specific-branch/"
           },
           {
+            title: 'Commit',
+            path: '/git/commit/'
+          },
+          {
+            title: 'Commit Log',
+            path: '/git/commit-log/'
+          },
+          {
             title: 'Gitignore',
             path: '/git/gitignore/'
           },
