@@ -18,6 +18,22 @@ Repo == https://github.com/vuejs/vuepress
 3. Node.js 10+
 4. Yarn (optional)
 
+### Install
+
+1. Download repo
+2. Go to project root directory
+3. RUN:
+
+```
+npm install
+```
+
+4. Start env:
+
+```
+npm run docs:dev
+```
+
 ### Local environment
 
 Local Site == http://localhost:8080/  
