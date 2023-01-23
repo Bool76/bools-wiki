@@ -123,6 +123,16 @@ module.exports = {
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
+        title: 'Markdown',
+        path: '/markdown/',
+        children: [
+          {
+            title: 'Escape HTML tag',
+            path: '/markdown/escape-html-tag/'
+          }
+        ]
+      },
+      {
         title: 'SRAM Dev',   // required
         path: '/sram-dev/',      // optional, link of the title, which should be an absolute path and must exist
         children: [ 
