@@ -238,6 +238,10 @@ module.exports = {
           {
             title: 'Custom Prop Inheritance',
             path: '/vue/custom-prop-inheritance/'
+          },
+          {
+            title: 'Ref() + Reactive()',
+            path: '/vue/ref-n-reactive/'
           }
         ]
       }
