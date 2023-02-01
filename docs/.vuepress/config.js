@@ -1,10 +1,10 @@
-const { description } = require('../../package')
+const { description } = require("../../package");
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Bools Wiki',
+  title: "Bools Wiki",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,9 +16,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
   ],
 
   /**
@@ -27,166 +30,174 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: "",
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: "Guide",
+        link: "/guide/",
       },
       {
-        text: 'Git',
-        link: '/git/',
+        text: "Git",
+        link: "/git/",
       },
       {
-        text: 'GitHub',
-        link: '/github/',
+        text: "GitHub",
+        link: "/github/",
       },
       {
-        text: 'SRAM Dev',
-        link: '/sram-dev/'
+        text: "SRAM Dev",
+        link: "/sram-dev/",
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: "VuePress",
+        link: "https://v1.vuepress.vuejs.org",
+      },
     ],
     sidebar: [
       {
-        title: 'Home',   // required
-        path: '/',      // optional, link of the title, which should be an absolute path and must exist
+        title: "Home", // required
+        path: "/", // optional, link of the title, which should be an absolute path and must exist
         collapsable: false, // optional, defaults to true
-        sidebarDepth: 1    // optional, defaults to 1
+        sidebarDepth: 1, // optional, defaults to 1
       },
       {
-        title: 'C#',
+        title: "C#",
         path: "/c-sharp/",
-        children: [ 
+        children: [
           {
             title: "Any Method",
-            path: "/c-sharp/any-method/"
-          }
+            path: "/c-sharp/any-method/",
+          },
         ],
-        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
-        title: 'Frontend Development',
+        title: "Frontend Development",
         path: "/frontend-development/",
-        children: [ 
+        children: [
           {
             title: "Block Elements",
-            path: "/frontend-development/block-elements/"
+            path: "/frontend-development/block-elements/",
           },
         ],
-        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
-        title: 'Git',
+        title: "Git",
         path: "/git/",
-        children: [ 
+        children: [
           {
             title: "Clone Repo | Specific Branch",
-            path: "/git/clone-repo-specific-branch/"
+            path: "/git/clone-repo-specific-branch/",
           },
           {
-            title: 'Commit',
-            path: '/git/commit/'
+            title: "Commit",
+            path: "/git/commit/",
           },
           {
-            title: 'Commit Log',
-            path: '/git/commit-log/'
+            title: "Commit Log",
+            path: "/git/commit-log/",
           },
           {
-            title: 'Delete Branch',
-            path: '/git/delete-branch/'
+            title: "Delete Branch",
+            path: "/git/delete-branch/",
           },
           {
-            title: 'Discard File Changes',
-            path: '/git/discard-file-changes/'
+            title: "Discard File Changes",
+            path: "/git/discard-file-changes/",
           },
           {
-            title: 'Gitignore',
-            path: '/git/gitignore/'
+            title: "Gitignore",
+            path: "/git/gitignore/",
           },
           {
             title: "Rebase",
-            path: "/git/rebase/"
+            path: "/git/rebase/",
           },
           {
-            title: 'Reset',
-            path: '/git/reset/'
-          }
+            title: "Reset",
+            path: "/git/reset/",
+          },
         ],
-        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
-        title: 'Markdown',
-        path: '/markdown/',
+        title: "Markdown",
+        path: "/markdown/",
         children: [
           {
-            title: 'Escape HTML tag',
-            path: '/markdown/escape-html-tag/'
-          }
-        ]
+            title: "Escape HTML tag",
+            path: "/markdown/escape-html-tag/",
+          },
+        ],
       },
       {
-        title: 'SRAM Dev',   // required
-        path: '/sram-dev/',      // optional, link of the title, which should be an absolute path and must exist
-        children: [ 
+        title: "SCSS",
+        path: "/scss/",
+        children: [
+          {
+            title: "Media Query",
+            path: "/scss/media-query/",
+          },
+        ],
+      },
+      {
+        title: "SRAM Dev", // required
+        path: "/sram-dev/", // optional, link of the title, which should be an absolute path and must exist
+        children: [
           {
             title: "Azure | Deployment",
             path: "/sram-dev/azure-deployment/",
-            
           },
           {
             title: "Epi",
             path: "/sram-dev/epi/",
-            children: [ 
+            children: [
               {
                 title: "Find object",
                 path: "/sram-dev/epi/epi-find-object/",
-              }
-            ]
+              },
+            ],
           },
           {
-            title: 'slr2',
-            path: '/sram-dev/slr2/',
+            title: "slr2",
+            path: "/sram-dev/slr2/",
             children: [
               {
-                title: 'Model View Controller',
-                path:'/sram-dev/slr2/model-view-controller/'
-              }
-            ]
+                title: "Model View Controller",
+                path: "/sram-dev/slr2/model-view-controller/",
+              },
+            ],
           },
           {
-            title: 'Sramconnect',
+            title: "Sramconnect",
             path: "/sram-dev/sramconnect/",
             initialOpenGroupIndex: -1,
-            children: [ 
+            children: [
               {
                 title: "Compile C#",
-                path: "/sram-dev/sramconnect/compile-c-sharp/"
+                path: "/sram-dev/sramconnect/compile-c-sharp/",
               },
               {
                 title: "Compile chtml",
-                path: "/sram-dev/sramconnect/compile-chtml/"
+                path: "/sram-dev/sramconnect/compile-chtml/",
               },
               {
                 title: "Compile CSS+JS",
-                path: "/sram-dev/sramconnect/compile-css/"
+                path: "/sram-dev/sramconnect/compile-css/",
               },
               {
                 title: "Debug",
                 path: "/sram-dev/sramconnect/debug/",
-                
               },
               {
                 title: "Start Environment",
-                path: "/sram-dev/sramconnect/start-environment/"
-              }
+                path: "/sram-dev/sramconnect/start-environment/",
+              },
             ], // optional, defaults to 0, defines the index of initially opened subgroup
           },
           {
@@ -196,36 +207,36 @@ module.exports = {
             children: [
               {
                 title: "Install Package",
-                path: "/sram-dev/sram-ui/install-package/"
+                path: "/sram-dev/sram-ui/install-package/",
               },
               {
                 title: "Start Project",
-                path: "/sram-dev/sram-ui/start-project/"
-              }
-            ]
-          }
+                path: "/sram-dev/sram-ui/start-project/",
+              },
+            ],
+          },
         ],
       },
       {
-        title: 'Storybook',
-        path: '/storybook/',
+        title: "Storybook",
+        path: "/storybook/",
         children: [
           {
-            title: 'Importing JSON',
-            path: '/storybook/importing-json/'
-          }
-        ]
+            title: "Importing JSON",
+            path: "/storybook/importing-json/",
+          },
+        ],
       },
       {
-        title: 'VS Code',
+        title: "VS Code",
         path: "/vscode/",
-        children: [ 
+        children: [
           {
             title: "Debugging",
-            path: "/vscode/debugging/"
-          }
+            path: "/vscode/debugging/",
+          },
         ],
-        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
         title: "Vue",
@@ -233,26 +244,23 @@ module.exports = {
         children: [
           {
             title: "Custom Props",
-            path: "/vue/custom-props/"
+            path: "/vue/custom-props/",
           },
           {
-            title: 'Custom Prop Inheritance',
-            path: '/vue/custom-prop-inheritance/'
+            title: "Custom Prop Inheritance",
+            path: "/vue/custom-prop-inheritance/",
           },
           {
-            title: 'Ref() + Reactive()',
-            path: '/vue/ref-n-reactive/'
-          }
-        ]
-      }
+            title: "Ref() + Reactive()",
+            path: "/vue/ref-n-reactive/",
+          },
+        ],
+      },
     ],
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-  ]
-}
+  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+};
