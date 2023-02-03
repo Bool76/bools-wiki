@@ -73,6 +73,11 @@ module.exports = {
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
+        title: 'Command Line',
+        path: '/command-line/',
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
         title: 'Frontend Development',
         path: "/frontend-development/",
         children: [ 
