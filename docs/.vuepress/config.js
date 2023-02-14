@@ -89,6 +89,10 @@ module.exports = {
             title: 'Limit Text Rows',
             path: '/css/limit-text-rows/',
           },
+          {
+            title: 'Truncate with Ellipsis',
+            path: '/css/truncate-with-ellipsis/',
+          },
         ],
       },
       {
