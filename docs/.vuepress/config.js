@@ -81,6 +81,17 @@ module.exports = {
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
+        title: 'CSS',
+        path:'/css/',
+        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+        children: [
+          {
+            title: 'Limit Text Rows',
+            path: '/css/limit-text-rows/',
+          },
+        ],
+      },
+      {
         title: 'Frontend Development',
         path: "/frontend-development/",
         children: [
