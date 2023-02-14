@@ -15,6 +15,11 @@ Use "line-clamp"
    -webkit-box-orient: vertical;
 }
 ```
+Notice the use of: 
+- webkit-line-clamp
+- line-clamp
+- weblit-box-orient
+
 
 ### Option 2
 
@@ -31,3 +36,7 @@ Use "max-height"
     max-height: 5.5em;
 }
 ```
+
+Notice the use of: 
+- overflow: hidden
+- max-height == Will vary depending how many lines you're looking to hide
