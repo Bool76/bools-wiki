@@ -1,7 +1,4 @@
 # Guide
 
-Summary - This is the guide page
+**Summary** - This is the Chrome Dev Tools section
 
-#### Steps
-
-\*Place steps here
