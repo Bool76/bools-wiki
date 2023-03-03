@@ -5,7 +5,7 @@ Summary - How to insert an image into a markdown article
 #### Code Sample
 
 ```
-   ![Image from images folder](~@source/images/chrome/dev-tools/chrome_dev-tools_horizontal.png)
+   ![Image from images folder](~@source/images/chrome-dev-tools/chrome_dev-tools.png)
 ```
 
 #### Steps
