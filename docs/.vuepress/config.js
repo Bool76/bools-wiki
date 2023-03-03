@@ -76,6 +76,22 @@ module.exports = {
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
+        title: 'Chrome',
+        path: '/chrome/',
+        children: [
+          {
+            title: 'Dev Tools',
+            path: '/chrome/dev-tools/',
+            children: [
+              {
+                title: 'Move Style Window',
+                path: '/chrome/dev-tools/move-style-window/'
+              }
+            ]
+          },
+        ]
+      },
+      {
         title: 'Command Line',
         path: '/command-line/',
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
