@@ -169,6 +169,10 @@ module.exports = {
             title: "Escape HTML tag",
             path: "/markdown/escape-html-tag/",
           },
+          {
+            title: 'Insert Image',
+            path: '/markdown/insert-image/',
+          },
         ],
       },
       {
