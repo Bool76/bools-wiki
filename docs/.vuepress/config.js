@@ -119,6 +119,16 @@ module.exports = {
             title: "Block Elements",
             path: "/frontend-development/block-elements/",
           },
+          {
+            title: "Flexbox",
+            path:"/frontend-development/flexbox/",
+            children: [
+              {
+                title: "Margin Right + Left",
+                path: "/frontend-development/flexbox/margin-right-left/",
+              }
+            ]
+          }
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
