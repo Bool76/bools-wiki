@@ -124,8 +124,8 @@ module.exports = {
             path:"/frontend-development/flexbox/",
             children: [
               {
-                title: "Margin Right + Left",
-                path: "/frontend-development/flexbox/margin-right-left/",
+                title: "Margin Left + Right",
+                path: "/frontend-development/flexbox/margin-left-right/",
               }
             ]
           }
