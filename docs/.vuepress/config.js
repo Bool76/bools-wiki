@@ -177,11 +177,38 @@ module.exports = {
         children: [
           {
             title: "Escape HTML tag",
-            path: "/markdown/escape-html-tag/",
+            path: "/markdown/escape-html-tag/"
           },
           {
             title: 'Insert Image',
-            path: '/markdown/insert-image/',
+            path: '/markdown/insert-image/'
+          },
+        ],
+      },
+      {
+        title: "PMP",
+        path:"/pmp/",
+        children: [
+          {
+            title: "Predictive",
+            path: "/pmp/predictive/",
+            children: [
+              {
+                title: "Calculations",
+                path: "/pmp/predictive/calculations/"
+              },
+              {
+                title: "Execute",
+                path: "/pmp/predictive/execute/",
+                children: [
+                  {
+                    title: "Communcation",
+                    path: "/pmp/predictive/execute/communication/"
+                  }
+                ]
+              },
+            ]
+
           },
         ],
       },
