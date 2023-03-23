@@ -248,6 +248,10 @@ module.exports = {
                 title: "Model View Controller",
                 path: "/sram-dev/slr2/model-view-controller/",
               },
+              {
+                title: "URL and PubID",
+                path: "/sram-dev/slr2/url-and-pubId/"
+              }
             ],
           },
           {
