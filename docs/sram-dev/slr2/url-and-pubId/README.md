@@ -8,11 +8,11 @@ Local Example:
 ```
 http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbLLG
 ```
-localhost: Indicates you're in local env  
-32673: Port number - This can change from time to time 
-en-us: Selected language
-preview: When in local I believe you're normally in preview mode
-dev: The environment that's related to the pudID that's used 
+**localhost:** Indicates you're in local env  
+**32673:** Port number - This can change from time to time  
+**en-us:** Selected language  
+**preview:** When in local I believe you're normally in preview mode  
+**dev:** The environment that's related to the pudID that's used  
 
 ### How do you create a local URL to use?
 1. From Visual Studio click on - IIS Express button
