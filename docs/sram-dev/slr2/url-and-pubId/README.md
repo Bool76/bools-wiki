@@ -2,7 +2,7 @@
 
 Summary - This article is to help understand the slr2 URL in your local environment and how to write a URL for your local environment
 
-#### Understanding the URL 
+### Understanding the URL 
 
 Local Example:
 ```
@@ -14,7 +14,7 @@ en-us: Selected language
 preview: When in local I believe you're normally in preview mode
 dev: The environment that's related to the pudID that's used 
 
-#### How do you create a local URL to use?
+### How do you create a local URL to use?
 1. From Visual Studio click on - IIS Express button
 2. Browswer will open with a generic banner: DOCS.SRAM.COM
 3. From the browser you'll see the port you're going to use
@@ -34,12 +34,12 @@ http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbL
 ```
 
 
-#### What environment's can be used?
+### What environment's can be used?
 1. dev
 2. master(though had issues w/ this working)
 3. stage
 
-#### How do you get a pubID
+### How do you get a pubID?
 1. Login to Contentful
 2. Start from the Home page
 3. Make the call on what env you want to grab the pubID from
