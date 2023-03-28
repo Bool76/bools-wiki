@@ -287,6 +287,10 @@ module.exports = {
             initialOpenGroupIndex: -1,
             children: [
               {
+                title: "Code Changes",
+                path: "/sram-dev/sram-ui/code-changes/",
+              },
+              {
                 title: "Install Package",
                 path: "/sram-dev/sram-ui/install-package/",
               },
