@@ -1,20 +1,37 @@
 # slr2 | Url + PubID
 
-Summary - This article is to help understand the slr2 URL in your local environment and how to write a URL for your local environment
+Summary - This article is to help understand the slr2 URL in your local, stage, and production environment. Furthermore how to write a URL for your local environment.
 
 ### Understanding the URL 
 
-Local Example:
+#### Local Example
 ```
 http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbLLG
 ```
-**localhost:** Indicates you're in local env  
-**32673:** Port number - This can change from time to time  
-**en-us:** Selected language  
-**preview:** When in local I believe you're normally in preview mode  
-**dev:** The environment that's related to the pudID that's used  
+localhost == Indicates you're in local env  
+32673 == Port number - This can change from time to time  
+en-us == Selected language  
+preview == In your local and stage, it works off of "preview" mode  
+dev == The environment that's related to the pudID that's used  
+pubId == In your local environment and stage, you need to pass in a pubId as a URL variable because your using the "preview" mode
 
-### How do you create a local URL to use?
+> :memo: **Note:** A Stage url has the same basic structure as a local one  
+> :memo: **Note:** See Production Example for how it's different  
+> :memo: **Note:** When you need to get a new pubId please see section "How to get a pubId"
+
+#### Production Example
+```
+https://docs-sram-com-app-prod.azurewebsites.net/de-DE/publications/5fIZnRHg4dwjA8CcjcbLLG
+```
+docs-sram-com-app-prod.azurewebsites.net == Production site  
+de-DE == Language selected  
+publications == Instead of using a pubId production uses "publications" in the url
+5fIZnRHg4dwjA8CcjcbLLG == The pubId that's needed to point to a publication
+
+
+<br>
+
+### How to create a local URL to use?
 1. From Visual Studio click on - IIS Express button
 2. Browswer will open with a generic banner: DOCS.SRAM.COM
 3. From the browser you'll see the port you're going to use
@@ -26,23 +43,25 @@ http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbL
     1. dev
     2. stage
     3. master
-6. Find a pubID to use through Contentful (go to the section "How do you get a pubID")
+6. Find a pubID to use through Contentful (go to the section "How to get a pubId")
 7. Add the pudID at the end
 8. This is what your url can look like:
 ```
 http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbLLG
 ```
+<br>
 
-
-### What environment's can be used?
+### What environments can be used?
 1. dev
-2. master(though had issues w/ this working)
+2. master (though had issues w/ this working)
 3. stage
 
-### How do you get a pubID?
+<br>
+
+### How to get a pubId?
 1. Login to Contentful
 2. Start from the Home page
-3. Make the call on what env you want to grab the pubID from
+3. Make the call on what env you want to grab the pubId from
 4. Click - Hamburger menu
 5. Expand - november2021
 6. Click on the env you choose to work from
