@@ -249,6 +249,10 @@ module.exports = {
                 path: "/sram-dev/slr2/model-view-controller/",
               },
               {
+                title: "Start Environment",
+                path: "/sram-dev/slr2/start-environment/"
+              },
+              {
                 title: "URL and PubID",
                 path: "/sram-dev/slr2/url-and-pubId/"
               }
@@ -295,8 +299,8 @@ module.exports = {
                 path: "/sram-dev/sram-ui/install-package/",
               },
               {
-                title: "Start Project",
-                path: "/sram-dev/sram-ui/start-project/",
+                title: "Start Environment",
+                path: "/sram-dev/sram-ui/start-environment/",
               },
             ],
           },
