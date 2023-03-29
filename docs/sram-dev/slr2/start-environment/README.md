@@ -6,6 +6,8 @@ You have two options:
 1. VS Code
 2. Visual Studio
 
+<br>
+
 ### VS Code
 
 #### Start
@@ -14,16 +16,13 @@ You have two options:
 Run > Run Without Debugging
 3. This will open up a browser with the path:  
 http://localhost:5147/
-4. From there you'll have to go to a URL like:
-```
-http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbLLG
-```
 
-> :memo: **Note:** You might have to alter the port # and the pubId  
 
 #### Stop
 1. Go to menu:
 Run > Stop Debugging
+
+<br>
 
 ### Visual Studio
 
@@ -40,3 +39,12 @@ http://localhost:5147/
 #### Stop
 1. Go to menu:  
 Debug > Stop Debugging
+
+<br>
+
+### Local URL
+After env is running you'll have to go to a URL like this:
+```
+http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbLLG
+```
+> :memo: **Note:** You might have to alter the port # and the pubId  
