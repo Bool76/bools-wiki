@@ -253,6 +253,10 @@ module.exports = {
                 path: "/sram-dev/slr2/start-environment/"
               },
               {
+                title: "Test Custom Javascript",
+                path: "/sram-dev/slr2/test-custom-js/"
+              },
+              {
                 title: "URL and PubID",
                 path: "/sram-dev/slr2/url-and-pubId/"
               }
