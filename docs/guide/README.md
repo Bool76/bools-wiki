@@ -1,7 +1,6 @@
 # Guide
 
-Summary - This is the guide page
+Summary - This is section will cover how to use Bool's Wiki
 
 #### Steps
-
-\*Place steps here
+*Place steps here*

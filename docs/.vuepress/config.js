@@ -168,6 +168,10 @@ module.exports = {
             title: "Reset",
             path: "/git/reset/",
           },
+          {
+            title: "Track Branch",
+            path: "/git/track-branch/"
+          },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
