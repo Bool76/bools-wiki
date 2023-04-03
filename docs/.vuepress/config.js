@@ -303,6 +303,10 @@ module.exports = {
                 path: "/sram-dev/sram-ui/code-changes/",
               },
               {
+                title: "Frontend Pipeline",
+                path: "/sram-dev/sram-ui/frontend-pipeline/"
+              },
+              {
                 title: "Install Package",
                 path: "/sram-dev/sram-ui/install-package/",
               },

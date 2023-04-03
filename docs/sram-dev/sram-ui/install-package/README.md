@@ -7,7 +7,7 @@ Summary - How to install the Sram-ui npm package in a project
 1. sram-ui repo / project
 2. slr2 repo/ project
 
-#### Sram-ui Steps
+### Sram-ui Steps
 
 1. I would go to the name project directory
 2. RUN:
@@ -22,7 +22,7 @@ npm install
 npm run build
 ```
 
-#### slr2 Steps
+### slr2 Steps
 
 1. Go to the "slr2.web" directory
 2. Two options:
