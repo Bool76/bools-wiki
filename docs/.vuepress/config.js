@@ -161,12 +161,20 @@ module.exports = {
             path: "/git/gitignore/",
           },
           {
+            title: "Merge Conflicts",
+            path: "/git/merge-conflicts/"
+          },
+          {
             title: "Rebase",
             path: "/git/rebase/",
           },
           {
             title: "Reset",
             path: "/git/reset/",
+          },
+          {
+            title: "Squash Commits",
+            path: "/git/squash-commits/"
           },
           {
             title: "Track Branch",
@@ -335,6 +343,10 @@ module.exports = {
           {
             title: "Debugging",
             path: "/vscode/debugging/",
+          },
+          {
+            title: "Merge Conflicts",
+            path: "/vscode/merge-conflicts/"
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup

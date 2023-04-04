@@ -5,7 +5,7 @@ Summary - How to install the sram-ui package into another project. In this artic
 *Prerequisites* 
 1. If you did work on sram-ui, that work is complete, testing, and merged with the `main` branch
 2. Verify that your sram-ui feature branch was merged into main by going into the Pull Request and clicking on "Checks" 
-3. For sram-ui, in the package.json file, make note of the version number for `@sramplm/sram-u` 
+3. For sram-ui, in the package.json file, make note of the version number for `@sramplm/sram-ui` 
 
 
 ### Local | slr2 Steps
