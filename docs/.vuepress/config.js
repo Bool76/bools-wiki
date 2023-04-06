@@ -220,6 +220,10 @@ module.exports = {
                   {
                     title: "Communcation",
                     path: "/pmp/predictive/execute/communication/"
+                  },
+                  {
+                    title:"Risk",
+                    path: "/pmp/predictive/execute/risk/"
                   }
                 ]
               },
