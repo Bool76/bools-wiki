@@ -157,6 +157,10 @@ module.exports = {
             path: "/git/discard-file-changes/",
           },
           {
+            title: "Find + Replace",
+            path: "/git/find-replace/"
+          },
+          {
             title: "Gitignore",
             path: "/git/gitignore/",
           },
