@@ -12,5 +12,5 @@ features:
     details: Enjoy logical organization of this material
   - title: Crazy detailed
     details: Each article is easy to follow and enjoyable to read
-footer: Bool Inc Licensed | Copyright © 2022
+footer: Bool Inc Licensed | Copyright © 2023
 ---

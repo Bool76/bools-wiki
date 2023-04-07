@@ -1,6 +1,6 @@
 # Git | Rebase Explained
 
-Summary - This section covers an in depth explanation of what rebasing does in relation to merging. It will answer the questions:   
+**Summary** - This section covers an in depth explanation of what rebasing does in relation to merging. It will answer the questions:   
 
 What does the merge process do? 
 
@@ -13,7 +13,7 @@ When your local Feature branch's commits are behind the Master branch and you wa
 
 <br>
 
-## Rebase Breakdown
+### Rebase Breakdown
 1. Lets say you have a Feature branch off of a Master branch with two commits:  
 ![Image from images folder](~@source/images/git/rebase-explained/rebase-explained-01.png)
 2. When you then do a Merge on to the Master branch, one "merge" commit is being created from your two Feature branch commits:  
