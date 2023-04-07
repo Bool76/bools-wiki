@@ -173,6 +173,10 @@ module.exports = {
             path: "/git/rebase/",
           },
           {
+            title: "Rebase Explained",
+            path: "/git/rebase-explained/"
+          },
+          {
             title: "Reset",
             path: "/git/reset/",
           },
