@@ -14,5 +14,6 @@ Summary - tbd
 
 ### Tools
 
-1. Power Interest Grid
-2. Responsibility Assignment Matrix (RACI chart)
+1. Directions of Influence
+2. Power Interest Grid
+3. Responsibility Assignment Matrix (RACI chart)

@@ -10,3 +10,4 @@ Summary - tbd
 | Requirements Management Plan  | tbd         |
 | Risk Management Plan          | tbd         |
 | Stakeholder Engagement Plan   | tbd         |
+| Stakeholder Management Plan   | tbd         |
