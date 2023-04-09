@@ -245,6 +245,10 @@ module.exports = {
               },
             ],
           },
+          {
+            title: "Test Strategies",
+            path: "/pmp/test-strategies/",
+          },
         ],
       },
       {
