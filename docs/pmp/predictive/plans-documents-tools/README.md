@@ -1,6 +1,18 @@
-# Predictive | Documents + Tools
+# Predictive | Plans + Documents + Tools
 
 Summary - Throughout the Predictive model there are many tools you can use. These are those tools and what they do.
+
+<br>
+
+### Plans
+
+| Type                          | Description |
+| ----------------------------- | ----------- |
+| Communication Management Plan | tbd         |
+| Requirements Management Plan  | tbd         |
+| Risk Management Plan          | tbd         |
+| Stakeholder Engagement Plan   | tbd         |
+| Stakeholder Management Plan   | tbd         |
 
 <br>
 
@@ -29,22 +41,14 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Power Interest Grid                      | Building<br> Execute |                                | Team, Stakeholders                                       |
 | Qualitiative Analysis                    | Execute              | Risk                           |                                                          |
 | Quantitative Analysis                    | Execute              | Risk                           |                                                          |
-| Responsibility Assignment Matrix         | Building<br> Execute | Team<br> Stakeholders          | e.g. RACI Chart                                          |
+| Responsibility Assignment Matrix         | Building<br> Execute | Team<br> Stakeholders          | (e.g. RACI Chart)                                        |
 | Risk Breakdown Structure                 | Execute              | Risk                           |                                                          |
 | Salience Model                           | Execute              | Stakeholders                   |                                                          |
 | Stakeholder Cube                         | Execute              | Stakeholders                   |                                                          |
 | Stakeholder Engagement Assessment Matrix | Execute              | Stakeholders                   |                                                          |
 | SWOT Analysis                            | Building             | Team                           | Strength, Weakness, Opportunity, Threat                  |
-| Work Breakdown Structure (WBS)           | Planning             | Schedule?                      |
+| Tornado Model                            | Execute              | Risk                           |                                                          |
+| Work Breakdown Structure (WBS)           | Planning             | Schedule?                      |                                                          |
 
-<br>
 
-### Plans
 
-| Type                          | Description |
-| ----------------------------- | ----------- |
-| Communication Management Plan | tbd         |
-| Requirements Management Plan  | tbd         |
-| Risk Management Plan          | tbd         |
-| Stakeholder Engagement Plan   | tbd         |
-| Stakeholder Management Plan   | tbd         |

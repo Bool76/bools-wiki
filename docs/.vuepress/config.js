@@ -218,10 +218,6 @@ module.exports = {
                 path: "/pmp/predictive/calculations/",
               },
               {
-                title: "Documents + Tools",
-                path: "/pmp/predictive/documents-tools/",
-              },
-              {
                 title: "Execute",
                 path: "/pmp/predictive/execute/",
                 children: [
@@ -240,8 +236,8 @@ module.exports = {
                 ],
               },
               {
-                title: "Plans",
-                path: "/pmp/predictive/plans/",
+                title: "Plans + Documents + Tools",
+                path: "/pmp/predictive/plans-documents-tools/",
               },
             ],
           },

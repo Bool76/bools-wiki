@@ -17,3 +17,5 @@ Summary - tbd
 1. Directions of Influence
 2. Power Interest Grid
 3. Responsibility Assignment Matrix (RACI chart)
+4. Stakeholder Cube
+5. Saliance Model 
