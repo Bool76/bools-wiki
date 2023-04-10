@@ -13,12 +13,13 @@ Summary - This is section will cover the Risk part of the Execute phase
 | Documents                |
 | ------------------------ |
 | Risk Breakdown Structure |
+| Risk Register            |
 
 <br>
 
 | Tools                 |
 | --------------------- |
-| Decision Tree         |
+| Decision Tree (???)   |
 | Quantitative Analysis |
 | Qualitative Analysis  |
 | Tornado Method        |

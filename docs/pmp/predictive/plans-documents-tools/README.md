@@ -49,6 +49,3 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | SWOT Analysis                            | Building             | Team                           | Strength, Weakness, Opportunity, Threat                  |
 | Tornado Model                            | Execute              | Risk                           |                                                          |
 | Work Breakdown Structure (WBS)           | Planning             | Schedule?                      |                                                          |
-
-
-
