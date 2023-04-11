@@ -23,5 +23,5 @@ Summary - tbd
 | Power Interest Grid                           |
 | Responsibility Assignment Matrix (RACI chart) |
 | Stakeholder Cube                              |
+| Stakeholder Engagement Assessment Matrix      |
 | Saliance Model                                |
-
