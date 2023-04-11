@@ -4,10 +4,11 @@ Summary - tbd
 
 ### Plans + Documents + Tools
 
-| Plans                         |
-| ----------------------------- |
-| Stakeholder Management Plan   |
-| Communication Management Plan |
+| Plans                                  |
+| -------------------------------------- |
+| Stakeholder Engagement Management Plan |
+| Stakeholder Management Plan            |
+| Communication Management Plan          |
 
 <br>
 
@@ -22,6 +23,6 @@ Summary - tbd
 | Directions of Influence                       |
 | Power Interest Grid                           |
 | Responsibility Assignment Matrix (RACI chart) |
+| Saliance Model                                |
 | Stakeholder Cube                              |
 | Stakeholder Engagement Assessment Matrix      |
-| Saliance Model                                |

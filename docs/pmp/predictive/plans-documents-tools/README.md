@@ -6,36 +6,43 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 ### Plans
 
-| Type                          | Description |
-| ----------------------------- | ----------- |
-| Communication Management Plan | tbd         |
-| Requirements Management Plan  | tbd         |
-| Risk Management Plan          | tbd         |
-| Stakeholder Engagement Plan   | tbd         |
-| Stakeholder Management Plan   | tbd         |
+| Type                                   | Description |
+| -------------------------------------- | ----------- |
+| Communication Management Plan          | tbd         |
+| Cost Management Plan                   |             |
+| Procurement Management Plan            |             |
+| Requirements Management Plan           | tbd         |
+| Resource Management Plan               |             |
+| Risk Management Plan                   | tbd         |
+| Schedule Management Plan               | tbd         |
+| Scope Management Plan                  | tbd         |
+| Stakeholder Engagement Management Plan | tbd         |
+| Stakeholder Management Plan            | tbd         |
 
 <br>
 
 ### Documents
 
-| Type                     | Phase + Section                             | Description |
-| ------------------------ | ------------------------------------------- | ----------- |
-| Activity List            | -> Scheduling                               |             |
-| Product Road Map         | Planning                                    |             |
-| Product Vision Statement | Planning                                    |             |
-| Product Scope Statement  | tbd                                         |             |
-| Project Charter          | Building                                    |             |
-| Project Scope Statement  | tbd                                         |             |
-| Risk Register            | Execute -> Risk                             |             |
-| Stakeholder Register     | Building -> Team<br>Execute -> Stakeholders |             |
-| Team Charter             | Building -> Team                            |             |
-| WBS Dictionary           | Planning or Schedule?                       |             |
+| Type                           | Phase -> Section                            | Description |
+| ------------------------------ | ------------------------------------------- | ----------- |
+| Activity List                  | Planning(?)-> Scheduling(?)                 |             |
+| Lessons Learned                | tbd                                         |             |
+| Product Road Map               | Planning                                    |             |
+| Product Vision Statement       | Planning                                    |             |
+| Product Scope Statement        | tbd                                         |             |
+| Project Charter                | Building                                    |             |
+| Project Scope Statement        | tbd                                         |             |
+| Risk Register                  | Execute -> Risk                             |             |
+| Stakeholder Register           | Building -> Team<br>Execute -> Stakeholders |             |
+| Team Charter                   | Building -> Team                            |             |
+| Work Breakdown Structure (WBS) | tbd                                         |             |
+| WBS Dictionary                 | Planning or Schedule?                       |             |
 
 <br/>
 
 ### Tools
 
-| Type                                     | Phase                                               | Description                                              |
+| Type                                     | Phase -> Section                                    | Description                                              |
 | ---------------------------------------- | --------------------------------------------------- | -------------------------------------------------------- |
 | Affinity Diagram                         | Planning -> Requirements(?)                         |                                                          |
 | Bubble Chart                             | Execute -> Risk                                     |                                                          |
@@ -43,7 +50,8 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Directions of Influence                  | Execute -> Communication<br> Execute -> Stakeholder | Classifying stakeholders on the basis of their influence |
 | Expected Monetary Value                  | Execute -> Risk                                     |                                                          |
 | Monte Carlo Method                       | Execute -> Risk                                     | Run many simulation<br> Used to measure probablity       |
-| Power Interest Grid                      | Building<br> Execute                                | Team, Stakeholders                                       |
+| Prototype                                | Planning(?) -> Requirements(?)                      |                                                          |
+| Power Interest Grid                      | Building -> Team<br>Execute -> Stakeholders         |                                                          |
 | Qualitiative Analysis                    | Execute -> Risk                                     |                                                          |
 | Quantitative Analysis                    | Execute -> Risk                                     |                                                          |
 | Responsibility Assignment Matrix         | Building -> Team<br> Execute -> Stakeholders        | (e.g. RACI Chart)                                        |
