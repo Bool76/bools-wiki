@@ -53,4 +53,4 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Stakeholder Engagement Assessment Matrix | Execute -> Stakeholders                             |                                                          |
 | SWOT Analysis                            | Building -> Team                                    | Strength, Weakness, Opportunity, Threat                  |
 | Tornado Diagram                          | Execute -> Risk                                     |                                                          |
-| Work Breakdown Structure (WBS)           | Planning -> Schedule(?)                            |                                                          |
+| Work Breakdown Structure (WBS)           | Planning -> Schedule(?)                             |                                                          |
