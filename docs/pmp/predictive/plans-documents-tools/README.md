@@ -34,18 +34,20 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 ### Tools
 
-| Type                                     | Phase                | Section                        | Description                                              |
-| ---------------------------------------- | -------------------- | ------------------------------ | -------------------------------------------------------- |
-| Bubble Chart                             | Execute              | Risk                           |                                                          |
-| Directions of Influence                  | Execute              | Communication<br> Stakeholders | Classifying stakeholders on the basis of their influence |
-| Power Interest Grid                      | Building<br> Execute |                                | Team, Stakeholders                                       |
-| Qualitiative Analysis                    | Execute              | Risk                           |                                                          |
-| Quantitative Analysis                    | Execute              | Risk                           |                                                          |
-| Responsibility Assignment Matrix         | Building<br> Execute | Team<br> Stakeholders          | (e.g. RACI Chart)                                        |
-| Risk Breakdown Structure                 | Execute              | Risk                           |                                                          |
-| Salience Model                           | Execute              | Stakeholders                   |                                                          |
-| Stakeholder Cube                         | Execute              | Stakeholders                   |                                                          |
-| Stakeholder Engagement Assessment Matrix | Execute              | Stakeholders                   |                                                          |
-| SWOT Analysis                            | Building             | Team                           | Strength, Weakness, Opportunity, Threat                  |
-| Tornado Model                            | Execute              | Risk                           |                                                          |
-| Work Breakdown Structure (WBS)           | Planning             | Schedule?                      |                                                          |
+| Type                                     | Phase                                               | Description                                              |
+| ---------------------------------------- | --------------------------------------------------- | -------------------------------------------------------- |
+| Bubble Chart                             | Execute -> Risk                                     |                                                          |
+| Directions of Influence                  | Execute -> Communication<br> Execute -> Stakeholder | Classifying stakeholders on the basis of their influence |
+| Expected Monetary Value                  | Execute -> Risk                                     |                                                          |
+| Monte Carlo Method                       | Execute -> Risk                                     | Run many simulation<br> Used to measure probablity       |
+| Power Interest Grid                      | Building<br> Execute                                | Team, Stakeholders                                       |
+| Qualitiative Analysis                    | Execute -> Risk                                     |                                                          |
+| Quantitative Analysis                    | Execute -> Risk                                     |                                                          |
+| Responsibility Assignment Matrix         | Building -> Team<br> Execute -> Stakeholders        | (e.g. RACI Chart)                                        |
+| Risk Breakdown Structure                 | Execute -> Risk                                     | Smallest unit = Prompt List                              |
+| Salience Model                           | Execute -> Stakeholders                             |                                                          |
+| Stakeholder Cube                         | Execute -> Stakeholders                             |                                                          |
+| Stakeholder Engagement Assessment Matrix | Execute -> Stakeholders                             |                                                          |
+| SWOT Analysis                            | Building -> Team                                    | Strength, Weakness, Opportunity, Threat                  |
+| Tornado Diagram                          | Execute -> Risk                                     |                                                          |
+| Work Breakdown Structure (WBS)           | Planning -> Schedule (?)                            |                                                          |

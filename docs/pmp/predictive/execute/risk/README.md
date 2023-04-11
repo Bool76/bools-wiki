@@ -17,12 +17,15 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 <br>
 
-| Tools                 |
-| --------------------- |
-| Decision Tree (???)   |
-| Quantitative Analysis |
-| Qualitative Analysis  |
-| Tornado Method        |
+| Tools                   |
+| ----------------------- |
+| Bubble Chart            |
+| Decision Tree (???)     |
+| Expected Monetary Value |
+| Monte Carlo Method      |
+| Quantitative Analysis   |
+| Qualitative Analysis    |
+| Tornado Diagram         |
 
 ### Steps
 
