@@ -210,6 +210,10 @@ module.exports = {
         path: "/pmp/",
         children: [
           {
+            title: "Agile",
+            path: "/pmp/agile/"
+          },
+          {
             title: "Predictive",
             path: "/pmp/predictive/",
             children: [

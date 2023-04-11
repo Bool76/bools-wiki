@@ -1,4 +1,4 @@
-# Predictive | Execute | Engage Stakeholders
+# Execute | Engage Stakeholders
 
 Summary - tbd
 

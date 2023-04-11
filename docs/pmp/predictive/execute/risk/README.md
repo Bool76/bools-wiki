@@ -1,4 +1,4 @@
-# Predictive | Execute | Risk
+# Execute | Risk
 
 Summary - This is section will cover the Risk part of the Execute phase
 
