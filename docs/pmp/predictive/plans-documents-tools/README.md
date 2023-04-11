@@ -29,6 +29,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Risk Register            | Execute -> Risk                             |             |
 | Stakeholder Register     | Building -> Team<br>Execute -> Stakeholders |             |
 | Team Charter             | Building -> Team                            |             |
+| WBS Dictionary           | Planning or Schedule?                       |             |
 
 <br/>
 
@@ -36,7 +37,9 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 | Type                                     | Phase                                               | Description                                              |
 | ---------------------------------------- | --------------------------------------------------- | -------------------------------------------------------- |
+| Affinity Diagram                         | Planning -> Requirements(?)                         |                                                          |
 | Bubble Chart                             | Execute -> Risk                                     |                                                          |
+| Context Diagram                          | Planning -> Requirements(?)                         |                                                          |
 | Directions of Influence                  | Execute -> Communication<br> Execute -> Stakeholder | Classifying stakeholders on the basis of their influence |
 | Expected Monetary Value                  | Execute -> Risk                                     |                                                          |
 | Monte Carlo Method                       | Execute -> Risk                                     | Run many simulation<br> Used to measure probablity       |
@@ -50,4 +53,4 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Stakeholder Engagement Assessment Matrix | Execute -> Stakeholders                             |                                                          |
 | SWOT Analysis                            | Building -> Team                                    | Strength, Weakness, Opportunity, Threat                  |
 | Tornado Diagram                          | Execute -> Risk                                     |                                                          |
-| Work Breakdown Structure (WBS)           | Planning -> Schedule (?)                            |                                                          |
+| Work Breakdown Structure (WBS)           | Planning -> Schedule(?)                            |                                                          |
