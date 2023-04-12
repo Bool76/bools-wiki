@@ -89,6 +89,16 @@ module.exports = {
               },
             ],
           },
+          {
+            title: "Lighthouse",
+            path:"/chrome/lighthouse/",
+            children: [
+              {
+                title: "Clear Cache",
+                path: "/chrome/lighthouse/clear-cache/"
+              }
+            ]
+          },
         ],
       },
       {
