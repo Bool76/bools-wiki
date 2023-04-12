@@ -29,6 +29,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Lessons Learned                | tbd                                         |             |
 | Product Road Map               | Planning                                    |             |
 | Product Vision Statement       | Planning                                    |             |
+| Product Schedule               | Plan -> Schedule                            |             |
 | Product Scope Statement        | tbd                                         |             |
 | Project Charter                | Building                                    |             |
 | Project Scope Statement        | tbd                                         |             |
@@ -50,6 +51,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Directions of Influence                  | Execute -> Communication<br> Execute -> Stakeholder | Classifying stakeholders on the basis of their influence |
 | Expected Monetary Value                  | Execute -> Risk                                     |                                                          |
 | Monte Carlo Method                       | Execute -> Risk                                     | Run many simulation<br> Used to measure probablity       |
+| Precedence Diagramming Method            |                                                     |                                                          |
 | Prototype                                | Planning(?) -> Requirements(?)                      |                                                          |
 | Power Interest Grid                      | Building -> Team<br>Execute -> Stakeholders         |                                                          |
 | Qualitiative Analysis                    | Execute -> Risk                                     |                                                          |
