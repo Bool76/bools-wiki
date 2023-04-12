@@ -76,43 +76,53 @@ module.exports = {
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
-        title: 'Chrome',
-        path: '/chrome/',
+        title: "Chrome",
+        path: "/chrome/",
         children: [
           {
-            title: 'Dev Tools',
-            path: '/chrome/dev-tools/',
+            title: "Dev Tools",
+            path: "/chrome/dev-tools/",
             children: [
               {
-                title: 'Move Style Window',
-                path: '/chrome/dev-tools/move-style-window/'
+                title: "Move Style Window",
+                path: "/chrome/dev-tools/move-style-window/",
+              },
+            ],
+          },
+          {
+            title: "Lighthouse",
+            path:"/chrome/lighthouse/",
+            children: [
+              {
+                title: "Clear Cache",
+                path: "/chrome/lighthouse/clear-cache/"
               }
             ]
-          },
-        ]
-      },
-      {
-        title: 'Command Line',
-        path: '/command-line/',
-        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
-      },
-      {
-        title: 'CSS',
-        path:'/css/',
-        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
-        children: [
-          {
-            title: 'Limit Text Rows',
-            path: '/css/limit-text-rows/',
-          },
-          {
-            title: 'Truncate with Ellipsis',
-            path: '/css/truncate-with-ellipsis/',
           },
         ],
       },
       {
-        title: 'Frontend Development',
+        title: "Command Line",
+        path: "/command-line/",
+        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
+        title: "CSS",
+        path: "/css/",
+        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+        children: [
+          {
+            title: "Limit Text Rows",
+            path: "/css/limit-text-rows/",
+          },
+          {
+            title: "Truncate with Ellipsis",
+            path: "/css/truncate-with-ellipsis/",
+          },
+        ],
+      },
+      {
+        title: "Frontend Development",
         path: "/frontend-development/",
         children: [
           {
@@ -121,14 +131,14 @@ module.exports = {
           },
           {
             title: "Flexbox",
-            path:"/frontend-development/flexbox/",
+            path: "/frontend-development/flexbox/",
             children: [
               {
                 title: "Margin Left + Right",
                 path: "/frontend-development/flexbox/margin-left-right/",
-              }
-            ]
-          }
+              },
+            ],
+          },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
@@ -158,7 +168,7 @@ module.exports = {
           },
           {
             title: "Find + Replace",
-            path: "/git/find-replace/"
+            path: "/git/find-replace/",
           },
           {
             title: "Gitignore",
@@ -166,7 +176,7 @@ module.exports = {
           },
           {
             title: "Merge Conflicts",
-            path: "/git/merge-conflicts/"
+            path: "/git/merge-conflicts/",
           },
           {
             title: "Rebase",
@@ -174,7 +184,7 @@ module.exports = {
           },
           {
             title: "Rebase Explained",
-            path: "/git/rebase-explained/"
+            path: "/git/rebase-explained/",
           },
           {
             title: "Reset",
@@ -182,11 +192,11 @@ module.exports = {
           },
           {
             title: "Squash Commits",
-            path: "/git/squash-commits/"
+            path: "/git/squash-commits/",
           },
           {
             title: "Track Branch",
-            path: "/git/track-branch/"
+            path: "/git/track-branch/",
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
@@ -197,25 +207,29 @@ module.exports = {
         children: [
           {
             title: "Escape HTML tag",
-            path: "/markdown/escape-html-tag/"
+            path: "/markdown/escape-html-tag/",
           },
           {
-            title: 'Insert Image',
-            path: '/markdown/insert-image/'
+            title: "Insert Image",
+            path: "/markdown/insert-image/",
           },
         ],
       },
       {
         title: "PMP",
-        path:"/pmp/",
+        path: "/pmp/",
         children: [
+          {
+            title: "Agile",
+            path: "/pmp/agile/"
+          },
           {
             title: "Predictive",
             path: "/pmp/predictive/",
             children: [
               {
                 title: "Calculations",
-                path: "/pmp/predictive/calculations/"
+                path: "/pmp/predictive/calculations/",
               },
               {
                 title: "Execute",
@@ -223,16 +237,27 @@ module.exports = {
                 children: [
                   {
                     title: "Communcation",
-                    path: "/pmp/predictive/execute/communication/"
+                    path: "/pmp/predictive/execute/communication/",
                   },
                   {
-                    title:"Risk",
-                    path: "/pmp/predictive/execute/risk/"
-                  }
-                ]
+                    title: "Risk",
+                    path: "/pmp/predictive/execute/risk/",
+                  },
+                  {
+                    title: "Stakeholder Engagement",
+                    path: "/pmp/predictive/execute/stakeholder-engagement/",
+                  },
+                ],
               },
-            ]
-
+              {
+                title: "Plans + Documents + Tools",
+                path: "/pmp/predictive/plans-documents-tools/",
+              },
+            ],
+          },
+          {
+            title: "Test Strategies",
+            path: "/pmp/test-strategies/",
           },
         ],
       },
@@ -274,16 +299,16 @@ module.exports = {
               },
               {
                 title: "Start Environment",
-                path: "/sram-dev/slr2/start-environment/"
+                path: "/sram-dev/slr2/start-environment/",
               },
               {
                 title: "Test Custom Javascript",
-                path: "/sram-dev/slr2/test-custom-js/"
+                path: "/sram-dev/slr2/test-custom-js/",
               },
               {
                 title: "URL and PubID",
-                path: "/sram-dev/slr2/url-and-pubId/"
-              }
+                path: "/sram-dev/slr2/url-and-pubId/",
+              },
             ],
           },
           {
@@ -324,7 +349,7 @@ module.exports = {
               },
               {
                 title: "Frontend Pipeline",
-                path: "/sram-dev/sram-ui/frontend-pipeline/"
+                path: "/sram-dev/sram-ui/frontend-pipeline/",
               },
               {
                 title: "Install Package",
@@ -358,7 +383,7 @@ module.exports = {
           },
           {
             title: "Merge Conflicts",
-            path: "/vscode/merge-conflicts/"
+            path: "/vscode/merge-conflicts/",
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
