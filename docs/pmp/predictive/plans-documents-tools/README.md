@@ -8,6 +8,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 | Type                                   | Description |
 | -------------------------------------- | ----------- |
+| Change Management Plan                 |             |
 | Communication Management Plan          | tbd         |
 | Cost Management Plan                   |             |
 | Procurement Management Plan            |             |
@@ -26,6 +27,8 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Type                           | Phase -> Section                            | Description |
 | ------------------------------ | ------------------------------------------- | ----------- |
 | Activity List                  | Planning(?)-> Scheduling(?)                 |             |
+| Change Log                     | Execute -> Change                           |             |
+| Change Request Form            | Execute -> Change                           |             |
 | Lessons Learned                | tbd                                         |             |
 | Product Road Map               | Planning                                    |             |
 | Product Vision Statement       | Planning                                    |             |
