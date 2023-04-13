@@ -91,13 +91,13 @@ module.exports = {
           },
           {
             title: "Lighthouse",
-            path:"/chrome/lighthouse/",
+            path: "/chrome/lighthouse/",
             children: [
               {
                 title: "Clear Cache",
-                path: "/chrome/lighthouse/clear-cache/"
-              }
-            ]
+                path: "/chrome/lighthouse/clear-cache/",
+              },
+            ],
           },
         ],
       },
@@ -221,7 +221,7 @@ module.exports = {
         children: [
           {
             title: "Agile",
-            path: "/pmp/agile/"
+            path: "/pmp/agile/",
           },
           {
             title: "Predictive",
@@ -236,6 +236,10 @@ module.exports = {
                 path: "/pmp/predictive/execute/",
                 children: [
                   {
+                    title: "Change",
+                    path: "/pmp/predictive/execute/change/",
+                  },
+                  {
                     title: "Communcation",
                     path: "/pmp/predictive/execute/communication/",
                   },
@@ -248,6 +252,10 @@ module.exports = {
                     path: "/pmp/predictive/execute/stakeholder-engagement/",
                   },
                 ],
+              },
+              {
+                title: "Key Terms + Concepts",
+                path: "/pmp/predictive/key-terms-concepts/",
               },
               {
                 title: "Plans + Documents + Tools",
