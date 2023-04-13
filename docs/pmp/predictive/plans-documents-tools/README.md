@@ -29,17 +29,18 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Activity List                  | Planning(?)-> Scheduling(?)                 |             |
 | Change Log                     | Execute -> Change                           |             |
 | Change Request Form            | Execute -> Change                           |             |
-| Lessons Learned                | tbd                                         |             |
+| Issue Log                      |                                             |             |
+| Lessons Learned                |                                             |             |
 | Product Road Map               | Planning                                    |             |
 | Product Vision Statement       | Planning                                    |             |
 | Product Schedule               | Plan -> Schedule                            |             |
-| Product Scope Statement        | tbd                                         |             |
+| Product Scope Statement        |                                             |             |
 | Project Charter                | Building                                    |             |
-| Project Scope Statement        | tbd                                         |             |
+| Project Scope Statement        |                                             |             |
 | Risk Register                  | Execute -> Risk                             |             |
 | Stakeholder Register           | Building -> Team<br>Execute -> Stakeholders |             |
 | Team Charter                   | Building -> Team                            |             |
-| Work Breakdown Structure (WBS) | tbd                                         |             |
+| Work Breakdown Structure (WBS) |                                             |             |
 | WBS Dictionary                 | Planning or Schedule?                       |             |
 
 <br/>
@@ -66,4 +67,5 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Stakeholder Engagement Assessment Matrix | Execute -> Stakeholders                             |                                                          |
 | SWOT Analysis                            | Building -> Team                                    | Strength, Weakness, Opportunity, Threat                  |
 | Tornado Diagram                          | Execute -> Risk                                     |                                                          |
+| Wireframe                                | Planning -> Requirements                            |                                                          |
 | Work Breakdown Structure (WBS)           | Planning -> Schedule(?)                             |                                                          |

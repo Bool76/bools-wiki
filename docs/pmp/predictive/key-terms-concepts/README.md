@@ -23,6 +23,7 @@ Summary - tbd
 | Term                        | Section | Definition |
 | --------------------------- | ------- | ---------- |
 | Iron Triangle of Constrants | tbd     |            |
+| Project Deliverable         |         |            |
 | Time Boxing                 | ???     |            |
 | Rolling Wave Planning       | tbd     |            |
 |                             |         |
