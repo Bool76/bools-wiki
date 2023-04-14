@@ -29,7 +29,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Activity List                  | Planning(?)-> Scheduling(?)                 |             |
 | Change Log                     | Execute -> Change                           |             |
 | Change Request Form            | Execute -> Change                           |             |
-| Issue Log                      |                                             |             |
+| Issue Log                      | Execute -> Issues                           |             |
 | Lessons Learned                |                                             |             |
 | Product Road Map               | Planning                                    |             |
 | Product Vision Statement       | Planning                                    |             |
