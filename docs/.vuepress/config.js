@@ -232,30 +232,46 @@ module.exports = {
                 path: "/pmp/predictive/calculations/",
               },
               {
-                title: "Execute",
-                path: "/pmp/predictive/execute/",
-                children: [
-                  {
-                    title: "Change",
-                    path: "/pmp/predictive/execute/change/",
-                  },
-                  {
-                    title: "Communcation",
-                    path: "/pmp/predictive/execute/communication/",
-                  },
-                  {
-                    title: "Risk",
-                    path: "/pmp/predictive/execute/risk/",
-                  },
-                  {
-                    title: "Stakeholder Engagement",
-                    path: "/pmp/predictive/execute/stakeholder-engagement/",
-                  },
-                ],
-              },
-              {
                 title: "Key Terms + Concepts",
                 path: "/pmp/predictive/key-terms-concepts/",
+              },
+              {
+                title: "Phases",
+                path: "/pmp/predictive/phases/",
+                children: [
+                  {
+                    title: "Execute",
+                    path: "/pmp/predictive/phases/execute/",
+                    children: [
+                      {
+                        title: "Change",
+                        path: "/pmp/predictive/phases/execute/change/",
+                      },
+                      {
+                        title: "Communcation",
+                        path: "/pmp/predictive/phases/execute/communication/",
+                      },
+                      {
+                        title: "Risk",
+                        path: "/pmp/predictive/phases/execute/risk/",
+                      },
+                      {
+                        title: "Stakeholder Engagement",
+                        path: "/pmp/predictive/phases/execute/stakeholder-engagement/",
+                      },
+                    ],
+                  }, 
+                  {
+                    title: "Planning",
+                    path:"/pmp/predictive/phases/planning/",
+                    children: [
+                      {
+                        title: "Schedule",
+                        path: "/pmp/predictive/phases/planning/schedule/",
+                      }
+                    ]
+                  },
+                ],
               },
               {
                 title: "Plans + Documents + Tools",
