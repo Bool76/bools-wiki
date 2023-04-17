@@ -20,13 +20,14 @@ Summary - tbd
 
 ### Planning
 
-| Term                        | Section | Definition |
-| --------------------------- | ------- | ---------- |
-| Iron Triangle of Constrants | tbd     |            |
-| Project Deliverable         |         |            |
-| Time Boxing                 | ???     |            |
-| Rolling Wave Planning       | tbd     |            |
-|                             |         |
+| Term                        | Section  | Definition |
+| --------------------------- | -------- | ---------- |
+| Critical Path               | Schedule |            |
+| Iron Triangle of Constrants | tbd      |            |
+| Project Deliverable         |          |            |
+| Time Boxing                 | ???      |            |
+| Rolling Wave Planning       | tbd      |            |
+|                             |          |
 
 <br><br>
 

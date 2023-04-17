@@ -17,19 +17,18 @@ Summary - This section is dedicated toward the Communication section of the Exec
 
 <br>
 
-| Tools                   |
-| ----------------------- |
-| Directions of Influence |
-|                         |
-
+| Tools                                                  |
+| ------------------------------------------------------ |
+| Directions of Influence                                |
+| Project Communications Requirements Analysis Worksheet |
 
 ### Communication Models
+
 1. Sender / Receiver
 2. Interactive
 
-
 ### Communication Methods
+
 1. Push
 2. Pull
 3. Interactive
-

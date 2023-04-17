@@ -13,6 +13,7 @@ Summary - tbd
 | Documents                |
 | ------------------------ |
 | Activities List          |
+| Project Calendar         |
 | Work Breakdown Structure |
 | WBS Dictionary           |
 | tbd                      |
@@ -21,11 +22,11 @@ Summary - tbd
 
 | Tools                                         |
 | --------------------------------------------- |
+| Activity - Duration                           |
 | Activity - Early Start                        |
 | Activity - Early Finish                       |
 | Activity - Late Start                         |
 | Activity - Late Finish                        |
-| Activity Duration                             |
 | Critical Path                                 |
 | Estimates - Analogous                         |
 | Estimates - Parametric                        |
@@ -36,9 +37,38 @@ Summary - tbd
 | Estimates - 3 Point - Standard                |
 | Free Float                                    |
 | Leads and Lags                                |
-| Presidence Diagraming Method                  |
+| Presidence Diagramming Method                 |
 | Total Float                                   |
 |                                               |
+
+<br>
+
+### Calculations
+
+#### Estimates | 3 Point
+
+Overview - 3 different estimate calculations that are based on the 3 variables:
+
+- Pessimistic (P)
+- Most Likely (ML)
+- Optimistic (O)
+
+| 3 Point Estimation | Calculation         |
+| ------------------ | ------------------- |
+| Triangular         | (P + ML + O) / 2    |
+| Beta (Pert)        | (P + 4(ML) + O) / 6 |
+| Standard           | (P - O ) / 6        |
+
+#### Activity Metrics
+
+| Metric             | Calculation                                              |
+| ------------------ | -------------------------------------------------------- |
+| Early Start        | Preceding EF + 1                                         |
+| Early Finish       | ES + Duration - 1                                        |
+| Late Start         | LF - Duration + 1                                        |
+| Late Finish        | Early Finish of last activity on Critical Path           |
+| Total Float (Slack | Late Finish - Early Finish OR Late Start - Early Start   |
+| Free Float         | Successor /w smallest ES - Current ES - Current Duration |
 
 <br>
 
@@ -51,14 +81,6 @@ Summary - tbd
 3. Mandatory
 4. Discretionary
 
+#### Critical Path
 
-#### Estimates | 3 Point
-Overview - 
-
-Triangular:
-
-
-Beta (Pert):
-
-
-Standard:
+#### Scheduling Changes - YOU NEED TO WORK ON THIS!
