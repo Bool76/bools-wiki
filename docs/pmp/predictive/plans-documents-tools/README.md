@@ -18,7 +18,6 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Schedule Management Plan               | tbd         |
 | Scope Management Plan                  | tbd         |
 | Stakeholder Engagement Management Plan | tbd         |
-| Stakeholder Management Plan            | tbd         |
 
 <br>
 
@@ -38,6 +37,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Product Scope Statement          |                                             |             |
 | Project Charter                  | Building (?)                                |             |
 | Project Scope Statement          |                                             |             |
+| Risk Breakdown Structure         | Execute -> Risk                             |             |
 | Risk Register                    | Execute -> Risk                             |             |
 | Stakeholder Register             | Building -> Team<br>Execute -> Stakeholders |             |
 | Team Charter                     | Building -> Team                            |             |

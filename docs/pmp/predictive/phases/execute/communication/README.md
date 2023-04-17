@@ -12,8 +12,7 @@ Summary - This section is dedicated toward the Communication section of the Exec
 
 | Documents |
 | --------- |
-| asdf      |
-| asdf      |
+| tbd       |
 
 <br>
 
@@ -22,14 +21,17 @@ Summary - This section is dedicated toward the Communication section of the Exec
 | Directions of Influence |
 |                         |
 
+<br>
 
 ### Communication Models
+
 1. Sender / Receiver
 2. Interactive
 
+<br>
 
 ### Communication Methods
+
 1. Push
 2. Pull
 3. Interactive
-

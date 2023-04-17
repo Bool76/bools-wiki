@@ -77,3 +77,14 @@ http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbL
 8. On right hand side - Cick on Info 
 9. Find the section - Entry ID
 10. That's the pubID you're going to use 
+
+<br>
+
+### How to get a prod style URL on your local env
+1. Make note of your local port:  
+*e.g. http://localhost:5147/*
+2. Make note of the NGM production URL:  
+*https://docs-sram-com-app-uat.azurewebsites.net/en-US/publications/1kIP2D86RC1symlNZ6qBzN/CAW%20Publication%20Test%201*
+3. From the production URL, copy the part of the URL starting from "en-us" and everything to the right. 
+4. Tack that copied section and place it after your local port URL. It should look something like:  
+*http://localhost:5147/en-US/publications/32KXd13MZQ7SVBtT2Iimfu/UM%20-%20Flight%20Attendant*
