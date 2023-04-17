@@ -32,9 +32,16 @@ publications == Instead of using a pubId production uses "publications" in the u
 <br>
 
 ### How to create a local URL to use?
-1. From Visual Studio click on - IIS Express button
-2. Browswer will open with a generic banner: DOCS.SRAM.COM
-3. From the browser you'll see the port you're going to use
+
+What you'll need:
+1. Local Port
+2. Select an environment (dev, stage, master, prod)
+3. PubId
+
+#### Steps
+1. Start local environment: From Visual Studio click on - IIS Express button
+2. Browser will open with a generic banner: DOCS.SRAM.COM
+3. Get local port: From the browser you'll see the port you're going to use so make note of it
 4. Add the language you're going to use, add preview, and publication:
 ```   
 /en-us/preview/publications/
@@ -43,8 +50,8 @@ publications == Instead of using a pubId production uses "publications" in the u
     1. dev
     2. stage
     3. master
-6. Find a pubID to use through Contentful (go to the section "How to get a pubId")
-7. Add the pudID at the end
+6. Find a PubId to use through Contentful (go to the section "How to get a pubId")
+7. Add the PubId at the end
 8. This is what your url can look like:
 ```
 http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbLLG
@@ -55,6 +62,7 @@ http://localhost:32673/en-US/preview/publications/dev?pubId=5fIZnRHg4dwjA8CcjcbL
 1. dev
 2. master (though had issues w/ this working)
 3. stage
+4. prod -- I have to figure out how to do this!
 
 <br>
 
