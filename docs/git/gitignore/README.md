@@ -2,11 +2,11 @@
 
 Summary - What is gitignore and how to use it
 
-#### What does gitignore file do?
+### What does gitignore file do?
 
 Tells "Git" what files NOT to include within it's tracking index
 
-#### How to use it
+### How to use it
 
 1. Create a ".gitignore" file in the project root directory
 2. Add file to git
@@ -39,7 +39,7 @@ test/
 
 > :warning: **Warning:** If you have already started tracking a file or folder in git and you add it to .gitignore, it won't work. You have already started tracking it. You will need to tell Git not to track this file by removing it from the index. To get around please see the next section.
 
-#### Remove indexed files / directories
+### Remove indexed files / directories
 
 1. For in individual file:
 
