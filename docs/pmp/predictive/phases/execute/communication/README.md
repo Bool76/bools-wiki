@@ -16,12 +16,10 @@ Summary - This section is dedicated toward the Communication section of the Exec
 
 <br>
 
-| Tools                   |
-| ----------------------- |
-| Directions of Influence |
-|                         |
-
-<br>
+| Tools                                                  |
+| ------------------------------------------------------ |
+| Directions of Influence                                |
+| Project Communications Requirements Analysis Worksheet |
 
 ### Communication Models
 
