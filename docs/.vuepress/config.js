@@ -168,7 +168,7 @@ module.exports = {
           },
           {
             title: "Exclude",
-            path:"/git/exclude/",
+            path: "/git/exclude/",
           },
           {
             title: "Find + Replace",
@@ -264,16 +264,30 @@ module.exports = {
                         path: "/pmp/predictive/phases/execute/stakeholder-engagement/",
                       },
                     ],
-                  }, 
+                  },
+                  {
+                    title: "Monitor",
+                    path: "/pmp/predictive/phases/monitor/",
+                    children: [
+                      {
+                        title: "Conflicts",
+                        path: "/pmp/predictive/phases/monitor/conflicts/",
+                      },
+                      {
+                        title: "Team Performance",
+                        path: "/pmp/predictive/phases/monitor/team-performance/",
+                      },
+                    ],
+                  },
                   {
                     title: "Planning",
-                    path:"/pmp/predictive/phases/planning/",
+                    path: "/pmp/predictive/phases/planning/",
                     children: [
                       {
                         title: "Schedule",
                         path: "/pmp/predictive/phases/planning/schedule/",
-                      }
-                    ]
+                      },
+                    ],
                   },
                 ],
               },

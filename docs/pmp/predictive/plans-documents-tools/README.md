@@ -59,6 +59,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Early Start                                            | Planning -> Schedule                                |                                                          |
 | Expected Monetary Value                                | Execute -> Risk                                     |                                                          |
 | Free Float                                             | Planning -> Schedule                                |                                                          |
+| Key Performance Indicators (KPIs)                      | Monitor -> Team Performance                         |                                                          |
 | Lags                                                   | Planning -> Schedule                                |                                                          |
 | Late Finish                                            | Planning -> Schedule                                |                                                          |
 | Late Start                                             | Planning -> Schedule                                |                                                          |
