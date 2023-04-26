@@ -1,3 +1,3 @@
 # Predictive | Monitor
 
-Summary - This section will cover the Predictive Phase called Monitor (or Tracking and Monitoring)
+Summary - This section will cover the MONITOR (or Tracking) Phase of the Predictive method

@@ -244,6 +244,20 @@ module.exports = {
                 path: "/pmp/predictive/phases/",
                 children: [
                   {
+                    title: "Planning",
+                    path: "/pmp/predictive/phases/planning/",
+                    children: [
+                      {
+                        title: "Determine Budget",
+                        path: "/pmp/predictive/phases/planning/determine-budget/",
+                      },
+                      {
+                        title: "Schedule",
+                        path: "/pmp/predictive/phases/planning/schedule/",
+                      },
+                    ],
+                  },
+                  {
                     title: "Execute",
                     path: "/pmp/predictive/phases/execute/",
                     children: [
@@ -276,16 +290,6 @@ module.exports = {
                       {
                         title: "Team Performance",
                         path: "/pmp/predictive/phases/monitor/team-performance/",
-                      },
-                    ],
-                  },
-                  {
-                    title: "Planning",
-                    path: "/pmp/predictive/phases/planning/",
-                    children: [
-                      {
-                        title: "Schedule",
-                        path: "/pmp/predictive/phases/planning/schedule/",
                       },
                     ],
                   },
