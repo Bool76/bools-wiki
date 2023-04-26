@@ -20,19 +20,22 @@ Summary - tbd
 
 ### Planning
 
-| Term                        | Section  | Definition |
-| --------------------------- | -------- | ---------- |
-| Critical Path               | Schedule |            |
-| Iron Triangle of Constrants | tbd      |            |
-| Project Deliverable         |          |            |
-| Time Boxing                 | ???      |            |
-| Rolling Wave Planning       | tbd      |            |
-|                             |          |
+| Term                        | Section          |
+| --------------------------- | ---------------- |
+| Contengency Reserve         | Determine Budget |
+| Critical Path               | Schedule         |
+| Iron Triangle of Constrants |                  |
+| Management Reserve          | Determine Budget |
+| Project Budget Components   | Determine Budget |
+| Project Deliverable         |                  |
+| Time Boxing                 |                  |
+| Rolling Wave Planning       |                  |
+|                             |                  |
 
 <br><br>
 
 ### Executing
 
-| Term                 | Section | Definition |
-| -------------------- | ------- | ---------- |
+| Term                 | Section |
+| -------------------- | ------- |
 | Change Control Board | Change  |

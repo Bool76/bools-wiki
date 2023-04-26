@@ -4,19 +4,20 @@ Summary - Project Monitoring also involves Monitoring your team (not just for Co
 
 ### Plans + Documents + Tools
 
-| Plans |
-| ----- |
-| tbd   |
+| Plans                          | Notes                        |
+| ------------------------------ | ---------------------------- |
+| Resource Management Plan (2nd) | Could detail a training plan |
 
 <br>
 
-| Documents |
-| --------- |
-| tbd       |
+| Documents    |
+| ------------ |
+| Team Charter |
 
 <br>
 
 | Tools                             |
 | --------------------------------- |
 | Key Performance Indicators (KPIs) |
-|                                   |
+| SWOT Analysis                     |
+| Tuckmans Model                    |
