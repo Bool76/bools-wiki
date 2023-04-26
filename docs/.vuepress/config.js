@@ -288,6 +288,14 @@ module.exports = {
                         path: "/pmp/predictive/phases/monitor/conflicts/",
                       },
                       {
+                        title: "Lead a Team",
+                        path: "/pmp/predictive/phases/monitor/lead-a-team/",
+                      },
+                      {
+                        title: "Remove Blockers",
+                        path: "/pmp/predictive/phases/monitor/remove-blockers/",
+                      },
+                      {
                         title: "Team Performance",
                         path: "/pmp/predictive/phases/monitor/team-performance/",
                       },
