@@ -14,16 +14,17 @@ Overview - How to determine / calculate the budget for a project and all of it's
 
 <br>
 
-| Documents        |
-| ---------------- |
-| Project Calendar |
-| WBS              |
+| Documents                     |
+| ----------------------------- |
+| Project Budget                |
+| Project Calendar              |
+| Work Breakdown Stucture (WBS) |
 
 <br>
 
-| Tools                       |
-| --------------------------- |
-| Project Budget (Components) |
+| Tools |
+| ----- |
+| tbd   |
 
 <br>
 
