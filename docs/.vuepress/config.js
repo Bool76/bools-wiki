@@ -252,6 +252,10 @@ module.exports = {
                         path: "/pmp/predictive/phases/planning/determine-budget/",
                       },
                       {
+                        title: "Control Costs",
+                        path: "/pmp/predictive/phases/planning/control-costs/",
+                      },
+                      {
                         title: "Schedule",
                         path: "/pmp/predictive/phases/planning/schedule/",
                       },
