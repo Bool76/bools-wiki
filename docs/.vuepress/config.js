@@ -232,14 +232,6 @@ module.exports = {
             path: "/pmp/predictive/",
             children: [
               {
-                title: "Calculations",
-                path: "/pmp/predictive/calculations/",
-              },
-              {
-                title: "Key Terms + Concepts",
-                path: "/pmp/predictive/key-terms-concepts/",
-              },
-              {
                 title: "Phases",
                 path: "/pmp/predictive/phases/",
                 children: [
@@ -254,6 +246,10 @@ module.exports = {
                       {
                         title: "Control Costs",
                         path: "/pmp/predictive/phases/planning/control-costs/",
+                      },
+                      {
+                        title: "Earned Value",
+                        path: "/pmp/predictive/phases/planning/earned-value/",
                       },
                       {
                         title: "Schedule",
@@ -310,6 +306,14 @@ module.exports = {
               {
                 title: "Plans + Documents + Tools",
                 path: "/pmp/predictive/plans-documents-tools/",
+              },
+              {
+                title: "Calculations",
+                path: "/pmp/predictive/calculations/",
+              },
+              {
+                title: "Key Terms + Concepts",
+                path: "/pmp/predictive/key-terms-concepts/",
               },
             ],
           },
