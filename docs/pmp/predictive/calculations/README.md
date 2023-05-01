@@ -14,7 +14,7 @@ Summary - This section is dedicated toward Predictive related calculations
 | Beta (Pert) Estimates | (Pessimistic + 4(Most Likely) + Optimistic) / 6 |
 | Standard Deviation    | (Pessimistic - Optimistic) / 6                  |
 
-<br>
+<br><br>
 
 ### Project Budget
 
@@ -25,7 +25,7 @@ Summary - This section is dedicated toward Predictive related calculations
 | Cost Baseline              | Sum of Control Accounts                                                                              |
 | Project Budget             | Cost Baseline + Management Reserve                                                                   |
 
-<br>
+<br><br>
 
 ### Project Schedule Network Diagram
 
@@ -36,4 +36,26 @@ Summary - This section is dedicated toward Predictive related calculations
 | Early Finish        | ES + Duration - 1                     |
 | Late Start          | LF - Duration + 1                     |
 
-<br>
+<br><br>
+
+### Control Budget | Earned Value | Cost Calculations
+
+| Type                         | Calculation     |
+| ---------------------------- | --------------- |
+| Cost Variance (CV)           | EV - AC         |
+| Variance at Completion (VAC) | BAC - EAC (???) |
+| Cost Performance Index (CPI) | EV / AC         |
+| Estimate AT Completion (EAC) | BAC / CPI       |
+|                              | AC + BAC - EV   |
+| Estimate TO Completion (ETC) | EAC - AC        |
+|                              | BAC - EV        |
+
+<br><br>
+
+### Control Budget | Earned Value | Value Calculations
+
+| Type                                 | Calculation         |
+| ------------------------------------ | ------------------- |
+| Schedule Variance (SV)               | EV - PV             |
+| Schedule Performance Index (SPI)     | EV / PV             |
+| To Complete Performance Index (TCPI) | (BAC-EV) / (BAC-AC) |

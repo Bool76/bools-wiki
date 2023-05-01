@@ -63,7 +63,7 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 #### Cost Calculations
 
-| Name                         | Calculation     | Result Definitions                                                              | Notes                                                              |
+| Type                         | Calculation     | Result Definitions                                                              | Notes                                                              |
 | ---------------------------- | --------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Cost Variance (CV)           | EV - AC         | Under Budget<br>On Budget                                                       |                                                                    |
 | Variance at Completion (VAC) | BAC - EAC (???) | Under Budget -> Postive<br>On Budget -> Equals Zero<br>Under Budget -> Negative |                                                                    |
@@ -77,7 +77,7 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 #### Work / Value Calculations
 
-| Name                                 | Calculation         | Result Definitions                                                                      | Notes                                         |
+| Type                                 | Calculation         | Result Definitions                                                                      | Notes                                         |
 | ------------------------------------ | ------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------- |
 | Schedule Variance (SV)               | EV - PV             | Ahead Schedule -> Positive<br>On Schedule -> Equals Zero<br>Behind Schedule -> Negative |                                               |
 | Schedule Performance Index (SPI)     | EV / PV             | Ahead Schedule -> Greater 1<br>On Schedule -> Equal 1<br>Behind Schedule -> Less 1      |                                               |
