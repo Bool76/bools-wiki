@@ -24,9 +24,7 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 <br><br>
 
-### Cost Key Terms
-
-**Planning Value (PV)** - Actual work plan to be completed. Authorized costs. Work planned (dollars or percentage??? Might have to move this)
+### Cost Key Concepts
 
 **Actual Cost (AC)** - Cost incurred for work performed (dollars)
 
@@ -38,15 +36,24 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 **Cost Performance Index (CPI)** - A measure of cost efficiency of budgeted resources (calculation)
 
+**Estimate AT Completion (EAC)** - Tool to reassess total costs needed to complete the project as it stands (calculation)
+
+**Estimate TO Completion (ETC)** - Expected cost to finish the remainder of the work w/ assuming work will proceed as planned (calculation)
+
 <br><br>
 
-### Work / Value Key Terms
+### Work / Value Key Concepts
 
-**Earning Value (EV)** - Measure of work completed so far (percentage)
+**Planning Value (PV)** - Work that should have been completed (planned work) by a specific point in the schedule (percentage)
+
+**Earning Value (EV)** - The amount of work that has actually been completed so far (percentage)
 
 **Schedule Variance (SV)** - Project status in terms of schedule (calculation)
 
 **Schedule Performance Index (SPI)** - A measure of schedule efficiency. Earned value to planned value. Remember: Value = Work (calculation)
+
+**To Complete Performance Index (TCPI)** - Measure of cost performance (work performance?) that must be achieved w/ the remaining resources in order to meet goals (calculation)  
+¡WARNING! Might not be related to "Work"
 
 <br><br>
 
@@ -56,17 +63,21 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 #### Cost Calculations
 
-| Name                         | Calculation     | Result Definitions                                                              |
-| ---------------------------- | --------------- | ------------------------------------------------------------------------------- |
-| Cost Variance (CV)           | EV - AC         | Under Budget<br>On Budget                                                       |
-| Variance at Completion (VAC) | BAC - EAC (???) | Under Budget -> Postive<br>On Budget -> Equals Zero<br>Under Budget -> Negative |
-| Cost Performance Index (CPI) | EV / AC         | Under Budget -> Greater 1<br>On Budget -> Equal 1<br>Under Budget -> Less 1     |
+| Name                         | Calculation     | Result Definitions                                                              | Notes                                                              |
+| ---------------------------- | --------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Cost Variance (CV)           | EV - AC         | Under Budget<br>On Budget                                                       |                                                                    |
+| Variance at Completion (VAC) | BAC - EAC (???) | Under Budget -> Postive<br>On Budget -> Equals Zero<br>Under Budget -> Negative |                                                                    |
+| Cost Performance Index (CPI) | EV / AC         | Under Budget -> Greater 1<br>On Budget -> Equal 1<br>Under Budget -> Less 1     |                                                                    |
+| Estimate AT Completion (EAC) | BAC / CPI       |                                                                                 | If CPI is expected to be the same for the remainder of the project |
+|                              | AC + BAC - EV   |                                                                                 | If future work will be at planned rate (???)                       |
+| Estimate TO Completion (ETC) | EAC - AC        |                                                                                 |                                                                    |
 
 <br><br>
 
 #### Work / Value Calculations
 
-| Name                             | Calculation | Result Definitions                                                                      |
-| -------------------------------- | ----------- | --------------------------------------------------------------------------------------- |
-| Schedule Variance (SV)           | EV - PV     | Ahead Schedule -> Positive<br>On Schedule -> Equals Zero<br>Behind Schedule -> Negative |
-| Schedule Performance Index (SPI) | EV / PV     | Ahead Schedule -> Greater 1<br>On Schedule -> Equal 1<br>Behind Schedule -> Less 1      |
+| Name                                 | Calculation         | Result Definitions                                                                      | Notes                                         |
+| ------------------------------------ | ------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Schedule Variance (SV)               | EV - PV             | Ahead Schedule -> Positive<br>On Schedule -> Equals Zero<br>Behind Schedule -> Negative |                                               |
+| Schedule Performance Index (SPI)     | EV / PV             | Ahead Schedule -> Greater 1<br>On Schedule -> Equal 1<br>Behind Schedule -> Less 1      |                                               |
+| To Complete Performance Index (TCPI) | (BAC-EV) / (BAC-AC) |                                                                                         | ¡WARNING! - There's 2nd calculation. Need it? |
