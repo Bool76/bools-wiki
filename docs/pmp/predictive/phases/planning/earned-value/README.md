@@ -26,13 +26,21 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 ### Cost Key Concepts
 
-**Budget After Completion (BAC)** - The total budget that has been estimated for all the work. AKA - Project Budget (dollars)
+**Budget After Completion (BAC)** - The total budget that has been estimated for all the work
+
+> e.g. The project budget is $40k
 
 **Actual Cost (AC)** - Cost incurred for work performed (dollars)
 
+> e.g. $20k has been spent
+
 **Cost Variance (CV)** - Project status in terms of cost - ADD MORE TO THIS? (calculation)
 
+> Situation: May's budget is $500. $300 has been spent for May. What's the budget status?
+
 **Variance at Completion (VAC)** - A projection of the budget surplus or deficit (calcaulation)
+
+> Situation: tbd
 
 **Cost Performance Index (CPI)** - A measure of cost efficiency of budgeted resources (calculation)
 
