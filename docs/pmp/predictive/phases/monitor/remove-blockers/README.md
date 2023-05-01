@@ -29,16 +29,10 @@ Overview - Throughout the project you'll need to monitor anything getting in the
 
 ### Key Terms
 
-#### Blockers
+**Blockers** - A conditional which completely stops work  
 
-A conditional which completely stops work
-<br>
 
-#### Impedments
+**Impedments** - Something which slows down or hinders progress  
 
-Something which slows down or hinders progress
-<br>
 
-#### Obstacles
-
-Barriors that w/ some effort they can be avoided
+**Obstacles** - Barriors that w/ some effort they can be avoided
