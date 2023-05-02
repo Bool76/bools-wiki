@@ -349,6 +349,10 @@ module.exports = {
                 title: "Find object",
                 path: "/sram-dev/epi/epi-find-object/",
               },
+              {
+                title: 'Locate Content Instance',
+                path: '/sram-dev/epi/locate-content-instance/',
+              },
             ],
           },
           {
