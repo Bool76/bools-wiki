@@ -55,27 +55,43 @@ git log
 ## Other Notes
 
 ### Kept a commit, reworded a commit, and squashed others
-**Scenario:** 
+
+#### Scenario 
 - 4 commit messages
 - Wanted to keep the oldest commit
 - Wanted to squash the 3 newest commits
 - Resulting in two commits
 
-**Steps**
+#### Steps
 1. As you normally would, count how many commits are involved and apply that to your `rebase` command
-2. Get to the stage where you indicate what commands to 'squash', 'reword', etc
-3. Run with the following settings:
-    1. Place `p` next to oldest commit - Selecting to keep it
-    2. Place `r` next to the next oldest commit - Selecting to reword it
-    3. Place `s` next to the next commits which are the newest - Selecting to have them squashed
+2. Next step is where you indicate what commands you're going to 'squash', 'reword', etc
+3. You have two options to do this:
+   1. OPTION 1 - Enter insert mode
+      1. Once in insert mode place one of the following letters:
+         1. Place `p` next to oldest commit - Selecting to keep it
+         2. Place `r` next to the next oldest commit - Selecting to reword it
+         3. Place `s` next to the next commits which are the newest - Selecting to have them squashed
+   2. OPTION 2 - Stay out of insert mode
+      1. Click - Control + x
+      2. This will scroll through each rebase option
+      3. Move cursor up and down to each commit you need to change  
 4. Next step was a little confusing as it just showed your one commit that you're going to reword. Just showed and no action.
 5. Edit the message to what you want it to be and comment out or place a `#` next to the two newer commits
 6. Finish up like you normally would
 7. Run `git log` to see what your results are
-8. What will you see?
+8.  What will you see?
     - At the top the reworded commit
     - Below that the oldest commit  
-9. What happened?
+9.  What happened?
     - You kept the oldest commit
     - Squash other commits to one and reworded it
     - Resulted with 2 commits which is what you wanted
+
+
+## Rebase Command Shortcut
+Overview - Instead of entering into insert mode to identify actions for commit messages (e.g. Squash, Reword, Keep)
+
+#### Steps
+1. Keep out of insert mode
+2. Click `Control + x`
+3. This will scroll through the commit message actions
