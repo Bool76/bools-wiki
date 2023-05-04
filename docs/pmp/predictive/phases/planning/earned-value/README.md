@@ -26,33 +26,33 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 ### Cost Key Concepts
 
-**Budget After Completion (BAC)** - The total budget that has been estimated for all the work
+**Budget After Completion (BAC)** - The total budget estimated for a project
 
 > e.g. The project budget is $40k
 
-**Actual Cost (AC)** - Cost incurred for work performed [dollars]
+**Actual Cost (AC)** - Cost for work already completed [dollars]
 
 > e.g. $20k has been spent
 
-**Cost Variance (CV)** - Project status in terms of cost - ADD MORE TO THIS? [calculation]
+**Cost Variance (CV)** - Difference between budgeted cost and actual cost [calculation]
 
 > May's budget is $500. $300 has been spent for May. What's the budget status?
 
-**Estimate AT Completion (EAC)** - For a project that’s already underway, what is the forecast of the TOTAL project cost AT the end of a project [calculation]
+**Estimate AT Completion (EAC)** - For a project in progress, what's the forecasted total project cost AT the end of a project [calculation]
 
 > The project budget is $10k. One item cost increased $2000. What is the new total cost for this project?
 
-**Estimate TO Completion (ETC)** - At a given time during the project, how much does it cost TO complete the project (ie - Remaining costs) [calculation]
+**Estimate TO Completion (ETC)** - For a project in progress, how much does it cost TO complete the project (ie - Remaining costs) [calculation]
 
 > $10k has already been spent of a $20k budget. An additional $2k is expect in addition to the original budget. How much will it take to complete the project?
 
-**Variance at Completion (VAC)** - A projection of the budget surplus or deficit [calcaulation]
+**Variance at Completion (VAC)** - At a given time during the project, what is the projected difference between the budgeted total project cost and the actual total cost [calcaulation]
 
-> tbd
+> The project budget is $40k, the new estimated total project cost at completion is $55k. What is the VAC?
 
-**Cost Performance Index (CPI)** - A measure of cost efficiency of budgeted resources [calculation]
+**Cost Performance Index (CPI)** - A ratio which tells you how well actual project performance and cost aligns with the planned cost and performance [calculation]
 
-> tbd
+> The project budget is $25k. 55% of the project is complete. So far the project has cost $15k. What is the performance of the project?
 
 <br><br>
 
@@ -62,11 +62,13 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 > At this time 75% of the work should be completed
 
-**Earned Value (EV)** - The amount of work that has actually been completed so far [percentage]
+**Earned Value (EV)** - REWRITE AND MAYBE MOVE? WHAT DOES THIS REALLY GIVE ME??? The amount of work that has actually been completed so far [calculation]
 
-> 55% of the work is completed of the expected 75% during this time of the project
+is the sum of the budget for the activities accomplished to date. Current EV is the sum of the budget for the activities accomplished in a given period
 
-**Schedule Variance (SV)** - Project status in terms of schedule [calculation]
+> 55% is completed of the $25k project budget. What is the earned value?
+
+**Schedule Variance (SV)** - Difference between what was planned to be complete and what was actually complete [calculation]
 
 > Are you ahead or behind schedule if you've completed 75% of the expected 65% of the work?
 
