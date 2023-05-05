@@ -38,17 +38,17 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 > May's budget is $500. $300 has been spent for May. What's the budget status?
 
-**Estimate AT Completion (EAC)** - For a project in progress, what's the forecasted total project cost AT the end of a project [calculation]
+**Estimate at Completion (EAC)** - For a project in progress, what's the forecasted total project cost AT the end of a project [calculation]
 
 > The project budget is $10k. One item cost increased $2000. What is the new total cost for this project?
-
-**Estimate TO Completion (ETC)** - For a project in progress, how much does it cost TO complete the project (ie - Remaining costs) [calculation]
-
-> $10k has already been spent of a $20k budget. An additional $2k is expect in addition to the original budget. How much will it take to complete the project?
 
 **Variance at Completion (VAC)** - At a given time during the project, what is the projected difference between the budgeted total project cost and the actual total cost [calcaulation]
 
 > The project budget is $40k, the new estimated total project cost at completion is $55k. What is the VAC?
+
+**Estimate to Completion (ETC)** - For a project in progress, how much does it cost TO complete the project (ie - Remaining costs) [calculation]
+
+> $10k has already been spent of a $20k budget. An additional $2k is expect in addition to the original budget. How much will it take to complete the project?
 
 **Cost Performance Index (CPI)** - A ratio which tells you how well actual project performance and cost aligns with the planned cost and performance [calculation]
 
@@ -103,13 +103,13 @@ When you see the word variance, think "difference"
 
 | Type                         | Calculation     | Result Definitions                                                              | Notes                                                              |
 | ---------------------------- | --------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Cost Variance (CV)           | EV - AC         | Under Budget<br>On Budget                                                       |                                                                    |
-| Variance at Completion (VAC) | BAC - EAC (???) | Under Budget -> Postive<br>On Budget -> Equals Zero<br>Under Budget -> Negative |                                                                    |
-| Cost Performance Index (CPI) | EV / AC         | Under Budget -> Greater 1<br>On Budget -> Equal 1<br>Under Budget -> Less 1     |                                                                    |
-| Estimate AT Completion (EAC) | BAC / CPI       |                                                                                 | If CPI is expected to be the same for the remainder of the project |
+| Cost Variance (CV)           | EV - AC         | Under Budget -> Postive<br>On Budget -> Equals Zero<br>Under Budget -> Negative |                                                                    |
+| Estimate at Completion (EAC) | BAC / CPI       |                                                                                 | If CPI is expected to be the same for the remainder of the project |
 |                              | BAC + AC - EV   |                                                                                 | If future work will be at planned rate                             |
-| Estimate TO Completion (ETC) | EAC - AC        |                                                                                 |                                                                    |
+| Variance at Completion (VAC) | BAC - EAC (???) | Under Budget -> Postive<br>On Budget -> Equals Zero<br>Under Budget -> Negative |                                                                    |
+| Estimate to Completion (ETC) | EAC - AC        |                                                                                 |                                                                    |
 |                              | BAC - EV        |                                                                                 |                                                                    |
+| Cost Performance Index (CPI) | EV / AC         | Under Budget -> Greater 1<br>On Budget -> Equal 1<br>Under Budget -> Less 1     |                                                                    |
 
 <br>
 
