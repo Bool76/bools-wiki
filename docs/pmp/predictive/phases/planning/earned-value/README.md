@@ -1,4 +1,4 @@
-# Planning | Earned Value
+# Planning | Earned Value Management
 
 Overview - The **Earned Value** concept is centered around data-driven insights into the project progress and projections as measured against the original plans of timeline and costs
 
