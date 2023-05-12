@@ -38,24 +38,27 @@ Summary - This section is dedicated toward Predictive related calculations
 
 <br><br>
 
-### Control Budget | Earned Value | Cost Calculations
+### Control Budget | Earned Value Management | Cost Calculations
 
 | Type                         | Calculation     |
 | ---------------------------- | --------------- |
 | Cost Variance (CV)           | EV - AC         |
-| Variance at Completion (VAC) | BAC - EAC (???) |
 | Cost Performance Index (CPI) | EV / AC         |
-| Estimate AT Completion (EAC) | BAC / CPI       |
+| Estimate at Completion (EAC) | BAC / CPI       |
 |                              | AC + BAC - EV   |
-| Estimate TO Completion (ETC) | EAC - AC        |
+| Variance at Completion (VAC) | BAC - EAC (???) |
+| Estimate to Completion (ETC) | EAC - AC        |
 |                              | BAC - EV        |
 
 <br><br>
 
-### Control Budget | Earned Value | Value Calculations
+### Control Budget | Earned Value Management | Value Calculations
 
-| Type                                 | Calculation         |
-| ------------------------------------ | ------------------- |
-| Schedule Variance (SV)               | EV - PV             |
-| Schedule Performance Index (SPI)     | EV / PV             |
-| To Complete Performance Index (TCPI) | (BAC-EV) / (BAC-AC) |
+| Type                                 | Calculation                 |
+| ------------------------------------ | --------------------------- |
+| Planning Value (PV)                  | % Planned to Complete x BAC |
+| Earned Value (EV)                    | % Complete x BAC            |
+| Schedule Variance (SV)               | EV - PV                     |
+| Schedule Performance Index (SPI)     | EV / PV                     |
+| To Complete Performance Index (TCPI) | (BAC-EV) / (BAC-AC)         |
+|                                      | (BAC-EV) / (EAC-AC)         |
