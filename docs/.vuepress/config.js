@@ -240,6 +240,14 @@ module.exports = {
                     path: "/pmp/predictive/phases/planning/",
                     children: [
                       {
+                        title: "Cost Management",
+                        path: "/pmp/predictive/phases/planning/cost-management/",
+                      },
+                      {
+                        title: "Estimate Costs",
+                        path: "/pmp/predictive/phases/planning/estimate-costs/",
+                      },
+                      {
                         title: "Determine Budget",
                         path: "/pmp/predictive/phases/planning/determine-budget/",
                       },
@@ -350,8 +358,8 @@ module.exports = {
                 path: "/sram-dev/epi/epi-find-object/",
               },
               {
-                title: 'Locate Content Instance',
-                path: '/sram-dev/epi/locate-content-instance/',
+                title: "Locate Content Instance",
+                path: "/sram-dev/epi/locate-content-instance/",
               },
             ],
           },
