@@ -1,6 +1,6 @@
 # Planning | Earned Value Management
 
-Overview - The **Earned Value** concept is centered around data-driven insights into the project progress and projections as measured against the original plans of timeline and costs
+Overview - This section gives you the tools to understand what your project status is in regards to budget and schedule. By being able to answer those questions, you'll be better equipped to adjust the project as necessary.
 
 <br>
 
@@ -18,9 +18,9 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 <br>
 
-| Tools |
-| ----- |
-| tbd   |
+| Tools                    |
+| ------------------------ |
+| _All calculations below_ |
 
 <br><br>
 
@@ -34,25 +34,29 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 > $20k has been spent so far
 
-**Cost Variance (CV)** - When you want a budget status of your project. Look at the difference between earned value (work value) and the actual cost so far [calculation]
+**Cost Variance (CV)** - Are over budget or under budget? Compare what your actual costs are to the value of work completed. [calculation]
 
-> REDO!
+> $40k has been spent so far on a project budget of $150k. 45% has been completed. Are you over or under budget?
 
-**Cost Performance Index (CPI)** - A ratio which tells you how well actual project performance and cost aligns with the planned cost and performance [calculation]
+**Cost Performance Index (CPI)** - A ratio which tells you if you're over or under budget (Just like Cost Variance). This is just another way to find out but using a ratio. [calculation]
 
-> REDO? The project budget is $25k. 55% of the project is complete. So far the project has cost $15k. What is the performance of the project?
+> _Can look at the Cost Variance example_
 
-**Estimate at Completion (EAC)** - For a project in progress, what's the forecasted total project cost AT the end of a project [calculation]
+**Estimate at Completion (EAC)** - While a project is in progress, what's the forecasted total project cost AT THE END of a project? [calculation]  
+This calculation is based on one of the following:
 
-> REDO? The project budget is $10k. One item cost increased $2000. What is the new total cost for this project?
+1. Current cost spending rate
+2. Original cost spending rate
+
+> The project budget is $10k. $8k has been spent so far. 35% of the work has been completed. What is the expected project cost if the current rate stays the same?
 
 **Variance at Completion (VAC)** - At a given time during the project, what is the projected difference between the budgeted total project cost and the actual total cost [calcaulation]
 
 > REDO? The project budget is $40k, the new estimated total project cost at completion is $55k. What is the VAC?
 
-**Estimate to Completion (ETC)** - For a project in progress, how much does it cost TO complete the project (ie - Remaining costs) [calculation]
+**Estimate to Completion (ETC)** - While a project is in progress, how much does it cost TO COMPLETE the project at this time? (ie - Remaining costs) [calculation]
 
-> REDO? $10k has already been spent of a $20k budget. An additional $2k is expect in addition to the original budget. How much will it take to complete the project?
+> The project budget is $50k. $8k has been spent so far. 35% of the work has been completed. How much will it cost to finish the project if the current rate stays the same?
 
 <br><br>
 
@@ -80,6 +84,15 @@ Overview - The **Earned Value** concept is centered around data-driven insights 
 
 <br><br>
 
+### Basic Questions Answered
+
+1. Are you over or under budget?
+2. Are you ahead of schedule or behind schedule?
+3. What will the total cost of the project be?
+4. How much will it cost to finish the project?
+
+<br><br>
+
 ### Clarifying Concepts
 
 #### BAC vs EAC
@@ -92,7 +105,7 @@ EAC can change, depending on if costs change during the project. EAC is calculat
 
 #### "Variance"
 
-When you see the word variance, think "difference"
+When you see the word variance, think "difference", and difference is associated to a subtraction problem.
 
 <br><br>
 
@@ -100,14 +113,14 @@ When you see the word variance, think "difference"
 
 #### Cost Calculations
 
-| Type                         | Calculation     | Result Definitions                                          | Notes                                                |
-| ---------------------------- | --------------- | ----------------------------------------------------------- | ---------------------------------------------------- |
-| Cost Variance (CV)           | EV - AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Under Budget) |                                                      |
-| Cost Performance Index (CPI) | EV / AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Under Budget) |                                                      |
-| Estimate at Completion (EAC) | BAC / CPI       |                                                             | If Cost Performance Index is expected to be the same |
-|                              | BAC + AC - EV   |                                                             | If future work will be at Planned Rate               |
-| Variance at Completion (VAC) | BAC - EAC (???) | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Under Budget) |                                                      |
-| Estimate to Completion (ETC) | EAC - AC        |                                                             |                                                      |
+| Type                         | Calculation     | Result Definitions                                         | Notes                                                |
+| ---------------------------- | --------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
+| Cost Variance (CV)           | EV - AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                                                      |
+| Cost Performance Index (CPI) | EV / AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                                                      |
+| Estimate at Completion (EAC) | BAC / CPI       |                                                            | If Cost Performance Index is expected to be the same |
+|                              | BAC + AC - EV   |                                                            | If future work will be at Planned Rate               |
+| Variance at Completion (VAC) | BAC - EAC (???) | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                                                      |
+| Estimate to Completion (ETC) | EAC - AC        |                                                            |                                                      |
 
 <br>
 
