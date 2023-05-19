@@ -456,6 +456,10 @@ module.exports = {
             path: "/vscode/debugging/",
           },
           {
+            title: "Shortcuts",
+            path: "/vscode/shortcuts/"
+          },
+          {
             title: "Merge Conflicts",
             path: "/vscode/merge-conflicts/",
           },
