@@ -113,14 +113,14 @@ When you see the word variance, think "difference", and difference is associated
 
 #### Cost Calculations
 
-| Type                         | Calculation     | Result Definitions                                         | Notes                                                |
-| ---------------------------- | --------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
-| Cost Variance (CV)           | EV - AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                                                      |
-| Cost Performance Index (CPI) | EV / AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                                                      |
-| Estimate at Completion (EAC) | BAC / CPI       |                                                            | If Cost Performance Index is expected to be the same |
-|                              | BAC + AC - EV   |                                                            | If future work will be at Planned Rate               |
-| Variance at Completion (VAC) | BAC - EAC (???) | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                                                      |
-| Estimate to Completion (ETC) | EAC - AC        |                                                            |                                                      |
+| Type                         | Calculation     | Result Definitions                                         | Notes                         |
+| ---------------------------- | --------------- | ---------------------------------------------------------- | ----------------------------- |
+| Cost Variance (CV)           | EV - AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                               |
+| Cost Performance Index (CPI) | EV / AC         | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                               |
+| Estimate at Completion (EAC) | BAC / CPI       |                                                            | If based on current work rate |
+|                              | BAC + AC - EV   |                                                            | If based on planned work rate |
+| Variance at Completion (VAC) | BAC - EAC (???) | > 0 (Under Budget)<br>= 0 (On Budget)<br>< 0 (Over Budget) |                               |
+| Estimate to Completion (ETC) | EAC - AC        |                                                            |                               |
 
 <br>
 
