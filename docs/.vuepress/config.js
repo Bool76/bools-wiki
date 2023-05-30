@@ -183,6 +183,10 @@ module.exports = {
             path: "/git/merge-conflicts/",
           },
           {
+            title: "Permission Denied Error",
+            path: "/git/permission-denied-error/",
+          },
+          {
             title: "Rebase",
             path: "/git/rebase/",
           },
@@ -195,6 +199,16 @@ module.exports = {
             path: "/git/reset/",
           },
           {
+            title: "SSH",
+            path: "/git/ssh/",
+            children: [
+              {
+                title: "Create SSH Key",
+                path: "/git/ssh/create-ssh-key/",
+              }
+            ],
+          },
+          {
             title: "Squash Commits",
             path: "/git/squash-commits/",
           },
@@ -204,6 +218,16 @@ module.exports = {
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
+        title: "Github",
+        path: "/github/",
+        children: [
+          {
+            title: "Add SSH Key",
+            path: "/github/add-ssh-key/",
+          }
+        ],
       },
       {
         title: "Markdown",
