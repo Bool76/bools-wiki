@@ -205,7 +205,7 @@ module.exports = {
               {
                 title: "Create SSH Key",
                 path: "/git/ssh/create-ssh-key/",
-              }
+              },
             ],
           },
           {
@@ -226,7 +226,7 @@ module.exports = {
           {
             title: "Add SSH Key",
             path: "/github/add-ssh-key/",
-          }
+          },
         ],
       },
       {
@@ -286,6 +286,10 @@ module.exports = {
                       {
                         title: "Schedule",
                         path: "/pmp/predictive/phases/planning/schedule/",
+                      },
+                      {
+                        title: "Manage Quality",
+                        path: "/pmp/predictive/phases/planning/manage-quality/",
                       },
                     ],
                   },
@@ -476,12 +480,16 @@ module.exports = {
         path: "/vscode/",
         children: [
           {
+            title: "Code Wrap",
+            path: "/vscode/code-wrap/",
+          },
+          {
             title: "Debugging",
             path: "/vscode/debugging/",
           },
           {
             title: "Shortcuts",
-            path: "/vscode/shortcuts/"
+            path: "/vscode/shortcuts/",
           },
           {
             title: "Merge Conflicts",
