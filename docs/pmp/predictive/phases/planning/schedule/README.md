@@ -10,13 +10,14 @@ Summary - tbd
 
 <br>
 
-| Documents                |
-| ------------------------ |
-| Activities List          |
-| Project Calendar         |
-| Work Breakdown Structure |
-| WBS Dictionary           |
-| tbd                      |
+| Documents                        |
+| -------------------------------- |
+| Activities List                  |
+| Project Calendar                 |
+| Project Schedule Network Diagram |
+| Work Breakdown Structure         |
+| WBS Dictionary                   |
+| tbd                              |
 
 <br>
 
@@ -61,14 +62,14 @@ Overview - 3 different estimate calculations that are based on the 3 variables:
 
 #### Activity Metrics
 
-| Metric             | Calculation                                              |
-| ------------------ | -------------------------------------------------------- |
-| Early Start        | Preceding EF + 1                                         |
-| Early Finish       | ES + Duration - 1                                        |
-| Late Start         | LF - Duration + 1                                        |
-| Late Finish        | Early Finish of last activity on Critical Path           |
-| Total Float (Slack | Late Finish - Early Finish OR Late Start - Early Start   |
-| Free Float         | Successor /w smallest ES - Current ES - Current Duration |
+| Metric              | Calculation                                              |
+| ------------------- | -------------------------------------------------------- |
+| Early Start         | Preceding EF + 1                                         |
+| Early Finish        | ES + Duration - 1                                        |
+| Late Start          | LF - Duration + 1                                        |
+| Late Finish         | Early Finish of last activity on Critical Path           |
+| Total Float (Slack) | Late Finish - Early Finish OR Late Start - Early Start   |
+| Free Float          | Successor /w smallest ES - Current ES - Current Duration |
 
 <br>
 
