@@ -73,8 +73,20 @@ module.exports = {
             path: "/c-sharp/any-method/",
           },
           {
-            title: "View Models",
-            path: "/c-sharp/view-models/"
+            title: "Model View Controller",
+            path: "/c-sharp/model-view-controller/",
+            children: [
+              {
+                title: "View",
+                path: "/c-sharp/model-view-controller/view/",
+                children: [
+                  {
+                    title: "Import a Model",
+                    path: "/c-sharp/model-view-controller/view/view-import-model/",
+                  }
+                ],
+              },
+            ],
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
