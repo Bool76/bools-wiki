@@ -72,6 +72,10 @@ module.exports = {
             title: "Any Method",
             path: "/c-sharp/any-method/",
           },
+          {
+            title: "View Models",
+            path: "/c-sharp/view-models/"
+          },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
