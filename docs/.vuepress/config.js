@@ -288,8 +288,12 @@ module.exports = {
                         path: "/pmp/predictive/phases/planning/schedule/",
                       },
                       {
-                        title: "Manage Quality",
-                        path: "/pmp/predictive/phases/planning/manage-quality/",
+                        title: "Quality Management",
+                        path: "/pmp/predictive/phases/planning/quality-management/",
+                      },
+                      {
+                        title: "Procurement Management",
+                        path: "/pmp/predictive/phases/planning/procurement-management/",
                       },
                     ],
                   },
