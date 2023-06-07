@@ -1,4 +1,4 @@
-# Planning | Cost Management
+# Planning | Quality Management
 
 Overview - Think of this as more of the introduction to managing costs in your project
 

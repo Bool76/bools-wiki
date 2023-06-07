@@ -6,18 +6,18 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 ### Plans
 
-| Type                                   | Phase    |
-| -------------------------------------- | -------- |
-| Change Management Plan                 | Execute  |
-| Communication Management Plan          | Build    |
-| Cost Management Plan                   |          |
-| Procurement Management Plan            | Build    |
-| Requirements Management Plan           |          |
-| Resource Management Plan               | Build    |
-| Risk Management Plan                   | Execute  |
-| Schedule Management Plan               | Planning |
-| Scope Management Plan                  |          |
-| Stakeholder Engagement Management Plan | Execute  |
+| Type                                   | Phase               |
+| -------------------------------------- | ------------------- |
+| Change Management Plan                 | Execute             |
+| Communication Management Plan          | Build               |
+| Cost Management Plan                   |                     |
+| Procurement Management Plan            | Build <br> Planning |
+| Requirements Management Plan           |                     |
+| Resource Management Plan               | Build               |
+| Risk Management Plan                   | Execute             |
+| Schedule Management Plan               | Planning            |
+| Scope Management Plan                  |                     |
+| Stakeholder Engagement Management Plan | Execute             |
 
 <br>
 
@@ -30,6 +30,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Change Request Form              | Execute -> Change                           |
 | Issue Log                        | Execute -> Issues                           |
 | Lessons Learned                  |                                             |
+| Procurement Statement of Work    | Planning -> Procurement                     |
 | Product Road Map                 | Planning (?)                                |
 | Product Scope Statement          |                                             |
 | Product Vision Statement         | Planning (?)                                |
