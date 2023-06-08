@@ -1,22 +1,10 @@
 # MVC | View 
 
-Overview - Highlevel details of what the View is in the MVC and how to use it  
 
-<span class="warning">
-This page needs to be worked on!
-</span>
+<br/>
 
-#### Calling a model
-Overview - From a View file, a SINGLE Model file can be called so that you can utilize data in that Model file
-
-```
-@model SegmentedControlsModel
-
-<div>Some text</div>
-```
-If you want to utilize data that's not defined in the Model then you're going to need a Controller and ViewModel
-
-<br><br>
+### Definition
+Display page seen by a user (e.g. asdf.html). In C# it will be the cshtml file type.
 
 
-
+<span class="warning">This page needs to be worked on!</span>

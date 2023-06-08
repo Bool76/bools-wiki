@@ -3,9 +3,7 @@
 Overview - Highlevel details of what the View is in the MVC and how to use it  
 
 
-<span class="warning">
-This page needs to be worked on!
-</span>
+<span class="warning">This page needs to be worked on!</span>
 
 ### What is it
 

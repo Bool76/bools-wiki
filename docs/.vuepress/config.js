@@ -86,6 +86,16 @@ module.exports = {
                   }
                 ],
               },
+              {
+                title: "View Model",
+                path: "/c-sharp/model-view-controller/view-model/",
+                children: [
+                  {
+                    title: "Create List",
+                    path: "/c-sharp/model-view-controller/view-model/create-list/",
+                  }
+                ],
+              },
             ],
           },
         ],

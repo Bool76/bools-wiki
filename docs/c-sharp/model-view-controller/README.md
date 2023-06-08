@@ -3,11 +3,11 @@
 Overview - How to use the Model, View, Controller (+ ViewModel) in C#. How the files interact and how to use them with a desired goal 
 
 
-<span class="warning">
-This page needs to be worked on! Start removing sections into separate sub sections (e.g. Controllers, Views, View Models)
-</span>
+<span class="warning">This page needs to be worked on! Start removing sections into separate sub sections (e.g. Controllers, Views, View Models)</span>
 
-## File Type Descriptions
+<br/>
+
+### File Type Descriptions
 
 **Model** - Instance of single source data (e.g. Instance of content through the CMS)  
 
@@ -21,19 +21,7 @@ This page needs to be worked on! Start removing sections into separate sub secti
 
 ## File Type Details
 
-### View
 
-#### Calling a model
-Overview - From a View file, a SINGLE Model file can be called so that you can utilize data in that Model file
-
-```
-@model SegmentedControlsModel
-
-<div>Some text</div>
-```
-If you want to utilize data that's not defined in the Model then you're going to need a Controller and ViewModel
-
-<br><br>
 
 
 ### ViewModel
