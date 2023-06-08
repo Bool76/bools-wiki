@@ -40,15 +40,16 @@ Summary - This section is dedicated toward Predictive related calculations
 
 ### Control Budget | Earned Value Management | Cost Calculations
 
-| Type                         | Calculation     |
-| ---------------------------- | --------------- |
-| Cost Variance (CV)           | EV - AC         |
-| Cost Performance Index (CPI) | EV / AC         |
-| Estimate at Completion (EAC) | BAC / CPI       |
-|                              | AC + BAC - EV   |
-| Variance at Completion (VAC) | BAC - EAC (???) |
-| Estimate to Completion (ETC) | EAC - AC        |
-|                              | BAC - EV        |
+| Type                         | Calculation   |
+| ---------------------------- | ------------- |
+| Budget at Completion (BAC)   | \*given       |
+| Actual Cost (AC)             | \*given       |
+| Cost Variance (CV)           | EV - AC       |
+| Cost Performance Index (CPI) | EV / AC       |
+| Estimate at Completion (EAC) | BAC / CPI     |
+|                              | BAC + AC - EV |
+| Variance at Completion (VAC) | BAC - EAC     |
+| Estimate to Completion (ETC) | EAC - AC      |
 
 <br><br>
 
