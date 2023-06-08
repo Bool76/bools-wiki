@@ -96,6 +96,16 @@ module.exports = {
                   }
                 ],
               },
+              {
+                title: "Controller",
+                path: "/c-sharp/model-view-controller/controller/",
+                children: [
+                  {
+                    title: "ActionResult + IActionResult",
+                    path: "/c-sharp/model-view-controller/controller/actionResult-iactionResult/",
+                  }
+                ],
+              },
             ],
           },
         ],
