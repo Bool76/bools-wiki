@@ -13,7 +13,6 @@ tbd
 
 <br><br>
 
-
 ### Import a model
 Overview - From a View file, a SINGLE Model file can be called so that you can utilize data in that Model file
 
