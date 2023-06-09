@@ -89,12 +89,6 @@ module.exports = {
               {
                 title: "View Model",
                 path: "/c-sharp/model-view-controller/view-model/",
-                children: [
-                  {
-                    title: "Create List",
-                    path: "/c-sharp/model-view-controller/view-model/create-list/",
-                  }
-                ],
               },
               {
                 title: "Controller",
@@ -106,7 +100,15 @@ module.exports = {
                   }
                 ],
               },
+              {
+                title: "MVC Example",
+                path: "/c-sharp/model-view-controller/mvc-example/",
+              },
             ],
+          },
+          {
+            title: "Namespace",
+            path: "/c-sharp/namespace/"
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup

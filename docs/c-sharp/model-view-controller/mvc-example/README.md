@@ -1,4 +1,4 @@
-# View Model | Create List
+# MVC | Example
 
 Overview - tbd
 
@@ -34,6 +34,25 @@ Zoo.cs
 
 <br/>
 
+
+### Workflow Overview
+
+1. _Browser_ requests page from _Controller_  
+2. _Controller_ 
+    1. Grabs data from either a _Model_ source or a _ViewModel_ source 
+    2. Can make changes to data
+    3. Saves that data into a new data object to be used by the View
+    4. At the end it points to the _View_ that will be served up to the _Browser_  
+3. _View_
+    1. Points to the _Model_ data source or _ViewModel_ data source because it still needs to know where the data is coming from (_Controller_ creates the structure for the data, including any changes to the data, but the _View_ still needs to know where the data is coming from)
+    2. Static html can be displayed
+    3. Dynamic calls to data are made:
+        1. Calls must match the data object structure that was created in the _Controller_ 
+        2. From the `@model SegmentedControlsViewModel` call, the _View_ still knows where to get the actual data
+    4. User sees dynamic data
+
+<br/><br/>
+
 ### View File
 
 **Purpose** - Displays the web page and calls data dynamically from either a Model or a View Model file
@@ -61,6 +80,7 @@ Zoo.cs
 </ul>
 ```
 
+<br/><br/>
 
 ### Model Files
 
@@ -97,7 +117,7 @@ public class AnimalZooViewData {
 
 define the properties (list) of the data that you're going to show
 
-
+<br/><br/>
 
 ### Controller File
 
@@ -125,7 +145,7 @@ The Controller controls where it's entering (Controller endpoint)
 
 using TurorialViewModels.ViewModels;
 
-namespacce TutorialViewModels.Controllers
+namespace TutorialViewModels.Controllers
 
 public class HomeController : Controller {
     private List<Animal> animals = new List<Animal>();
@@ -145,23 +165,26 @@ public class HomeController : Controller {
 
 `using TurorialViewModels.ViewModels` == So you have access to the data in the AnimalZooViewData.cs 
 
-`public class HomeController : Controller` == Custom controller created with the name `HomeController` inheriting from the base class `Controller`  
+`namespace TutorialViewModels.Controllers` == Creates a relationship with this file and the other files with the namespace `TutorialViewModels.Controllers`
+
+`public class HomeController : Controller` == Custom controller created with the name `HomeController` inheriting methods from the base class `Controller`  
 
 `private List<Animal> animals = new List<Animal>();` == You need to inject data from the ViewModel into the Controller 
 
 `public IActionResult Index() {}` ==   
-* This is called the "controller endpoint" which means where it's pointing to
-* The endpoint is pointing directly to a View file
-* `Index` indicates the name of the View file (This Controller will look for the `index` file)
-* Inside this statement you're returning the data that can be used by the View file.     
-* Since this data is coming from the ViewModel, what you're returning must reflect how it looks in the ViewModel
+* `IActionResult` Enables what's called the "controller endpoint" which controls where the _Controller_ will point to 
+* `Index()` == Indicates what _View_ file the _Controller_ is to work with (it needs to work with a _View_ file because the purpose of the  _Controller_ is to point to some sort of display file)
+* `Index` == The keyword that's used when you want to work with the _View_ file that has the same name as the _Controller_. The _Controller_ name corresponds to the _View_ dir that has the same name as the _Controller_  
+(e.g. The SegmentedControlsController looks for a SegmentedControls dir in the View dir. Then looks for an Index file in the SegmentedControls dir)
+* [wrong - alter this] Inside this statement you're returning the data that can be used by the View file.     
+* [somewhat wrong - alter this] Since this data is coming from the ViewModel, what you're returning must reflect how it looks in the ViewModel
 
 
 `AnimalZooViewData vm` == I don't know what this is doing. We're going to be referencing `vm` as the name of the ViewModel object. But that entire string is using `AnimalZooViewData` twice. Why?   
 
 `AnimalZooViewData vm = new AnimalZooViewData()` == Creating a new instance of AnimalZooViewData  
 
-`return View(vm)` == tbd
+`return View(vm)` == Indicates what the endpoint is. This will point to the _View_ file for the View directory that has the same name as the _Controller_ (Because it's using the `Index()`) There are other options for `return` but don't know them right now.
 
 
 **ActionResult**

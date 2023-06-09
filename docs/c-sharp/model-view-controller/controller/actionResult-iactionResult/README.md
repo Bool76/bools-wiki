@@ -4,7 +4,7 @@ Overview - What is the difference between ActionResult and IActionResult in the 
 
 
 ### ActionResult
-To be used when you only want to return a predefined response such as a View or a resource. Don't forget that in a Controller you can return or point to a View
+Defines the endpoint for the Controller which is normally a View or a resource. Don't forget that in a Controller you can return or point to a View
 
 ```
 public ActionResult Index() {
@@ -13,7 +13,7 @@ public ActionResult Index() {
     }
 ```
 
-
+<br/>
 
 ### IActionResult
 To be used when you want to customize the return response (e.g. Return an error state)
