@@ -46,3 +46,5 @@ Summary - Cost of doing something right or wrong
 2. Internal Failure Costs
 3. Preventive
 4. Appraisal
+5. Cost of Conformance
+6. Cost of Non-Conformance

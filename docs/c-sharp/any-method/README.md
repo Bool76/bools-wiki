@@ -1,4 +1,4 @@
-# Any() Method
+# C# | Any() Method
 
 Summary - Method used to check if condition is true
 

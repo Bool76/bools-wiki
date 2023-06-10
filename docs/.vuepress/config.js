@@ -72,6 +72,52 @@ module.exports = {
             title: "Any Method",
             path: "/c-sharp/any-method/",
           },
+          {
+            title: "Class and Objects",
+            path: "/c-sharp/class-objects/",
+          },
+          {
+            title: "List Class",
+            path: "/c-sharp/list-class/",
+          },
+          {
+            title: "Model View Controller",
+            path: "/c-sharp/model-view-controller/",
+            children: [
+              {
+                title: "View",
+                path: "/c-sharp/model-view-controller/view/",
+                children: [
+                  {
+                    title: "Import a Model",
+                    path: "/c-sharp/model-view-controller/view/view-import-model/",
+                  }
+                ],
+              },
+              {
+                title: "View Model",
+                path: "/c-sharp/model-view-controller/view-model/",
+              },
+              {
+                title: "Controller",
+                path: "/c-sharp/model-view-controller/controller/",
+                children: [
+                  {
+                    title: "ActionResult + IActionResult",
+                    path: "/c-sharp/model-view-controller/controller/actionResult-iactionResult/",
+                  }
+                ],
+              },
+              {
+                title: "MVC Example",
+                path: "/c-sharp/model-view-controller/mvc-example/",
+              },
+            ],
+          },
+          {
+            title: "Namespace",
+            path: "/c-sharp/namespace/"
+          },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
