@@ -73,6 +73,14 @@ module.exports = {
             path: "/c-sharp/any-method/",
           },
           {
+            title: "Class and Objects",
+            path: "/c-sharp/class-objects/",
+          },
+          {
+            title: "List Class",
+            path: "/c-sharp/list-class/",
+          },
+          {
             title: "Model View Controller",
             path: "/c-sharp/model-view-controller/",
             children: [

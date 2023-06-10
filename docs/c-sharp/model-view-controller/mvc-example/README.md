@@ -58,7 +58,7 @@ Zoo.cs
 **Purpose** - Displays the web page and calls data dynamically from either a Model or a View Model file
 
 ```
-//index.cshtml
+//index.cshtml [View File]
 
 @model List<Animal>
 
@@ -86,6 +86,33 @@ Zoo.cs
 
 **Purpose** - Pulls in original data required
 
+
+```
+// Zoo.cs [Model File]
+
+namespace TutorialsEUVViewModels.Models
+{
+    public class Zoo
+    {
+        public int Id { get; set; }
+        public string? City { get; set; }
+    }
+}
+```
+
+```
+// Animal.cs [Model File]
+
+namespace TutorialsEUViewModels.Models
+{
+    public class Animal
+    {
+        public int Id { get; set; }
+        public string? Name { get; set; }
+    }
+}
+```
+
 Zoo.cs - Original data file that pulls information in for Zoo `ID` and Zoo `City`
 
 Animal.cs - Original data file that pulls information in for Animal `ID` and Animal `Name`
@@ -97,9 +124,9 @@ Animal.cs - Original data file that pulls information in for Animal `ID` and Ani
 **Purpose** - The ViewModel file compiles the information from difference sources so that it can be called on
 
 ```
-// AnimalZooViewData.cs
+// AnimalZooViewData.cs [ViewModel File]
 
-using TurorialViewModels.Models;
+using TurorialsEUViewModels.Models;
 
 public class AnimalZooViewData {
     public List<Animal> Animals (get; set;);
@@ -110,8 +137,9 @@ public class AnimalZooViewData {
 
 **Breakdown**
 
-`using TurorialViewModels.Models;` - Makes Model data available to reference  
-`public List<Animal> Animals (get; set;)` - Define a list called `Animal` from the Animals Model so you can use it in the View file 
+`using TurorialViewModels.Models;` == Allows for Model files and their data to be available for reference  
+`public class AnimalZooViewData` == Creates the _ViewModel_ file with the class name of `AnimalZooViewData`  
+`public List<Animal> Animals (get; set;)` - <span class="warning">VERIFY</span> Define a list called `Animal` from the Animals Model so you can use it in the View file 
 
 
 
@@ -141,11 +169,11 @@ The Controller controls where it's entering (Controller endpoint)
 
 
 ```
-// HomeController.cs
+// HomeController.cs [Controller File]
 
-using TurorialViewModels.ViewModels;
+using TurorialsEUViewModels.ViewModels;
 
-namespace TutorialViewModels.Controllers
+namespace TurorialsEUViewModels.Controllers
 
 public class HomeController : Controller {
     private List<Animal> animals = new List<Animal>();
@@ -184,26 +212,14 @@ public class HomeController : Controller {
 
 `AnimalZooViewData vm = new AnimalZooViewData()` == Creating a new instance of AnimalZooViewData  
 
-`return View(vm)` == Indicates what the endpoint is. This will point to the _View_ file for the View directory that has the same name as the _Controller_ (Because it's using the `Index()`) There are other options for `return` but don't know them right now.
+`return View(vm)` == Indicates what the endpoint is. This will point to the _View_ file for the _View_ directory that has the same name as the _Controller_ (Because it's using the `Index()`) There are other options for `return` but don't know them right now.
 
 
-**ActionResult**
-
-What is it?
-asdf
-
-Example:
-
-```
-public ActionResult Index()
-    {
-        return View(animals);
-    }
-```
-
-`ActionResult` - Must be added when you want to return any data set  
-`Index()` - Refers to the index page that's associated to this (Q - But how do you know what index page?)
-
+### <span class="warning">Controllers - What I need to know</span>
+1. Do I need to create some sort of `private` list for each of my sources?  
+e.g. AnimalsList and ZoosList
+1. Do the lists even need to be `private`?
+1. In the _Controller_ what keyword is that binding agent which ties to the _ViewModel_ data (e.g. Zoos) that allows the _Controller_ to use it or reference it? 
 
 
 
