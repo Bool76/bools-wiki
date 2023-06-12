@@ -1,6 +1,6 @@
-# Planning | Quality Management
+# Planning | Quality
 
-Overview - Think of this as more of the introduction to managing costs in your project
+Overview - tbd
 
 <br>
 
@@ -28,6 +28,10 @@ Overview - Think of this as more of the introduction to managing costs in your p
 | Design for X       |
 | Statistical Sample |
 | Fishbone           |
+| Histogram          |
+| Benchmarking       |
+| Attribute Sampling |
+| Variable Sampling  |
 
 <br><br>
 
@@ -48,3 +52,12 @@ Summary - Cost of doing something right or wrong
 4. Appraisal
 5. Cost of Conformance
 6. Cost of Non-Conformance
+
+<br/>
+
+### Types of Assessment Rating
+
+Summary - In testing you can select a rating systems to assess if tests have passed or failed
+
+1. Attribute Sampling - Pass / Fail
+1. Variable Sampling - Rate on a scale (e.g. 1 -> 10 | Did it meet requirements)

@@ -91,7 +91,7 @@ module.exports = {
                   {
                     title: "Import a Model",
                     path: "/c-sharp/model-view-controller/view/view-import-model/",
-                  }
+                  },
                 ],
               },
               {
@@ -105,7 +105,7 @@ module.exports = {
                   {
                     title: "ActionResult + IActionResult",
                     path: "/c-sharp/model-view-controller/controller/actionResult-iactionResult/",
-                  }
+                  },
                 ],
               },
               {
@@ -116,7 +116,7 @@ module.exports = {
           },
           {
             title: "Namespace",
-            path: "/c-sharp/namespace/"
+            path: "/c-sharp/namespace/",
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
@@ -334,12 +334,20 @@ module.exports = {
                         path: "/pmp/predictive/phases/planning/schedule/",
                       },
                       {
-                        title: "Quality Management",
-                        path: "/pmp/predictive/phases/planning/quality-management/",
+                        title: "Quality",
+                        path: "/pmp/predictive/phases/planning/quality/",
                       },
                       {
-                        title: "Procurement Management",
-                        path: "/pmp/predictive/phases/planning/procurement-management/",
+                        title: "Compliance",
+                        path: "/pmp/predictive/phases/planning/compliance/",
+                      },
+                      {
+                        title: "Procurement",
+                        path: "/pmp/predictive/phases/planning/procurement/",
+                      },
+                      {
+                        title: "Integration",
+                        path: "/pmp/predictive/phases/planning/integration/",
                       },
                     ],
                   },
