@@ -1,6 +1,6 @@
-# Planning | Procurement Management
+# Planning | Procurement
 
-Overview - Think of this as more of the introduction to managing costs in your project
+Overview - tbd
 
 <br>
 
