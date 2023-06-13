@@ -11,78 +11,60 @@ Class: Car
 Variables: Transmission-Type, Number-of-Doors, Color, Engine  
 Methods: Stop(), Start(), Accelerate()
 
-<br/>
+<br/><br/>
 
-### Basic Concepts
-
-**"New" Keyword** - [draft] a class object is created using the new operator.
-
-
-<br/>
-
-
-### Create Class (and Instance of an Object?)
-Overview - Coming from the work "Classification", "Class" is an 
-
-```
-namespace FirstProject
-{
-    public class Student()
-    {
-        
-        public Student()
-        {
-            //constructor
-        }
-    }
-}
-
-Student mystudent = new Student();
-```
-**Breakdown**
-
-First `Student` == Refers to the `Student` class and by calling it out we are instantiating it ("Hey we want to use you!")
-
-`mystudent` == The name we're giving our instantiated verison of `Student`
-
-`new` == Keyword to create memory for what we're going to do
-
-`new Student()` == Creating memory for `Student` which is the original name of the class  
-
+### What is an Object?
+It's an instance of Class so the properties and methods of that Class can be reused
 
 <br/><br/>
 
+### Creating an Object | High level steps
+1. Specify the class name 
+2. Create a name of your object 
+3. Assign the new object a null value which creates an empty container needed for the object 
 
-### Bigger Example
-Overview - tbd
+Example: 
+```
+Car myObj = new Car();
+```
+
+<br/><br/>
+
+### Create Class
 
 ```
-namespace FirstProject
-{
-    public class Person()
+namespace FordMotor {
+    class Car 
     {
-        public string Name;
-        public string Age;
+        string color = "red";
+        string color = "[purple]";
 
-        public void Greeting(){
-            Console.Writeline("Hi my name is" + Name);
+        public Line() {
+            Console.WriteLine("Object is being created");
         }
     }
 }
 ```
 **Breakdown**  
-tbd
+
+`namespace FordMotor` == Whatever is inside of this is related to the `FordMotor` namespace  
+
+`class Car` == A new class called `Car` is created  
+
+`*All code in Car*` == All of that code belongs to the class of `Car` and will be accessable if an object is created from `Car`
+ 
 
 <br/><br/>
 
-### Another Example
+### Create an Object 
+Overview - An object is created from a class, you can think of it as an instance of the class. In the example below we've already created a class named Car so we can create an _Object_ from the _Class_
 
 ```
 Car myObj = new Car();
 ```
 **Breakdown** 
 
-Highlevel Explanation - An object is created from a class. In this example we already created the class named Car, so now we can use this to create objects. To create an object of Car:
+Highlevel Steps:
 1. Specify the class name 
 2. Create a name of your object 
 3. Assign the new object a null value which creates an empty container needed for the object 
@@ -93,8 +75,14 @@ A class is a reference type and at the run time, any object of the reference typ
 > :memo: **Note:** The Class (`Car`) is also called a "reference type" at run time    
 
 `myObject` == Give the new object a name  
+
 `new` == Is an operator  
-`new Car()` == When you create a new object from a Class (reference type), you must assign it a null value or a container to hold the object 
 
+`new Car()` == When you create a new object from a Class (reference type), you must assign it a null value or a container to hold the object (creating memory)
 
+<br/><br/>
+
+### Helpful Links
+1. [w3school | Create an Object](https://www.w3schools.com/cs/cs_classes.php)
+1. [geeksForGeeks | Create an Object](https://www.geeksforgeeks.org/different-ways-to-create-an-object-in-c-sharp/#)
 
