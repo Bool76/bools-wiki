@@ -77,6 +77,10 @@ module.exports = {
             path: "/c-sharp/class-objects/",
           },
           {
+            title: "Constructor",
+            path: "/c-sharp/constructor/",
+          },
+          {
             title: "List Class",
             path: "/c-sharp/list-class/",
           },
