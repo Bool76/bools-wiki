@@ -4,12 +4,14 @@ Overview - tbd
 
 
 ### What is a Class?
-Coming from the work "Classification", a "Class" is a way to create an themed based object (or templant) so it can be reuse throughout the program. Inside this object can include methods() and variables which define it's characteristics and capabilities.
+Derived from the word "Classification", a _Class_ is a way to create an themed based object (or template) so it can be reused throughout the program. Inside this object can include methods() and variables which define it's characteristics and capabilities.
 
 e.g.  
-Class: Car   
-Variables: Transmission-Type, Number-of-Doors, Color, Engine  
-Methods: Stop(), Start(), Accelerate()
+<blockquote>
+**Class:** Car   
+**Variables:** Transmission-Type, Number-of-Doors, Color, Engine  
+**Methods:** Stop(), Start(), Accelerate()
+</blockquote>
 
 <br/><br/>
 
@@ -18,10 +20,10 @@ It's an instance of Class so the properties and methods of that Class can be reu
 
 <br/><br/>
 
-### Creating an Object | High level steps
+### Creating an Object (High level)
 1. Specify the class name 
 2. Create a name of your object 
-3. Assign the new object a null value which creates an empty container needed for the object 
+3. Assign the new object a null value which creates an empty container needed for the object (thus the instantiated piece of it)
 
 Example: 
 ```
@@ -51,13 +53,13 @@ namespace FordMotor {
 
 `class Car` == A new class called `Car` is created  
 
-`*All code in Car*` == All of that code belongs to the class of `Car` and will be accessable if an object is created from `Car`
+`*All code in Car*` == All of that code belongs to the class of `Car` and will be accessable if an Object is created from `Car`
  
 
 <br/><br/>
 
 ### Create an Object 
-Overview - An object is created from a class, you can think of it as an instance of the class. In the example below we've already created a class named Car so we can create an _Object_ from the _Class_
+Overview - An Object is created from a Class, you can think of it as an instance of the Class. In the example below we've already created a Class named Car so we can create an _Object_ from the _Class_
 
 ```
 Car myObj = new Car();
@@ -71,14 +73,14 @@ Highlevel Steps:
 
 A class is a reference type and at the run time, any object of the reference type is assigned a null value unless it is declared using the new operator. The new operator assigns space in the memory to the object only during run time which means the allocation is dynamic. 
 
-`Car` == When creating an object, which is an instance of the Class, you must identify the name of the Class.  
+`Car` == When creating an object, which is an instance of the Class, you must identify the name of the Class (think of it as referencing the "type" of Class you're creating)
 > :memo: **Note:** The Class (`Car`) is also called a "reference type" at run time    
 
 `myObject` == Give the new object a name  
 
 `new` == Is an operator  
 
-`new Car()` == When you create a new object from a Class (reference type), you must assign it a null value or a container to hold the object (creating memory)
+`new Car()` == When you create a new Object from a Class (reference type), you have to instatiated it or think of it as creating a container to hold the Object (creating memory space)
 
 <br/><br/>
 

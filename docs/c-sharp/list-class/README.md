@@ -3,11 +3,8 @@
 
 ### Description
 
-List&lt;T> is a generic C# class. It can be used to create a collection of any type, which can be accessed by using index.  
+List&lt;T> is a predefined C# class that can be used to create a collection object of data. A _List_ allows to indicate what type of data will be in it; integers, strings, or custom data type.  
 
-By a collection of any time we mean integers, strings, etc. 
-
-A constructor is a special method that is used to initialize objects
 
 <br/><br/>
 
