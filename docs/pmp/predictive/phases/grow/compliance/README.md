@@ -1,4 +1,4 @@
-# Planning | Compliance
+# Grow | Compliance
 
 Definition - Compliance refers to complying to external regulations or laws and testing against those requirements
 

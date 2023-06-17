@@ -78,6 +78,8 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Late Start                                             | Planning -> Schedule                                             |
 | Leads                                                  | Planning -> Schedule                                             |
 | Monte Carlo Method                                     | Execute -> Risk                                                  |
+| Net Present Value                                      | Grow -> Benefits+Value                                           |
+| Opportunity Cost                                       | Grow -> Benefits+Value                                           |
 | Precedence Diagramming Method                          | Planning ->                                                      |
 | Project Communications Requirements Analysis Worksheet | Execute -> Communications                                        |
 | Project Management Information System (PMIS)           | Planning -> Integration                                          |
