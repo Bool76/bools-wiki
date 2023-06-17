@@ -6,11 +6,11 @@ Overview - Throughout a project an organization's structure might change. In ord
 
 ### Plans + Documents + Tools
 
-| Plans                        |
-| ---------------------------- |
-| Change Management Plan (2nd) |
-| Risk Management Plan (2nd)   |
-| Stakeholder Management Plan  |
+| Plans                             |
+| --------------------------------- |
+| Change Management Plan (2nd)      |
+| Risk Management Plan (2nd)        |
+| Stakeholder Management Plan (2nd) |
 
 <br>
 

@@ -409,6 +409,10 @@ module.exports = {
                       },
                     ],
                   },
+                  {
+                    title: "Close the Project",
+                    path: "/pmp/predictive/phases/close/",
+                  },
                 ],
               },
               {
