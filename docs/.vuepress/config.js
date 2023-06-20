@@ -342,10 +342,6 @@ module.exports = {
                         path: "/pmp/predictive/phases/planning/quality/",
                       },
                       {
-                        title: "Compliance",
-                        path: "/pmp/predictive/phases/planning/compliance/",
-                      },
-                      {
                         title: "Procurement",
                         path: "/pmp/predictive/phases/planning/procurement/",
                       },
@@ -398,6 +394,28 @@ module.exports = {
                         path: "/pmp/predictive/phases/monitor/team-performance/",
                       },
                     ],
+                  },
+                  {
+                    title: "Grow",
+                    path: "/pmp/predictive/phases/grow/",
+                    children: [
+                      {
+                        title: "Benefits + Value",
+                        path: "/pmp/predictive/phases/grow/benefits-value/",
+                      },
+                      {
+                        title: "Compliance",
+                        path: "/pmp/predictive/phases/grow/compliance/",
+                      },
+                      {
+                        title: "Organizational Change",
+                        path: "/pmp/predictive/phases/grow/org-change/",
+                      },
+                    ],
+                  },
+                  {
+                    title: "Close the Project",
+                    path: "/pmp/predictive/phases/close/",
                   },
                 ],
               },
