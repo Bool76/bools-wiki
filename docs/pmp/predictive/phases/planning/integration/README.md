@@ -19,9 +19,9 @@ Definition - The integrating of all the plans and documents previously created a
 
 <br/>
 
-| Tools                                 |
-| ------------------------------------- |
-| Project Management Information System |
+| Tools                                        |
+| -------------------------------------------- |
+| Project Management Information System (PMIS) |
 
 <br/><br/>
 
