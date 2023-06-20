@@ -447,6 +447,10 @@ module.exports = {
             title: "Media Query",
             path: "/scss/media-query/",
           },
+          {
+            title: "Psuedo Elements",
+            path: "/scss/psuedo-elements/",
+          },
         ],
       },
       {
