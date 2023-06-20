@@ -399,16 +399,6 @@ module.exports = {
                       },
                     ],
                   },
-                  {
-                    title: "Grow",
-                    path: "/pmp/predictive/phases/grow/",
-                    children: [
-                      {
-                        title: "Benefits + Value",
-                        path: "/pmp/predictive/phases/grow/benefits-value/"
-                      }
-                    ]
-                    },
                 ],
               },
               {
