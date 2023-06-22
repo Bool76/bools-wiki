@@ -162,6 +162,16 @@ module.exports = {
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
         children: [
           {
+            title: "Flexbox",
+            path: "/css/flexbox/",
+            children: [
+              {
+                title: "Flex Grow",
+                path: "/css/flexbox/flex-grow/",
+              }
+            ],
+          },
+          {
             title: "Limit Text Rows",
             path: "/css/limit-text-rows/",
           },
