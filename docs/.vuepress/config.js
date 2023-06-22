@@ -162,6 +162,20 @@ module.exports = {
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
         children: [
           {
+            title: "Flexbox",
+            path: "/css/flexbox/",
+            children: [
+              {
+                title: "Flex Grow",
+                path: "/css/flexbox/flex-grow/",
+              },
+              {
+                title: "Margin Left + Right",
+                path: "/css/flexbox/margin-left-right/",
+              },
+            ],
+          },
+          {
             title: "Limit Text Rows",
             path: "/css/limit-text-rows/",
           },
@@ -178,16 +192,6 @@ module.exports = {
           {
             title: "Block Elements",
             path: "/frontend-development/block-elements/",
-          },
-          {
-            title: "Flexbox",
-            path: "/frontend-development/flexbox/",
-            children: [
-              {
-                title: "Margin Left + Right",
-                path: "/frontend-development/flexbox/margin-left-right/",
-              },
-            ],
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
