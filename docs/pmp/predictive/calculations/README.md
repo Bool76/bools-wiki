@@ -8,11 +8,11 @@ Summary - This section is dedicated toward Predictive related calculations
 
 #### 3 Point Estimates
 
-| Type                  | Calculation                                     |
-| --------------------- | ----------------------------------------------- |
-| Triangular Estimates  | (Pessimistic + Most Likely + Optimistic) / 3    |
-| Beta (Pert) Estimates | (Pessimistic + 4(Most Likely) + Optimistic) / 6 |
-| Standard Deviation    | (Pessimistic - Optimistic) / 6                  |
+| Type                              | Calculation                                     |
+| --------------------------------- | ----------------------------------------------- |
+| Triangular Distribution Estimate  | (Pessimistic + Most Likely + Optimistic) / 3    |
+| Beta (Pert) Distribution Estimate | (Pessimistic + 4(Most Likely) + Optimistic) / 6 |
+| Standard Deviation                | (Pessimistic - Optimistic) / 6                  |
 
 <br><br>
 
@@ -63,3 +63,11 @@ Summary - This section is dedicated toward Predictive related calculations
 | Schedule Performance Index (SPI)     | EV / PV                     |
 | To Complete Performance Index (TCPI) | (BAC-EV) / (BAC-AC)         |
 |                                      | (BAC-EV) / (EAC-AC)         |
+
+<br><br>
+
+### Communcation Management
+
+| Type                           | Calculation     |
+| ------------------------------ | --------------- |
+| Communication Channels Formula | n x (n - 1) / 2 |

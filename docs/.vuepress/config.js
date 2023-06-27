@@ -420,6 +420,12 @@ module.exports = {
                   {
                     title: "Close the Project",
                     path: "/pmp/predictive/phases/close/",
+                    children: [
+                      {
+                        title: "Close Project Steps",
+                        path: "/pmp/predictive/phases/close/close-project/",
+                      },
+                    ],
                   },
                 ],
               },

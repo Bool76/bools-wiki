@@ -27,13 +27,14 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 ### Documents
 
 | Type                             | Phase -> Section                                     |
-| -------------------------------- | ---------------------------------------------------- |
+| -------------------------------- | ---------------------------------------------------- | --- |
 | Assumptions Log                  | Planning -> Requirements<br>Grow -> Benefits + Value |
 | Activity List                    | Planning(?)-> Scheduling(?)                          |
 | Change Log                       | Execute -> Change                                    |
 | Change Request Form              | Execute -> Change                                    |
 | Issue Log                        | Execute -> Issues                                    |
 | Lessons Learned                  |                                                      |
+| Organizational Process Assets    | Close -> Close Project Steps                         |     |
 | Procurement Statement of Work    | Planning -> Procurement                              |
 | Product Road Map                 | Planning (?)                                         |
 | Product Scope Statement          |                                                      |
