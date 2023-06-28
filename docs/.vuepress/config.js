@@ -304,6 +304,32 @@ module.exports = {
           {
             title: "Agile",
             path: "/pmp/agile/",
+            children: [
+              {
+                title: "Agile Key Concepts",
+                path: "/pmp/agile/agile-key-concepts/",
+              },
+              {
+                title: "Agile Stages",
+                path: "/pmp/agile/agile-stages",
+                children: [
+                  {
+                    title: "Agile Planning",
+                    path: "/pmp/agile/agile-stages/agile-planning/",
+                  },
+                ],
+              },
+              {
+                title: "Scrum",
+                path: "/pmp/agile/scrum/",
+                children: [
+                  {
+                    title: "Scrum Key Concepts",
+                    path: "/pmp/agile/scrum/scrum-key-concepts/",
+                  },
+                ],
+              },
+            ],
           },
           {
             title: "Predictive",
