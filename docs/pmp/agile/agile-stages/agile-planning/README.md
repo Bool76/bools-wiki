@@ -87,3 +87,23 @@ Rapidly_
 #### Paired Comparison Analysis
 
 Creating a table listing features names in both rows and column headlines. Then compare the two features giving "1" to the higher priority one and "0" to the lower priority. Calculate row totals to see which feature is a priority.
+
+<br><br>
+
+## Estimation Techniques
+
+#### T-Shirt Size / Relative Estimation
+
+A granular sized Story is defined and every other Story is measured against it
+
+#### Affinity Estimation
+
+Stories are placed on post-its and placed on a board.  
+Left -> Smaller Stories  
+Right -> Larger Stories
+
+#### Planning Poker / Fibonacci Numbers
+
+Either playing cards represent numbers of varying degrees and the team votes  
+OR  
+Team votes w/ fibonacci numbers

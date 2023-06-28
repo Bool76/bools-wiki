@@ -329,6 +329,16 @@ module.exports = {
                   },
                 ],
               },
+              {
+                title: "Kanban",
+                path: "/pmp/agile/kanban/",
+                children: [
+                  {
+                    title: "Kanban Key Concepts",
+                    path: "/pmp/agile/kanban/kanban-key-concepts/",
+                  },
+                ],
+              },
             ],
           },
           {

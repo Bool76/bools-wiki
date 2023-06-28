@@ -4,7 +4,7 @@ Summary - tbd
 
 <br>
 
-### Agile Manifesto
+## Agile Manifesto
 
 #### Mnemonic
 
@@ -22,7 +22,7 @@ Response OVER Planning
 
 <br><br>
 
-### Different Agile Triangles
+## Agile Triangles
 
 **Agile Iron Triangle** - Just like the basic Iron Triangle of Constraints, the Agile Iron Triangle also has the three points:
 
@@ -39,3 +39,13 @@ But visually it's flipped upside down. Unlike the Iron Triangle, the Agile Iron 
 1. Quality (or Intrinsic Quality) - Represent the importance of internal process / continuous delivery
 2. Value (or Extrinsic Quality) - Represents the value of the deliverables for the customer
 3. Constraints - Represents all the original Iron Triangle points
+
+<br><br>
+
+## Reporting
+
+#### Burndown Chart
+
+<br><br>
+
+#### Burn Up Chart
