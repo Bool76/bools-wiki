@@ -310,6 +310,10 @@ module.exports = {
                 path: "/pmp/agile/agile-key-concepts/",
               },
               {
+                title: "Ceremonies + Reports + Tools",
+                path: "/pmp/agile/ceremonies-reports-tools/",
+              },
+              {
                 title: "Agile Stages",
                 path: "/pmp/agile/agile-stages",
                 children: [

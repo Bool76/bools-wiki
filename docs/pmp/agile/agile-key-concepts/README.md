@@ -46,6 +46,22 @@ But visually it's flipped upside down. Unlike the Iron Triangle, the Agile Iron 
 
 #### Burndown Chart
 
-<br><br>
+<br>
 
 #### Burn Up Chart
+
+<br><br>
+
+## Terms
+
+| Name                              | Summary                                                                           |
+| --------------------------------- | --------------------------------------------------------------------------------- |
+| Backbone                          |                                                                                   |
+| Kanban Cycle Time                 | Total amount of elapsed time between when a task starts and when a task finishes. |
+| Lead Time                         |                                                                                   |
+| Progressive Elaboration           | na                                                                                |
+| Throughput (Kanban)               | How progress is measured in Kanban (like velocity for Scrum)                      |
+| Throughput (Value Stream Mapping) |                                                                                   |
+| Velocity                          | How progress is measured for a Sprint in Srum                                     |
+| Walking Skeleton                  |                                                                                   |
+| Work in Progress Limits (WIP)     | Used in Kanban to control work load in an iteration                               |
