@@ -52,4 +52,4 @@ Summary - This is section will cover the Risk part of the Execute phase
 1. Share
 1. Exploit
 1. Enhance
-1. Accepts
+1. Accept

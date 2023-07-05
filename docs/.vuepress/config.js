@@ -304,6 +304,46 @@ module.exports = {
           {
             title: "Agile",
             path: "/pmp/agile/",
+            children: [
+              {
+                title: "Agile Key Concepts",
+                path: "/pmp/agile/agile-key-concepts/",
+              },
+              {
+                title: "Ceremonies + Reports + Tools",
+                path: "/pmp/agile/ceremonies-reports-tools/",
+              },
+              {
+                title: "Agile Stages",
+                path: "/pmp/agile/agile-stages",
+                children: [
+                  {
+                    title: "Agile Planning",
+                    path: "/pmp/agile/agile-stages/agile-planning/",
+                  },
+                ],
+              },
+              {
+                title: "Scrum",
+                path: "/pmp/agile/scrum/",
+                children: [
+                  {
+                    title: "Scrum Key Concepts",
+                    path: "/pmp/agile/scrum/scrum-key-concepts/",
+                  },
+                ],
+              },
+              {
+                title: "Kanban",
+                path: "/pmp/agile/kanban/",
+                children: [
+                  {
+                    title: "Kanban Key Concepts",
+                    path: "/pmp/agile/kanban/kanban-key-concepts/",
+                  },
+                ],
+              },
+            ],
           },
           {
             title: "Predictive",
@@ -420,6 +460,12 @@ module.exports = {
                   {
                     title: "Close the Project",
                     path: "/pmp/predictive/phases/close/",
+                    children: [
+                      {
+                        title: "Close Project Steps",
+                        path: "/pmp/predictive/phases/close/close-project/",
+                      },
+                    ],
                   },
                 ],
               },

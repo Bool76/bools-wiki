@@ -2,38 +2,45 @@
 
 Summary - Throughout the Predictive model there are many tools you can use. These are those tools and what they do.
 
+### Major Project Docs
+
+| Title        | Summary | Key Concepts                                                    |
+| ------------ | ------- | --------------------------------------------------------------- |
+| Team Charter |         | ID team members<br>Rules of Communcating<br>Conflict resolution |
+
 <br>
 
 ### Plans
 
-| Type                                   | Phase                 |
-| -------------------------------------- | --------------------- |
-| Benefits Management Plan               | Grow <br> Planning(?) |
-| Change Management Plan                 | Execute               |
-| Communication Management Plan          | Build                 |
-| Cost Management Plan                   |                       |
-| Procurement Management Plan            | Build <br> Planning   |
-| Project Management Plan                | Planning              |
-| Requirements Management Plan           |                       |
-| Resource Management Plan               | Build                 |
-| Risk Management Plan                   | Execute               |
-| Schedule Management Plan               | Planning              |
-| Scope Management Plan                  |                       |
-| Stakeholder Engagement Management Plan | Execute               |
-| Quality Management Plan                | Planning              |
+| Type                                   | Phase                 | Key Concepts                                |
+| -------------------------------------- | --------------------- | ------------------------------------------- |
+| Benefits Management Plan               | Grow <br> Planning(?) |                                             |
+| Change Management Plan                 | Execute               |                                             |
+| Communication Management Plan          | Build                 |                                             |
+| Cost Management Plan                   |                       |                                             |
+| Procurement Management Plan            | Build <br> Planning   |                                             |
+| Project Management Plan                | Planning              |                                             |
+| Requirements Management Plan           |                       |                                             |
+| Resource Management Plan               | Build                 | Roles / Responsibilities, skills, report to |
+| Risk Management Plan                   | Execute               |                                             |
+| Schedule Management Plan               | Planning              |                                             |
+| Scope Management Plan                  |                       |                                             |
+| Stakeholder Engagement Management Plan | Execute               |                                             |
+| Quality Management Plan                | Planning              |                                             |
 
 <br>
 
 ### Documents
 
 | Type                             | Phase -> Section                                     |
-| -------------------------------- | ---------------------------------------------------- |
+| -------------------------------- | ---------------------------------------------------- | --- |
 | Assumptions Log                  | Planning -> Requirements<br>Grow -> Benefits + Value |
 | Activity List                    | Planning(?)-> Scheduling(?)                          |
 | Change Log                       | Execute -> Change                                    |
 | Change Request Form              | Execute -> Change                                    |
 | Issue Log                        | Execute -> Issues                                    |
 | Lessons Learned                  |                                                      |
+| Organizational Process Assets    | Close -> Close Project Steps                         |     |
 | Procurement Statement of Work    | Planning -> Procurement                              |
 | Product Road Map                 | Planning (?)                                         |
 | Product Scope Statement          |                                                      |
