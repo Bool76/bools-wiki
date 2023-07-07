@@ -382,6 +382,10 @@ module.exports = {
                         path: "/pmp/predictive/phases/planning/schedule/",
                       },
                       {
+                        title: "Configuration",
+                        path: "/pmp/predictive/phases/planning/configuration/",
+                      },
+                      {
                         title: "Quality",
                         path: "/pmp/predictive/phases/planning/quality/",
                       },

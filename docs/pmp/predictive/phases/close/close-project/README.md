@@ -30,13 +30,36 @@ Overview - Closing the project is the last step of managing a project. Here are 
 
 ### High Level Steps:
 
-1. Project Review - Assure all work has been done via Project Management Plan and Project Charter, and get formal signoff
+1. #### Project Review
 
-1. Finalize Procured Resources - Acceptance vendor deliverables, engage in knowledge transfer, and submit final payment
+   - Assure all work has been done via Project Management Plan and Project Charter
+   - All issues are resolved
+   - All costs are charged to the project
+   - Formal sign off / acceptance on deliverables
 
-1. Update Project Docs - Finalize Lessons Learned, complete other knowledge share, archive project docs in Organizational Process Assets
+<br>
 
-1. Final Transfer or Delivery - Transfer product or service to customer or support group. Release project resources. PM run customer / stakeholder survey.
+2. #### Finalize Seller / Vendor Work
+   - Acceptance vendor deliverables
+   - Finalize open claims (Claim Management Process)
+   - Complete knowledge transfer
+   - Remaining costs are charged to the project
+   - Close contract
+
+<br>
+
+3. #### Update Project Docs
+   - Finalize Lessons Learned,
+   - Complete other knowledge share
+   - Complete final reports
+   - Archive project docs in Organizational Process Assets (OPA)
+
+<br>
+
+4. #### Final Transfer or Delivery
+   - Transfer product or service to customer or support group
+   - Release project resources
+   - PM run customer / stakeholder survey.
 
 <br>
 

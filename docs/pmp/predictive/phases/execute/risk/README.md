@@ -57,6 +57,8 @@ Summary - This is section will cover the Risk part of the Execute phase
 1. Enhance
 1. Accept
 
+> :warning: **Warning:** An ACCEPTANCE response in the Risk Register will not have a specific reponse plan - use the "Fallback Plan"
+
 <br>
 
 ## Documents Explained
