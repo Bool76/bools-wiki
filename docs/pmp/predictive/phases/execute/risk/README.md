@@ -125,3 +125,19 @@ If you look at the matrix (Google one) then the result is in the RED
 Summary - Bubble Chart can also be called a Hierarchy Bubble. You can show relationships by connecting bubbles and the size of the bubbles to show importance.
 
 How do you use it?
+
+<br>
+
+### Qualitative Risk Analysis
+
+Summary - Basic risk analysis used to assess IMPACT and PROBABILITY. Just remember those two variables.
+
+Example Qualitative Tool: Impact and Probability Matrix
+
+<br>
+
+### Quantitative Risk Analysis
+
+Summary - Involved and detailed analysis using specific data or numbers. Can be used to look at financials.
+
+Example Quantitative Tool: Monte-Carlo

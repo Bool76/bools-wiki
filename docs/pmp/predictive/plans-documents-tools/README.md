@@ -14,7 +14,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 | Type                                   | Phase                 | Key Concepts                                                                               |
 | -------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------ |
-| Benefits Management Plan               | Grow <br> Planning(?) |                                                                                            |
+| Benefits Management Plan               | Grow <br> Planning(?) | Identified items to prove business value or worth from project (e.g. ROI)                  |
 | Change Management Plan                 | Execute               | The process of how to go about making changes                                              |
 | Communication Management Plan          | Build                 |                                                                                            |
 | Configuration Management Plan          | ???                   | Which items require FORMAL change control / signoffs. Ex: schedule, scope, wbs, and budget |
