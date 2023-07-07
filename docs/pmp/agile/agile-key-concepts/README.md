@@ -42,6 +42,17 @@ But visually it's flipped upside down. Unlike the Iron Triangle, the Agile Iron 
 
 <br><br>
 
+## Agile Team Positions
+
+### Product Owner
+
+- Represents business / customer
+- Understands business needs
+- Understands customer / user needs
+- Prioritizes backlog
+
+  <br><br>
+
 ## Reporting
 
 #### Burndown Chart

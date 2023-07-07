@@ -2,30 +2,47 @@
 
 Summary - These are helpful tactics and items to remember when answering questions on the PMP
 
-**REMEMBER - Ask yourself if the answer solves the problem!**
-
-### Approach a problem type question with these in mind
-
-(_In this general order_)
-
-1. Identify the problem
-2. Find the root cause
-3. With the team - Proactively find a solution
-4. Does the answer solve the problem?
-
 <br>
 
-### Consider answers that have
+## Question Steps
 
-1. Being proactive
-2. Taking responsibility
+1. Read last sentence
+1. Read / skim answers
+1. Read last sentence
+1. Read question (recognize the standard question structure)
+1. Identify the type of question:
+   1. Solve for a problem
+      1. What is the problem?
+      1. Read through answers like it solves the problem
+   1. What is next step
+      1. Read through answer
+      1. Is the answer the very NEXT thing you'd do?
 
-<br>
+<br><br>
 
-### Be aware of answers like these
+## Question Structure
 
-1. Stay away from absolutes in the answers:
-   - Never
-   - Always
-2. Stay away from answers that pawn off responsibility to someone else
-3. Stay away from answers with excuses
+Setup -> Problem -> Question
+
+> :warning: **Warning:** There can be distraction phrases or words intermixed
+
+<br><br>
+
+## Postive Answers
+
+1. Proactive / Taking Action
+1. Taking responsibility
+1. Finding root cause
+1. Do the right thing (tattle tail)
+
+<br><br>
+
+## Red Flag Answers
+
+1. Private conversations
+1. Skipping responsibilities
+1. Excuses
+1. Escalating
+1. Overkill / Extremes
+1. Absolutes (e.g. "All the time" or "Always")
+1. Spending more $$$

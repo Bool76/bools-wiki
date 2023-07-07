@@ -8,6 +8,8 @@ Summary - tbd
 
 1. Sprint Planning
 2. Daily Scrum (Standups)
+   - ID blockers
+   - Monitor activies to Sprint Goal
 3. Sprint Review / Demo
 4. Sprint Retro
 
@@ -33,7 +35,7 @@ Summary - tbd
 
 #### Sprint Velocity
 
-Overview - Defining what your team's velocity is for a spint
+Overview - Defining what your team's velocity is for a spint. Assessing team performance and NOT individual performance.
 
 Details - Combine / Add the total number of Story Points that were actually COMPLETED in the Sprint. It doesn't matter if 100 point were committed to be completed, just what stories were ACTUALLY COMPLETED.
 
