@@ -12,21 +12,22 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 ### Plans
 
-| Type                                   | Phase                 | Key Concepts                                |
-| -------------------------------------- | --------------------- | ------------------------------------------- |
-| Benefits Management Plan               | Grow <br> Planning(?) |                                             |
-| Change Management Plan                 | Execute               |                                             |
-| Communication Management Plan          | Build                 |                                             |
-| Cost Management Plan                   |                       |                                             |
-| Procurement Management Plan            | Build <br> Planning   |                                             |
-| Project Management Plan                | Planning              |                                             |
-| Requirements Management Plan           |                       |                                             |
-| Resource Management Plan               | Build                 | Roles / Responsibilities, skills, report to |
-| Risk Management Plan                   | Execute               |                                             |
-| Schedule Management Plan               | Planning              |                                             |
-| Scope Management Plan                  |                       |                                             |
-| Stakeholder Engagement Management Plan | Execute               |                                             |
-| Quality Management Plan                | Planning              |                                             |
+| Type                                   | Phase                 | Key Concepts                                                                               |
+| -------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------ |
+| Benefits Management Plan               | Grow <br> Planning(?) |                                                                                            |
+| Change Management Plan                 | Execute               | The process of how to go about making changes                                              |
+| Communication Management Plan          | Build                 |                                                                                            |
+| Configuration Management Plan          | ???                   | Which items require FORMAL change control / signoffs. Ex: schedule, scope, wbs, and budget |
+| Cost Management Plan                   |                       |                                                                                            |
+| Procurement Management Plan            | Build <br> Planning   |                                                                                            |
+| Project Management Plan                | Planning              |                                                                                            |
+| Requirements Management Plan           |                       |                                                                                            |
+| Resource Management Plan               | Build                 | Roles / Responsibilities, skills, report to                                                |
+| Risk Management Plan                   | Execute               |                                                                                            |
+| Schedule Management Plan               | Planning              |                                                                                            |
+| Scope Management Plan                  |                       |                                                                                            |
+| Stakeholder Engagement Management Plan | Execute               |                                                                                            |
+| Quality Management Plan                | Planning              |                                                                                            |
 
 <br>
 
@@ -113,3 +114,12 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Variable Sampling                                      | Planning -> Quality<br>Planning -> Compliance                    |
 | Wireframe                                              | Planning -> Requirements(?)                                      |
 | Work Breakdown Structure (WBS)                         | Planning -> Schedule(?)                                          |
+
+<br><br>
+
+### Schedule and Resource Problem-Solving
+
+| Type                                                           | Problem                                               | Solution              |
+| -------------------------------------------------------------- | ----------------------------------------------------- | --------------------- |
+| Schedule Crashing<br>(_Task Crashing_)<br>(_Project Crashing_) | Don't miss deadline<br>Increased scope + same dealine | Adding more resources |
+|                                                                |                                                       |                       |

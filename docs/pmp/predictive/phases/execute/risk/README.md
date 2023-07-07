@@ -2,7 +2,7 @@
 
 Summary - This is section will cover the Risk part of the Execute phase
 
-### Plans + Documents + Tools
+## Plans + Documents + Tools
 
 | Plans                |
 | -------------------- |
@@ -17,26 +17,29 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 <br>
 
-| Tools                   |
-| ----------------------- |
-| Bubble Chart            |
-| Decision Tree (???)     |
-| Expected Monetary Value |
-| Monte Carlo Method      |
-| Quantitative Analysis   |
-| Qualitative Analysis    |
-| Tornado Diagram         |
+| Tools                         |
+| ----------------------------- |
+| Bubble Chart                  |
+| Decision Tree (???)           |
+| Expected Monetary Value       |
+| Monte Carlo Method            |
+| Quantitative Analysis         |
+| Qualitative Analysis          |
+| Probability and Impact Matrix |
+| Tornado Diagram               |
 
-### Steps
+## Steps
 
 1. Identify Risk
 2. Assess Risk for:
    - Impact
    - Probability
 3. Prioritize
-4. Select Strategy
+4. Plan risk response
 
-### Strategies
+<br>
+
+## Strategies
 
 #### Negative Strategies
 
@@ -53,3 +56,72 @@ Summary - This is section will cover the Risk part of the Execute phase
 1. Exploit
 1. Enhance
 1. Accept
+
+<br>
+
+## Documents Explained
+
+### Risk Register
+
+**Process**
+
+1. ID / Record risk
+1. Assess risk impact / probability
+1. Plan risk response
+
+<br>
+
+**What do you identify (or record)**
+
+1. Description
+1. Impact / Probility
+1. Triggers
+1. Warning Signs
+1. Strategy / Response
+1. Residual risks
+1. Owner
+
+<br><br>
+
+## Tools Explained
+
+### Probability and Impact Matrix
+
+Overview - Part of Qualitative analysis. It's a grid where you give a rating for both _impact_ and _probability_ of a risk and then either trace the numbers to one number on the matrix or you can also multiple both numbers. That number on the matrix's (grid) location corrosponds with like a severity level; which can help you decide to do something or not.
+
+> :warning: **Warning:** The Probability and Impact Matrix is something you use and NOT update
+
+Steps:
+
+1. Record what the risk is in the **Risk Register**
+1. Accoring to the possible IMPACT, using the ratings on the matrix, give it a rating reflecting what's the impact of the risk (e.g. 0.1 - 0.9)
+1. Accoring to the possible PROBABILITY, using the ratings on the matrix, give it a rating reflecting what's the probability of the risk occuring (e.g. 0.1 - 0.9)
+1. You can either:
+   1. Multiple both numbers together and find that number on the matrix
+   1. Trace both numbers to the number they match with
+1. Based on the location of the number on the matrix, you'll have an overall rating so to help you make a decision
+
+_Example_
+
+<blockquote>
+RISK: JQuery library utilized for a modal might unsupported<br/><br/>
+
+What's the IMPACT rating you're giving it? ANS: .5<br/><br/>
+
+What's the PROBABILITY rating you're giving it? ANS: .85<br/><br/>
+
+Use the matrix to trace those two numbers to one number: 0.40<br/><br/>
+
+If you look at the matrix (Google one) then the result is in the RED
+
+</blockquote>
+
+<br>
+
+### Bubble Chart
+
+> :memo: **Note:** Bubble Chart is also a type of Hierarchical Chart
+
+Summary - Bubble Chart can also be called a Hierarchy Bubble. You can show relationships by connecting bubbles and the size of the bubbles to show importance.
+
+How do you use it?
