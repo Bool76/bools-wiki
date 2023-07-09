@@ -324,6 +324,10 @@ module.exports = {
                 ],
               },
               {
+                title: "Agile Stakeholders",
+                path: "/pmp/agile/agile-stakeholders/",
+              },
+              {
                 title: "Scrum",
                 path: "/pmp/agile/scrum/",
                 children: [
@@ -354,9 +358,27 @@ module.exports = {
                 path: "/pmp/predictive/phases/",
                 children: [
                   {
+                    title: "Build",
+                    path: "/pmp/predictive/phases/planning/",
+                    children: [
+                      {
+                        title: "Build a Team",
+                        path: "/pmp/predictive/phases/build/build-a-team/",
+                      },
+                    ],
+                  },
+                  {
                     title: "Planning",
                     path: "/pmp/predictive/phases/planning/",
                     children: [
+                      {
+                        title: "Requirements",
+                        path: "/pmp/predictive/phases/planning/requirements/",
+                      },
+                      {
+                        title: "Schedule",
+                        path: "/pmp/predictive/phases/planning/schedule/",
+                      },
                       {
                         title: "Cost Management",
                         path: "/pmp/predictive/phases/planning/cost-management/",
@@ -376,10 +398,6 @@ module.exports = {
                       {
                         title: "Earned Value",
                         path: "/pmp/predictive/phases/planning/earned-value/",
-                      },
-                      {
-                        title: "Schedule",
-                        path: "/pmp/predictive/phases/planning/schedule/",
                       },
                       {
                         title: "Configuration",

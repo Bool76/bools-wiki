@@ -31,6 +31,7 @@ Overview - tbd
 | Histogram          |
 | Benchmarking       |
 | Attribute Sampling |
+| Pareto Chart       |
 | Variable Sampling  |
 
 <br><br>
@@ -61,3 +62,21 @@ Summary - In testing you can select a rating systems to assess if tests have pas
 
 1. Attribute Sampling - Pass / Fail
 1. Variable Sampling - Rate on a scale (e.g. 1 -> 10 | Did it meet requirements)
+
+<br>
+
+### Tool Breakdown
+
+#### Histogram
+
+Type of bar chart. Displays the frequency (how much) you might see a certain data point
+
+e.g.  
+Theme: Height of cherry trees  
+X-axis: shows a range of heights  
+Y-axis shows number of trees in population
+Overall: Bar chart will show how many trees reach different heights
+
+#### Pareto Chart
+
+Is a type of histogram (bar chart) used to rank causes of problems in hierarchical format. The goal is to narrow down primary causes of issues. Can help you get to the 80/20 rule / tool.
