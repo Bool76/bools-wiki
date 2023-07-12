@@ -32,10 +32,11 @@ Summary - tbd
 | Estimates - Analogous                         |
 | Estimates - Parametric                        |
 | Estimates - 3 Point                           |
-| Estimate - Bottom Up                          |
 | Estimates - 3 Point - Triangular Distribution |
 | Estimates - 3 Point - Beta (Pert)             |
 | Estimates - 3 Point - Standard                |
+| Estimate - Bottom Up                          |
+| Estimate - Expert Judgement                   |
 | Free Float                                    |
 | Leads and Lags                                |
 | Presidence Diagramming Method                 |

@@ -26,6 +26,7 @@ Overview - tbd
 | Scatter Diagram    |
 | Control Chart      |
 | Design for X       |
+| Ishikawa Diagram   |
 | Statistical Sample |
 | Fishbone           |
 | Histogram          |
@@ -54,7 +55,7 @@ Summary - Cost of doing something right or wrong
 5. Cost of Conformance
 6. Cost of Non-Conformance
 
-<br/>
+<br><br>
 
 ### Types of Assessment Rating
 
@@ -63,9 +64,13 @@ Summary - In testing you can select a rating systems to assess if tests have pas
 1. Attribute Sampling - Pass / Fail
 1. Variable Sampling - Rate on a scale (e.g. 1 -> 10 | Did it meet requirements)
 
-<br>
+<br><br>
 
 ### Tool Breakdown
+
+#### Fishbone | Ishikawa Diagram
+
+Both of these terms refer to the same concept for a Quality related tool. These help identify the "cause + effect" or root cause of something. Do you want to know where something came from? Use these tools.
 
 #### Histogram
 
