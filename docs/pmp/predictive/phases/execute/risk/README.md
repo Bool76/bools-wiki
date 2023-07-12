@@ -28,7 +28,47 @@ Summary - This is section will cover the Risk part of the Execute phase
 | Probability and Impact Matrix |
 | Tornado Diagram               |
 
-## Steps
+<br>
+
+## Risk Concepts
+
+### High Level Types of Risks
+
+Overview - You would think there is only a "negative" type of risk but there is also a positive risk
+
+**Positive Risk**
+
+**Negative Risk**
+
+<br>
+
+### Types of Risks
+
+**Secondary Risk** - Risk caused from a planned risk response that was enacted
+
+_Example_
+
+<blockquote>
+Risk: Possibly failing a test<br>  
+Planned Response: Stay up all night and study<br>
+Secondary Risk: You might be too sleepy during the test
+</blockquote>
+
+<br>
+
+**Residual Risk** - When a planned risk response won't alleviate all possible variables of the risk
+
+_Example_
+
+<blockquote>
+Risk: Weather forecast looks like colder weather<br>  
+Planned Response: You take a sweatshirt with you<br>
+Residual Risk: The weather could get colder which mean the sweatshirt isn't good enough
+</blockquote>
+
+<br>
+
+### How to Handle Risks (steps)
 
 1. Identify Risk
 2. Assess Risk for:
@@ -39,7 +79,7 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 <br>
 
-## Strategies
+### Strategies
 
 #### Negative Strategies
 
@@ -59,7 +99,7 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 > :warning: **Warning:** An ACCEPTANCE response in the Risk Register will not have a specific reponse plan - use the "Fallback Plan"
 
-<br>
+<br><br>
 
 ## Documents Explained
 

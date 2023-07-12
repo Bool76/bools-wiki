@@ -37,14 +37,14 @@ Overview - Think of this as more of the introduction to managing costs in your p
 
 ### Cost Types
 
-**Fixed Cost** - Cost that's the same throughout
+**Fixed Cost** - Cost that's the same throughout (e.g. Building rent)
 
-**Direct Costs** - Cost specifically for one project
+**Direct Costs** - Cost specifically for one project (e.g. Cost of contractors)
 
-**Indirect Cost** - Cost shared by many project
+**Indirect Cost** - Cost shared by many projects (e.g. Building rent)
 
-**Sunk Cost** - Cost spent that can't be retrieved
+**Sunk Cost** - Cost spent that can't be retrieved (e.g. Team wages)
 
-**Variable Cost** - Cost varies based on usage
+**Variable Cost** - Cost varies based on usage (e.g. Server space used)
 
 **Life Cycle Cost** - Cost of the project from very beginning to the end

@@ -92,15 +92,25 @@ Creating a table listing features names in both rows and column headlines. Then 
 
 ## Estimation Techniques
 
-#### T-Shirt Size / Relative Estimation
+<br>
 
-A granular sized Story is defined and every other Story is measured against it
+| Name                                                | Summary |
+| --------------------------------------------------- | ------- |
+| Affinity Estimation                                 |         |
+| Top Down / Rolling Waving Planning                  |         |
+| Bottom Up                                           |
+| Planning Poker / Fibonacci                          |         |
+| Relative Sizing / T-Shirt Sizes / Affinity Grouping |         |
 
 #### Affinity Estimation
 
 Stories are placed on post-its and placed on a board.  
 Left -> Smaller Stories  
 Right -> Larger Stories
+
+#### T-Shirt Size / Relative Estimation
+
+A granular sized Story is defined and every other Story is measured against it
 
 #### Planning Poker / Fibonacci Numbers
 

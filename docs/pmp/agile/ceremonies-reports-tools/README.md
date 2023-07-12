@@ -4,14 +4,14 @@
 
 ## Ceremonies / Meetings
 
-| Name             | Frequency (based on 2wk sprint) | Duration |
-| ---------------- | ------------------------------- | -------- |
-| Kick-Off Meeting | At beginning of project         | na       |
-| Backlog Grooming | tbd                             | tbd      |
-| Sprint Planning  | 1 per wk                        | 2 hrs    |
-| Sprint Review    | 1 per Sprint                    | 2 hrs    |
-| Sprint Retro     | 1 per Sprint (at end)           | tbd      |
-| Daily Standup    | Everyday                        | 15 mins  |
+| Name             | Frequency (based on 2wk sprint) | Duration                       |
+| ---------------- | ------------------------------- | ------------------------------ |
+| Kick-Off Meeting | At beginning of project         | na                             |
+| Backlog Grooming | tbd                             | tbd                            |
+| Sprint Planning  | 1 per wk                        | 2 hrs                          |
+| Sprint Review    | 1 per Sprint                    | 2 hrs                          |
+| Sprint Retro     | 1 per Sprint (at end)           | 1.5 hrs (3.0 hrs total in mth) |
+| Daily Standup    | Everyday                        | 15 mins                        |
 
 <br><br>
 
