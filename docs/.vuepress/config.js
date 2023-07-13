@@ -499,15 +499,15 @@ module.exports = {
                 title: "Calculations",
                 path: "/pmp/predictive/calculations/",
               },
-              {
-                title: "Key Terms + Concepts",
-                path: "/pmp/predictive/key-terms-concepts/",
-              },
             ],
           },
           {
             title: "Test Strategies",
             path: "/pmp/test-strategies/",
+          },
+          {
+            title: "Concepts to Remember",
+            path: "/pmp/concepts-to-remember/",
           },
         ],
       },

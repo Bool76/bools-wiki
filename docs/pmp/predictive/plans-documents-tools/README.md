@@ -54,6 +54,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Requirements Tracability Matrix  | Planning -> Requirements                             |
 | Risk Breakdown Structure         | Execute -> Risk                                      |
 | Risk Register                    | Execute -> Risk                                      |
+| Risk Report                      | Execute -> Risk                                      |
 | Stakeholder Register             | Building -> Team<br>Execute -> Stakeholders          |
 | Team Charter                     | Building -> Team                                     |
 | Work Breakdown Structure (WBS)   | Planning -> Requirements<br>Planning -> Schedule     |
