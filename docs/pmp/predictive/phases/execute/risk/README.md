@@ -14,6 +14,7 @@ Summary - This is section will cover the Risk part of the Execute phase
 | ------------------------ |
 | Risk Breakdown Structure |
 | Risk Register            |
+| Risk Report              |
 
 <br>
 
@@ -32,17 +33,17 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 ## Risk Concepts
 
-### High Level Types of Risks
+#### High Level Types of Risks
 
 Overview - You would think there is only a "negative" type of risk but there is also a positive risk
 
-**Positive Risk**
+1. Positive Risk
 
-**Negative Risk**
+1. Negative Risk
 
 <br>
 
-### Types of Risks
+#### Types of Risks
 
 **Secondary Risk** - Risk caused from a planned risk response that was enacted
 
@@ -68,20 +69,21 @@ Residual Risk: The weather could get colder which mean the sweatshirt isn't good
 
 <br>
 
-### How to Handle Risks (steps)
+#### Steps to Handle Risks
 
 1. Identify Risk
 2. Assess Risk for:
    - Impact
    - Probability
 3. Prioritize
-4. Plan risk response
+4. Create a risk response
+5. If you enact the risk reponse then... update the _Risk Report_
 
 <br>
 
-### Strategies
+#### Strategies
 
-#### Negative Strategies
+**Negative Strategies**
 
 1. Escalate
 1. Avoid
@@ -89,7 +91,7 @@ Residual Risk: The weather could get colder which mean the sweatshirt isn't good
 1. Mitigate
 1. Accept
 
-#### Positive Strategies
+**Positive Strategies**
 
 1. Escalate
 1. Share
@@ -103,7 +105,7 @@ Residual Risk: The weather could get colder which mean the sweatshirt isn't good
 
 ## Documents Explained
 
-### Risk Register
+#### Risk Register
 
 **Process**
 
@@ -127,7 +129,7 @@ Residual Risk: The weather could get colder which mean the sweatshirt isn't good
 
 ## Tools Explained
 
-### Probability and Impact Matrix
+#### Probability and Impact Matrix
 
 Overview - Part of Qualitative analysis. It's a grid where you give a rating for both _impact_ and _probability_ of a risk and then either trace the numbers to one number on the matrix or you can also multiple both numbers. That number on the matrix's (grid) location corrosponds with like a severity level; which can help you decide to do something or not.
 
@@ -160,7 +162,7 @@ If you look at the matrix (Google one) then the result is in the RED
 
 <br>
 
-### Bubble Chart
+#### Bubble Chart
 
 > :memo: **Note:** Bubble Chart is also a type of Hierarchical Chart
 
@@ -170,7 +172,7 @@ How do you use it?
 
 <br>
 
-### Qualitative Risk Analysis
+#### Qualitative Risk Analysis
 
 Summary - Basic risk analysis used to assess IMPACT and PROBABILITY. Just remember those two variables.
 
@@ -178,7 +180,7 @@ Example Qualitative Tool: Impact and Probability Matrix
 
 <br>
 
-### Quantitative Risk Analysis
+#### Quantitative Risk Analysis
 
 Summary - Involved and detailed analysis using specific data or numbers. Can be used to look at financials.
 
