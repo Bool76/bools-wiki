@@ -324,26 +324,16 @@ module.exports = {
                 ],
               },
               {
-                title: "Agile Stakeholders",
-                path: "/pmp/agile/agile-stakeholders/",
-              },
-              {
-                title: "Scrum",
-                path: "/pmp/agile/scrum/",
+                title: "Agile Types",
+                path: "/pmp/agile/agile-types/",
                 children: [
                   {
-                    title: "Scrum Key Concepts",
-                    path: "/pmp/agile/scrum/scrum-key-concepts/",
+                    title: "Scrum",
+                    path: "/pmp/agile/agile-types/scrum/",
                   },
-                ],
-              },
-              {
-                title: "Kanban",
-                path: "/pmp/agile/kanban/",
-                children: [
                   {
-                    title: "Kanban Key Concepts",
-                    path: "/pmp/agile/kanban/kanban-key-concepts/",
+                    title: "Kanban",
+                    path: "/pmp/agile/agile-types/kanban/",
                   },
                 ],
               },
@@ -502,8 +492,26 @@ module.exports = {
             ],
           },
           {
-            title: "Test Strategies",
-            path: "/pmp/test-strategies/",
+            title: "Methodology Strategies",
+            path: "/pmp/methodology-strategies/",
+            children: [
+              {
+                title: "Planning Strategies",
+                path: "/pmp/methodology-strategies/planning-strategies/",
+              },
+              {
+                title: "Stakeholder Strategies",
+                path: "/pmp/methodology-strategies/stakeholder-strategies/",
+              },
+              {
+                title: "Risk Strategies",
+                path: "/pmp/methodology-strategies/risk-strategies/",
+              },
+            ],
+          },
+          {
+            title: "Test Question Strategies",
+            path: "/pmp/test-question-strategies/",
           },
           {
             title: "Concepts to Remember",

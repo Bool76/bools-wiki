@@ -18,16 +18,77 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 <br>
 
-| Tools                         |
-| ----------------------------- |
-| Bubble Chart                  |
-| Decision Tree (???)           |
-| Expected Monetary Value       |
-| Monte Carlo Method            |
-| Quantitative Analysis         |
-| Qualitative Analysis          |
-| Probability and Impact Matrix |
-| Tornado Diagram               |
+| Tools                                |
+| ------------------------------------ |
+| Bubble Chart                         |
+| Decision Tree (???)                  |
+| Expected Monetary Value              |
+| Expert Judgement                     |
+| Interviews                           |
+| Monte Carlo Method                   |
+| Organizational Process Assests (OPA) |
+| Quantitative Analysis                |
+| Qualitative Analysis                 |
+| Probability and Impact Matrix        |
+| Tornado Diagram                      |
+
+<br>
+
+## Risk Identifcation Process
+
+1. **COLLECT INPUTS**
+
+Overview - First step is to identify risks to your project and there are a number of sources and tools to use to do that
+
+- Risk Management Plan
+- Project Management Plan
+- Stakeholder Register
+- Lessons Learned
+- OPA
+- EEF
+- Industry Experts
+
+By using all of these you'll come up with a list of risks that are entered into the **Risk Register**
+
+<br>
+
+2. **PRIORITIZING**
+
+Overview - Now your job is to prioritize these risks and see how they measure up against each other. The main concept is that you must assess the **Impact and Probability** (Qualitative Analysis - Tool)
+In order to do this you must assess the Impact and Probability (Qualitative Analysis - Tool)
+
+Tools used:
+
+- Qualitative Analysis
+- Quantitative Analysis
+- Expert Judgement
+- Interviews
+- Risk Workshop
+- Monte Carlo Method
+- Bubble Chart / Hierarchical
+
+Other fields are filled out in the **Risk Register**:
+
+- Description
+- Impact / Probility
+- Priortization Position
+- Triggers
+- Warning Signs
+- Strategy / Response
+- Residual risks
+- Owner
+
+<br>
+
+3. **OUTPUT**
+
+Overview - The result of this process is that many different documents will get updated. Some of them are:
+
+- Risk Register
+- Risk Report
+- Assumptions Log
+- Issue Log
+- Lessons Learned
 
 <br>
 
@@ -43,7 +104,7 @@ Overview - You would think there is only a "negative" type of risk but there is 
 
 <br>
 
-#### Types of Risks
+#### Other Types of Risks
 
 **Secondary Risk** - Risk caused from a planned risk response that was enacted
 
@@ -66,18 +127,6 @@ Risk: Weather forecast looks like colder weather<br>
 Planned Response: You take a sweatshirt with you<br>
 Residual Risk: The weather could get colder which mean the sweatshirt isn't good enough
 </blockquote>
-
-<br>
-
-#### Steps to Handle Risks
-
-1. Identify Risk
-2. Assess Risk for:
-   - Impact
-   - Probability
-3. Prioritize
-4. Create a risk response
-5. If you enact the risk reponse then... update the _Risk Report_
 
 <br>
 
