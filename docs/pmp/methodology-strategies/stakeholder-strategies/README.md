@@ -1,4 +1,4 @@
-# Agile | Stakeholders
+# Stakeholders Strategies
 
 Summary - How are stakeholders in Agile managed or heard throughout the project?
 

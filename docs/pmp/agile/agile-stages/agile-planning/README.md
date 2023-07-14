@@ -6,10 +6,12 @@ Summary - tbd
 
 ## Levels of Planning
 
+1. Product Vision
 1. Product Road Map
-2. Release Plan
-3. Sprint Plan / Iteration Plan
-4. Daily Standup
+1. Release Plan
+1. Product Backlog
+1. Sprint Plan / Iteration Plan
+1. Daily Standup
 
 <br><br>
 

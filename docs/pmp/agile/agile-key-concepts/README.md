@@ -53,6 +53,12 @@ But visually it's flipped upside down. Unlike the Iron Triangle, the Agile Iron 
 
   <br><br>
 
+## Risk Management
+
+Summary - Risks to an Agile project are reviewed before the start of each Sprint. Also teams can utilze a Risk Backlog to keep track of risks
+
+<br><br>
+
 ## Reporting
 
 #### Burndown Chart
