@@ -4,27 +4,33 @@ Summary - These are helpful tactics and items to remember when answering questio
 
 <br>
 
-### Question Steps Version 2
+### Question Approach
 
-1. Read the question and frame it with:
+_HINT: Read the question and frame it with:_
 
-   Setup -> Problem -> Question
+Setup -> Problem -> Question
 
-   > :warning: **Warning:** There can be distraction phrases or words intermixed
+> :warning: **Warning:** There can be distraction phrases or words intermixed
 
-1. Ask yourself "What is the problem?"
+#### Steps
 
-   1. Is it a **process** problem?
+1. What methodology are you in?
+
+1. Ask yourself "What is the problem you're solving for?"
+
+1. What type of approach is needed?
+
+   1. **Process** Problem
+
+      1. What sub-plan are we in?
 
       1. What process?
-
-      1. What stage in the process?
 
       1. What is the NEXT steps?<br>
          OR<br>
          What are tools to use?
 
-   1. Is it a **best practices** problem?
+   1. **Best Practices** Problem
 
       1. Exercising "tools" or "documents" to solve problem
 
@@ -32,7 +38,7 @@ Summary - These are helpful tactics and items to remember when answering questio
 
 <br><br>
 
-### Postive Answers
+### Common Best Practice Answers
 
 1. Proactive / Taking Action
 1. Taking responsibility

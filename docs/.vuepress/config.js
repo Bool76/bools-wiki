@@ -318,6 +318,10 @@ module.exports = {
                 path: "/pmp/agile/agile-stages",
                 children: [
                   {
+                    title: "Agile Project Initiation",
+                    path: "/pmp/agile/agile-stages/agile-project-initiation/",
+                  },
+                  {
                     title: "Agile Planning",
                     path: "/pmp/agile/agile-stages/agile-planning/",
                   },
@@ -498,6 +502,10 @@ module.exports = {
               {
                 title: "Planning Strategies",
                 path: "/pmp/methodology-strategies/planning-strategies/",
+              },
+              {
+                title: "Requirements Strategies",
+                path: "/pmp/methodology-strategies/requirements-strategies/",
               },
               {
                 title: "Stakeholder Strategies",
