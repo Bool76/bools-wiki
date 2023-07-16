@@ -496,24 +496,28 @@ module.exports = {
             ],
           },
           {
-            title: "Methodology Strategies",
-            path: "/pmp/methodology-strategies/",
+            title: "Situational Strategies",
+            path: "/pmp/situational-strategies/",
             children: [
               {
+                title: "Methodology Strategies",
+                path: "/pmp/situational-strategies/methodology-strategies/",
+              },
+              {
                 title: "Planning Strategies",
-                path: "/pmp/methodology-strategies/planning-strategies/",
+                path: "/pmp/situational-strategies/planning-strategies/",
               },
               {
                 title: "Requirements Strategies",
-                path: "/pmp/methodology-strategies/requirements-strategies/",
+                path: "/pmp/situational-strategies/requirements-strategies/",
               },
               {
                 title: "Stakeholder Strategies",
-                path: "/pmp/methodology-strategies/stakeholder-strategies/",
+                path: "/pmp/situational-strategies/stakeholder-strategies/",
               },
               {
                 title: "Risk Strategies",
-                path: "/pmp/methodology-strategies/risk-strategies/",
+                path: "/pmp/situational-strategies/risk-strategies/",
               },
             ],
           },

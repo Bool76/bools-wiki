@@ -93,6 +93,8 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Late Finish                                            | Planning -> Schedule                                             |                                                               |
 | Late Start                                             | Planning -> Schedule                                             |                                                               |
 | Leads                                                  | Planning -> Schedule                                             |                                                               |
+| Minimal Marketable Feature                             | Planning -> Requirement                                          |                                                               |
+| Minimal Viable Project                                 | Planning -> Requirements                                         |
 | Monte Carlo Method                                     | Execute -> Risk                                                  |                                                               |
 | Net Present Value                                      | Grow -> Benefits+Value                                           |                                                               |
 | Opportunity Cost                                       | Grow -> Benefits+Value                                           |                                                               |
