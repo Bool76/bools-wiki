@@ -4,7 +4,7 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 <br><br>
 
-## Plans + Documents + Tools
+### Plans + Documents + Tools
 
 | Plans                        |
 | ---------------------------- |
@@ -15,6 +15,8 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 | Documents                       |
 | ------------------------------- |
+| Milestone Chart                 |
+| Project Scope Statement         |
 | Requirements Tracability Matrix |
 | WBS                             |
 | WBS Dictionary                  |
@@ -33,7 +35,15 @@ Summary - This is section will cover the Risk part of the Execute phase
 
 <br><br>
 
-## Tool Breakdown
+### Requirements Gathering | High Level Steps
+
+Project Scope Statement -> Work Breakdown Structure -> Work Packages -> Activitities List
+
+> :memo: **Note:** All of these together make the Scope Baseline
+
+<br><br>
+
+### Tool Breakdown
 
 #### Affinity Diagram
 

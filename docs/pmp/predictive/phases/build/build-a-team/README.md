@@ -22,6 +22,7 @@ Overview - tbd
 
 | Tools                                                |
 | ---------------------------------------------------- |
+| Dreyfus Model of Skill Acquisition                   |
 | Kick Off Meeting                                     |
 | Project Communcation Requirements Analysis Worksheet |
 | Power Interest Grid                                  |
@@ -29,6 +30,7 @@ Overview - tbd
 | Responsibility Assignment Matrix                     |
 | Salience Model                                       |
 | Stakeholder Cube                                     |
+| SWOT Analysis                                        |
 | Training Gap Anaylsis                                |
 
 <br><br>

@@ -352,6 +352,10 @@ module.exports = {
                 path: "/pmp/predictive/phases/",
                 children: [
                   {
+                    title: "Initalize",
+                    path: "/pmp/predictive/phases/initalize/",
+                  },
+                  {
                     title: "Build",
                     path: "/pmp/predictive/phases/planning/",
                     children: [

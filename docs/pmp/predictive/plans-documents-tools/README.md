@@ -42,6 +42,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Change Request Form              | Execute -> Change                                    |
 | Issue Log                        | Execute -> Issues                                    |
 | Lessons Learned                  |                                                      |
+| Milestone Chart                  | Planning -> Requirements                             |
 | Organizational Process Assets    | Close -> Close Project Steps                         |
 | Procurement Statement of Work    | Planning -> Procurement                              |
 | Product Road Map                 | Planning (?)                                         |
@@ -78,6 +79,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Control Chart                                          | Planning -> Quality                                              |                                                               |
 | Design for X                                           | Planning -> Quality                                              |                                                               |
 | Directions of Influence                                | Execute -> Communication<br> Execute -> Stakeholder              |                                                               |
+| Dreyfus Model of Skill Acquisition                     | Building -> Team<br>Monitor -> Team Performance                  |                                                               |
 | Duration                                               | Planning -> Schedule                                             |                                                               |
 | Early Finish                                           | Planning -> Schedule                                             |                                                               |
 | Early Start                                            | Planning -> Schedule                                             |                                                               |

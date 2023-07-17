@@ -4,6 +4,18 @@ Summary - How are stakeholders in Agile managed or heard throughout the project?
 
 <br>
 
+## Generic Stakeholder Strategies
+
+<br>
+
+#### Stakeholders want frequent updates on project progress
+
+Options:
+
+1. Information Radiator - Monitors displays Sprint Board
+
+<br><br>
+
 ## Agile Stakeholder Strategies
 
 <br>
