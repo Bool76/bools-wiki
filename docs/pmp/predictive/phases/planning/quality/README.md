@@ -48,12 +48,31 @@ Overview - tbd
 
 Summary - Cost of doing something right or wrong
 
-1. External Failure Costs
-2. Internal Failure Costs
-3. Preventive
-4. Appraisal
-5. Cost of Conformance
-6. Cost of Non-Conformance
+<br>
+
+**External Failure Costs**
+
+<br>
+
+**Internal Failure Costs**
+
+<br>
+
+**Preventive Cost**  
+_e.g. Team training_
+
+<br>
+
+**Appraisal Cost** - The testing phase of a product before being released  
+Keywords: Inspection
+
+<br>
+
+**Cost of Conformance**
+
+<br>
+
+**Cost of Non-Conformance**
 
 <br><br>
 
