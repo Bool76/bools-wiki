@@ -1,6 +1,6 @@
 # Team Strategies
 
-<br>
+<br><br>
 
 ## Predictive Team Strategies
 

@@ -2,7 +2,7 @@
 
 Summary - How are stakeholders in Agile managed or heard throughout the project?
 
-<br>
+<br><br>
 
 ## Generic Stakeholder Strategies
 
@@ -14,7 +14,7 @@ Options:
 
 1. Information Radiator - Monitors displays Sprint Board
 
-<br><br>
+<br><br><br>
 
 ## Agile Stakeholder Strategies
 
@@ -39,7 +39,7 @@ Actions:
    1. Project Charter
    1. Product Scope Statement
 
-<br><br>
+<br><br><br>
 
 ## Predictive Stakeholder Strategies
 
