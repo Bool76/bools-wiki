@@ -512,12 +512,20 @@ module.exports = {
                 path: "/pmp/situational-strategies/requirements-strategies/",
               },
               {
+                title: "Team Strategies",
+                path: "/pmp/situational-strategies/team-strategies/",
+              },
+              {
                 title: "Stakeholder Strategies",
                 path: "/pmp/situational-strategies/stakeholder-strategies/",
               },
               {
                 title: "Risk Strategies",
                 path: "/pmp/situational-strategies/risk-strategies/",
+              },
+              {
+                title: "Quality Strategies",
+                path: "/pmp/situational-strategies/quality-strategies/",
               },
             ],
           },

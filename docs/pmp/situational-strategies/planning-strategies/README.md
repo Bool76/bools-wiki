@@ -1,6 +1,6 @@
 # Planning Strategies
 
-<br>
+<br><br>
 
 ## Agile Planning Strategies
 

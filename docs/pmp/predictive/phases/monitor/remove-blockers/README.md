@@ -30,9 +30,10 @@ Overview - Throughout the project you'll need to monitor anything getting in the
 ### Key Terms
 
 **Blockers** - A conditional which completely stops work  
-
+_e.g. Health Inspector does an audit and determines you kitchen is unhealthy to cook in_
 
 **Impedments** - Something which slows down or hinders progress  
+_e.g. You want a vendor to start work ASAP. however the procurement process indicates that contracts must be assess and signed first_
 
-
-**Obstacles** - Barriors that w/ some effort they can be avoided
+**Obstacles** - Barriors that w/ some effort they can be avoided  
+_e.g. Material supplier can't supply needed raw materials so you must try to find an alterantive material supplier_

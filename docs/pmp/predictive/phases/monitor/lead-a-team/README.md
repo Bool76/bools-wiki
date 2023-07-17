@@ -10,6 +10,12 @@ _None are identified at this time_
 
 <br>
 
+### Most Important Leadership Quality
+
+TRUST!
+
+<br>
+
 ### Types of Leadership
 
 1. Laissez Faire

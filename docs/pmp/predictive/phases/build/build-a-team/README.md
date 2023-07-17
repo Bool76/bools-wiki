@@ -8,7 +8,8 @@ Overview - tbd
 
 | Plans                             |
 | --------------------------------- |
-| Stakeholder Management Plan (2nd) |
+| Communication Magement Plan (2nd) |
+| Stakeholder Engagement Plan (2nd) |
 
 <br>
 
@@ -19,18 +20,40 @@ Overview - tbd
 
 <br>
 
-| Tools                            |
-| -------------------------------- |
-| Power Interest Grid              |
-| RACI Chart                       |
-| Responsibility Assignment Matrix |
-| Salience Model                   |
-| Stakeholder Cube                 |
-| Training Gap Anaylsis            |
+| Tools                                                |
+| ---------------------------------------------------- |
+| Kick Off Meeting                                     |
+| Project Communcation Requirements Analysis Worksheet |
+| Power Interest Grid                                  |
+| RACI Chart                                           |
+| Responsibility Assignment Matrix                     |
+| Salience Model                                       |
+| Stakeholder Cube                                     |
+| Training Gap Anaylsis                                |
 
 <br><br>
 
 ### Tool Breakdown
+
+#### Team Charter
+
+What items are identified the Team Charter:
+
+- Roles + Responsibilities
+- Team Values
+- Meeting Guidelines
+- Ground Rules
+- Measures for conflict resolution
+- Start _Communication Management Plan_
+- Start _Stakeholder Register_
+
+Who creates the _Team Charter_?  
+The entire team should have a part in creating it so there is buy in
+
+When can the _Team Charter_ get created?  
+During the _Kick Off Meeting_
+
+<br>
 
 #### RACI Chart
 

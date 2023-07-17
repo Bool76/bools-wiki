@@ -17,7 +17,15 @@ Summary - How are stakeholders in Agile managed or heard throughout the project?
 
 <br>
 
-#### How to get Agile Stakeholders involved
+#### Stakeholders / Team don't understand role and purpose of project
+
+Actions:
+
+1. Conduct a **Kick Off Meeting** to go over:
+   1. Team roles
+   1. Team responsibilities
+   1. Project Charter
+   1. Product Scope Statement
 
 <br><br>
 
@@ -40,3 +48,17 @@ Actions:
 
 1. Update Stakeholder Register w/ new stakeholder
 1. Update Communcations Management Plan w/ new communication requestes
+
+<br>
+
+#### Stakeholders / Team don't understand role and purpose of project
+
+Actions:
+
+1. Conduct a **Kick Off Meeting** to go over:
+   1. Team roles
+   1. Team responsibilities
+   1. Project Charter
+   1. Product Scope Statement
+1. For responsibilities: Refer to **RACI Chart** (or Responsibility Assignment Matrix)
+1. For updated communication requests: Update **Communication Management Plan**
