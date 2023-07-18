@@ -73,6 +73,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Analogous (Estimates)                                  | Planning -> Schedule                                             |                                                               |
 | Attribute Sampling                                     | Planning -> Quality<br>Planning -> Compliance                    |                                                               |
 | Benchmarking                                           | Planning -> Quality<br>Planning -> Requirements                  |                                                               |
+| Bidders Conference                                     | Planning -> Procurement                                          |                                                               |
 | Bottom Up (Estimates)                                  | Planning -> Schedule                                             |                                                               |
 | Bubble Chart                                           | Execute -> Risk                                                  |                                                               |
 | Context Diagram                                        | Planning -> Requirements(?)                                      |                                                               |
