@@ -22,10 +22,11 @@ Overview - To start the budgetary process it's a good idea to estimate what the 
 
 | Tools                                         |
 | --------------------------------------------- |
-| Estimate Type: Analgous                       |
-| Estimate Type: Parametric                     |
-| Estimate Type: 3 Point                        |
-| Estimate Type: Bottom Up                      |
+| Estimating Type: Analgous                     |
+| Estimating Type: Parametric                   |
+| Estimating Type: 3 Point                      |
+| Estimating Type: Bottom Up                    |
+| Estimating Type: Expert Judgement             |
 | Decision Making: Autocratic Decision Making   |
 | Decision Making: Voting                       |
 | Decision Making: Multicriteria Analysis       |

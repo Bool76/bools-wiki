@@ -9,6 +9,7 @@ Overview - Closing the project is the last step of managing a project. Here are 
 | Plans                             |
 | --------------------------------- |
 | Project Management Plan (2nd)     |
+| Scope Management Plan             |
 | Resource Management Plan (2nd)    |
 | Procurement Management Plan (2nd) |
 | Cost Management Plan (2nd)        |
@@ -18,13 +19,15 @@ Overview - Closing the project is the last step of managing a project. Here are 
 | Documents                     |
 | ----------------------------- |
 | Project Charter               |
+| Project Scope Statement       |
 | Organizational Process Assets |
 
 <br>
 
-| Tools |
-| ----- |
-| tbd   |
+| Tools                                        |
+| -------------------------------------------- |
+| Lessons Learned Register                     |
+| Project Management Information System (PMIS) |
 
 <br/>
 

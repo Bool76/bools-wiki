@@ -382,8 +382,8 @@ module.exports = {
                         path: "/pmp/predictive/phases/planning/cost-management/",
                       },
                       {
-                        title: "Estimate Costs",
-                        path: "/pmp/predictive/phases/planning/estimate-costs/",
+                        title: "Cost Estimates",
+                        path: "/pmp/predictive/phases/planning/cost-estimates/",
                       },
                       {
                         title: "Determine Budget",
