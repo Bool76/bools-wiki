@@ -36,6 +36,14 @@ Overview - To start the budgetary process it's a good idea to estimate what the 
 
 <br><br>
 
+### Best Type of Estimates
+
+1. Bottom Up - You start grandular and work your way up. It's more accurate. Takes more time. More expensive.
+
+1. Expert Judgement - Use the knowledge base of others to build an estimate
+
+<br>
+
 ### Range type Estimates
 
 **Rough Order of Magnitude** - Done at the beginning of the project. Has a range of: -25% <-> +75%

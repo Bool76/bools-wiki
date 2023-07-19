@@ -20,12 +20,16 @@ Options:
 
 <br>
 
-#### How to get Agile Stakeholders involved
+#### Stakeholder(s) not engaged in the project
 
-1. Being a part of the _Sprint Review_
-1. Being a part of _Sprint Planning_
-1. Providing feedback during the _Sprint Review_
-1. Helping to identify what should be worked on next
+Actions:
+
+1. Increase release of small features to show progress and value
+1. Include in Sprint Reviews
+1. Share Burndown chart
+1. Share Burn Up chart
+1. Information Radiators
+1. Share Project Vision (e.g. Might have to have a meeting where you share the Project Vision)
 
 <br>
 
@@ -33,6 +37,8 @@ Options:
 
 Actions:
 
+1. Review Project Vision
+1. Work w/ Stakeholders and the Product Owner
 1. Conduct a **Kick Off Meeting** to go over:
    1. Team roles
    1. Team responsibilities

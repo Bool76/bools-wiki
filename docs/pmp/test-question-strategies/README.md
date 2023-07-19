@@ -40,9 +40,11 @@ Setup -> Problem -> Question
 
 ### Common Best Practice Answers
 
-1. Proactive / Taking Action
-1. Taking responsibility
-1. Finding root cause
+1. Assess, understand, or refer to a plan before taking action
+1. No action without following a plan or creating a plan
+1. Find root cause or assess
+1. Take responsibility and don't pawn off to another person
+1. Always Collaborate with everyone
 1. Do the right thing (tattle tail)
 
 <br><br>
