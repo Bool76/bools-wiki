@@ -9,18 +9,20 @@ Summary - This is section will cover the Risk part of the Execute phase
 | Plans                        |
 | ---------------------------- |
 | Requirements Management Plan |
-| Scope Management Plan (2nd)  |
+| Scope Management Plan        |
 
 <br>
 
 | Documents                       |
 | ------------------------------- |
+| Assuptions Log                  |
 | Milestone Chart                 |
 | Project Scope Statement         |
 | Requirements Tracability Matrix |
 | WBS                             |
 | WBS Dictionary                  |
 | Activities List                 |
+| Risk Register                   |
 
 <br>
 
@@ -32,6 +34,7 @@ Summary - This is section will cover the Risk part of the Execute phase
 | Interviews                |
 | Surveys and Questionnaire |
 | Benchmarking              |
+| Work Packages             |
 
 <br><br>
 
@@ -40,6 +43,28 @@ Summary - This is section will cover the Risk part of the Execute phase
 Project Scope Statement -> Work Breakdown Structure -> Work Packages -> Activitities List
 
 > :memo: **Note:** All of these together make the Scope Baseline
+
+<br><br>
+
+### Document Breakdown
+
+#### Project Scope Statement
+
+What's included:
+
+- Project description
+- Major deliverables
+- Assumptions
+- Acceptance criteria / Definition of Done
+- Exclusions / Constraints
+- What's in Scope
+- What's out of Scope
+
+> :memo: **Note:** In Agile - through _progressive elaboration_ the Project Scope Statement can change some as the scope becomes clearer
+
+> :memo: **Note:** In the Closing Phase - This document could be used to validate deliverables
+
+<br>
 
 <br><br>
 

@@ -67,13 +67,14 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 
 | Type                                                   | Phase -> Section                                                 | Notes                                                         |
 | ------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------- |
-| 3 Point (Estimates)                                    | Planning -> Schedule                                             |                                                               |
+| 3 Point (Estimates)                                    | Planning -> Schedule<br>Planning -> Cost Estimates               |                                                               |
 | 80 / 20                                                | Planning -> Quality                                              |                                                               |
 | Affinity Diagram                                       | Planning -> Requirements(?)                                      |                                                               |
-| Analogous (Estimates)                                  | Planning -> Schedule                                             |                                                               |
+| Analogous (Estimates)                                  | Planning -> Schedule<br>Planning -> Cost Estimates               |                                                               |
 | Attribute Sampling                                     | Planning -> Quality<br>Planning -> Compliance                    |                                                               |
 | Benchmarking                                           | Planning -> Quality<br>Planning -> Requirements                  |                                                               |
-| Bottom Up (Estimates)                                  | Planning -> Schedule                                             |                                                               |
+| Bidders Conference                                     | Planning -> Procurement                                          |                                                               |
+| Bottom Up (Estimates)                                  | Planning -> Schedule<br>Planning -> Cost Estimates               |                                                               |
 | Bubble Chart                                           | Execute -> Risk                                                  |                                                               |
 | Context Diagram                                        | Planning -> Requirements(?)                                      |                                                               |
 | Control Chart                                          | Planning -> Quality                                              |                                                               |
@@ -85,7 +86,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Early Start                                            | Planning -> Schedule                                             |                                                               |
 | Earned Value Analysis                                  | Planning -> Control Costs<br>Planning -> Earned Value Management |                                                               |
 | Expected Monetary Value                                | Execute -> Risk                                                  |                                                               |
-| Expert Judgement (Estimates)                           | Planning -> Schedule                                             |                                                               |
+| Expert Judgement (Estimates)                           | Planning -> Schedule<br>Planning -> Cost Estimates               |                                                               |
 | Fishbone                                               | Planning -> Quality                                              | Also known as _Ishikawa Diagram_ or Cause + Affect            |
 | Free Float                                             | Planning -> Schedule                                             |                                                               |
 | Histogram                                              | Planning -> Quality                                              |                                                               |
@@ -100,7 +101,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Monte Carlo Method                                     | Execute -> Risk                                                  |                                                               |
 | Net Present Value                                      | Grow -> Benefits+Value                                           |                                                               |
 | Opportunity Cost                                       | Grow -> Benefits+Value                                           |                                                               |
-| Parametric (Estimating)                                | Planning -> Schedule                                             |                                                               |
+| Parametric (Estimating)                                | Planning -> Schedule<br>Planning -> Cost Estimates               |                                                               |
 | Pareto Chart                                           | Planning -> Quality                                              | Histogram type that displays most common defects (aka: 80/20) |
 | Precedence Diagramming Method                          | Planning -> Schedule                                             |                                                               |
 | Project Communications Requirements Analysis Worksheet | Execute -> Communications                                        |                                                               |

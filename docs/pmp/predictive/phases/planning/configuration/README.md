@@ -1,7 +1,5 @@
 # Planning | Configuration Management
 
-Overview -
-
 <br>
 
 ### Plans + Documents + Tools
@@ -24,11 +22,23 @@ Overview -
 
 <br><br>
 
-### Brainstorm
+### What is Configuration Management?
 
-Configuration management knowledge base  
-Baselines  
-Organizational Standards  
-Policies  
-Procedures  
-Templates?
+The plan identifies items that you want more control over if / when / how they are changed and that they require a formal change control. Topics normally refers to items that have "baselines"
+
+The plan can identify which project documents will need formal change control
+
+Though... the change process that needs to be followed would be in the **Change Management Plan**
+
+<br>
+
+**Examples of Configuration Topics**
+
+- Scope
+- Schedule
+- Cost / Budget
+
+<br>
+
+**Why again do you do this?**  
+At a point in the project you might want to lock in place Scope or the Budget. Therefore making it a formal process to change those items.

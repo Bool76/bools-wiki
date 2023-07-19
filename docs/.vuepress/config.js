@@ -382,8 +382,8 @@ module.exports = {
                         path: "/pmp/predictive/phases/planning/cost-management/",
                       },
                       {
-                        title: "Estimate Costs",
-                        path: "/pmp/predictive/phases/planning/estimate-costs/",
+                        title: "Cost Estimates",
+                        path: "/pmp/predictive/phases/planning/cost-estimates/",
                       },
                       {
                         title: "Determine Budget",
@@ -480,12 +480,6 @@ module.exports = {
                   {
                     title: "Close the Project",
                     path: "/pmp/predictive/phases/close/",
-                    children: [
-                      {
-                        title: "Close Project Steps",
-                        path: "/pmp/predictive/phases/close/close-project/",
-                      },
-                    ],
                   },
                 ],
               },
@@ -530,6 +524,10 @@ module.exports = {
               {
                 title: "Quality Strategies",
                 path: "/pmp/situational-strategies/quality-strategies/",
+              },
+              {
+                title: "Close Project Strategies",
+                path: "/pmp/situational-strategies/close-project-strategies/",
               },
             ],
           },

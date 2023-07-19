@@ -45,6 +45,14 @@ Summary - tbd
 
 <br>
 
+### Best Type of Estimates
+
+1. Bottom Up - You start grandular and work your way up. It's more accurate. Takes more time. More expensive.
+
+1. Expert Judgement - Use the knowledge base of others to build an estimate
+
+<br>
+
 ### Calculations
 
 #### Estimates | 3 Point

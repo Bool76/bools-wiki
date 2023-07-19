@@ -11,12 +11,13 @@
 
 <br>
 
-| Documents                |
-| ------------------------ |
-| Project Charter          |
-| Project Scope Statement  |
-| Project Vision Statement |
-| Team Charter (2nd)       |
+| Documents                     |
+| ----------------------------- |
+| Assuptions Log                |
+| Project Charter               |
+| Project Scope Statement (2nd) |
+| Project Vision Statement      |
+| Team Charter (2nd)            |
 
 <br>
 
@@ -32,7 +33,7 @@
 
 ### Project Starts | High Level Steps
 
-Business Case -> Project Vision Statement -> Project Charter -> Project Scope Statement -> _Select Methodology_ -> Build a Team -> Kick Off Meeting
+Business Case -> Project Vision Statement -> _Select Methodology_ -> Project Charter -> Project is Approved to Start -> Project Scope Statement is started -> Build a Team -> Kick Off Meeting
 
 <br><br>
 
@@ -40,27 +41,27 @@ Business Case -> Project Vision Statement -> Project Charter -> Project Scope St
 
 <br>
 
-#### Project Scope Statement
+#### Project Charter
 
-What's included:
+Purpose: Formally authorizes the start the project! Project Sponser starts this doc.
 
-- Project description
-- Acceptance criteria
-- Exclusions
-- Deliverables
+What's included / what does it do:
+
+- Formally starts project
+- Gives Business Case
+- Project objectives (high level)
+- Identifies Project Manager
+- Identifies power of Project Manager
+- Authorizes organization resources (people) to the project
+- Authorizes funding
 
 <br>
 
-#### Project Charter
+#### Project Scope Statement
 
-Purpose: Start the project! Project Sponser starts this doc.
+This document MIGHT start during this phase. Maybe the broad strokes. But really it should get hashed out in the Requirement section
 
-What's included:
-
-- Project objectives
-- Identifies Project Manager
-- Identifies power of Project Manager
-- ???
+Look to Planning | Requirements for details!
 
 <br><br>
 
@@ -78,3 +79,18 @@ Other Items Include:
 - Document templates
 - Plans to use
 - Processes to follow
+
+<br><br>
+
+### Miscellaneous Notes
+
+#### Notes on Project Sponsor
+
+They typically have the following responsibilities:
+
+1. Create the Project Charter
+1. Responsible for setting up finances for project resources
+1. Sign Off on the Project Charter
+1. In Closing Phase - Have final signoff that project deliverables were met
+
+<br>
