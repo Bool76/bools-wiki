@@ -46,6 +46,7 @@ Setup -> Problem -> Question
 1. Take responsibility and don't pawn off to another person
 1. Always Collaborate with everyone
 1. Do the right thing (tattle tail)
+1. Just because an answer is a correct statement - Does it solve the problem?
 
 <br><br>
 
