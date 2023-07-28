@@ -292,6 +292,10 @@ module.exports = {
             path: "/markdown/escape-html-tag/",
           },
           {
+            title: "Hyperlink",
+            path: "/markdown/hyperlink/",
+          },
+          {
             title: "Insert Image",
             path: "/markdown/insert-image/",
           },
@@ -674,12 +678,24 @@ module.exports = {
             path: "/vscode/debugging/",
           },
           {
-            title: "Shortcuts",
-            path: "/vscode/shortcuts/",
+            title: "Eslint + Prettier",
+            path: "/vscode/eslint-prettier/",
+          },
+          {
+            title: "Eslint",
+            path: "/vscode/eslint/",
           },
           {
             title: "Merge Conflicts",
             path: "/vscode/merge-conflicts/",
+          },
+          {
+            title: "Prettier",
+            path: "/vscode/prettier/",
+          },
+          {
+            title: "Shortcuts",
+            path: "/vscode/shortcuts/",
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
