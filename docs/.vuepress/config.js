@@ -190,6 +190,16 @@ module.exports = {
         path: "/frontend-development/",
         children: [
           {
+            title: "Accessibility",
+            path: "/frontend-development/accessibility/",
+            children: [
+              {
+                title: "For Attribute",
+                path: "/frontend-development/accessibility/for-attribute/",
+              }
+            ]
+          },
+          {
             title: "Block Elements",
             path: "/frontend-development/block-elements/",
           },
@@ -636,8 +646,8 @@ module.exports = {
             initialOpenGroupIndex: -1,
             children: [
               {
-                title: "Code Changes",
-                path: "/sram-dev/sram-ui/code-changes/",
+                title: "Display Code Changes",
+                path: "/sram-dev/sram-ui/display-code-changes/",
               },
               {
                 title: "Frontend Pipeline",
