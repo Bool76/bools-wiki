@@ -190,6 +190,16 @@ module.exports = {
         path: "/frontend-development/",
         children: [
           {
+            title: "Accessibility",
+            path: "/frontend-development/accessibility/",
+            children: [
+              {
+                title: "For Attribute",
+                path: "/frontend-development/accessibility/for-attribute/",
+              }
+            ]
+          },
+          {
             title: "Block Elements",
             path: "/frontend-development/block-elements/",
           },
@@ -290,6 +300,10 @@ module.exports = {
           {
             title: "Escape HTML tag",
             path: "/markdown/escape-html-tag/",
+          },
+          {
+            title: "Hyperlink",
+            path: "/markdown/hyperlink/",
           },
           {
             title: "Insert Image",
@@ -632,8 +646,8 @@ module.exports = {
             initialOpenGroupIndex: -1,
             children: [
               {
-                title: "Code Changes",
-                path: "/sram-dev/sram-ui/code-changes/",
+                title: "Display Code Changes",
+                path: "/sram-dev/sram-ui/display-code-changes/",
               },
               {
                 title: "Frontend Pipeline",
@@ -674,12 +688,24 @@ module.exports = {
             path: "/vscode/debugging/",
           },
           {
-            title: "Shortcuts",
-            path: "/vscode/shortcuts/",
+            title: "Eslint + Prettier",
+            path: "/vscode/eslint-prettier/",
+          },
+          {
+            title: "Eslint",
+            path: "/vscode/eslint/",
           },
           {
             title: "Merge Conflicts",
             path: "/vscode/merge-conflicts/",
+          },
+          {
+            title: "Prettier",
+            path: "/vscode/prettier/",
+          },
+          {
+            title: "Shortcuts",
+            path: "/vscode/shortcuts/",
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup

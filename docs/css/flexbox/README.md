@@ -25,7 +25,7 @@ Better for one dimensional applications. If you want something to work with more
 display: flex;
 ```
 
-1. All of the items in the main Flexbox container will become "flex items"
+3. All of the items in the main Flexbox container will become "flex items"
 
 <br/>
 

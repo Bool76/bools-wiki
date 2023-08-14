@@ -1,4 +1,4 @@
-# Sram-ui | Code Changes
+# Sram-ui | Display Code Changes
 
 Summary - Locally how do you see your code changes when you enact changes for the following files:
 - Component Index File 
