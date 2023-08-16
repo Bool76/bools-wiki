@@ -211,6 +211,10 @@ module.exports = {
         path: "/git/",
         children: [
           {
+            title: "Add Git",
+            path: "/git/add-git/",
+          },
+          {
             title: "Clone Repo | Specific Branch",
             path: "/git/clone-repo-specific-branch/",
           },
@@ -308,6 +312,10 @@ module.exports = {
           {
             title: "Insert Image",
             path: "/markdown/insert-image/",
+          },
+          {
+            title: "Warning + Notes Message",
+            path: "/markdown/warning-and-notes/",
           },
         ],
       },

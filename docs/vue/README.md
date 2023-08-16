@@ -39,3 +39,12 @@ vue create <project-name>
 3. **Vite**  
 ```
 npm init vite-app <project-name>
+```
+
+<br><br>    
+
+### Start / Launch Project
+
+```
+npm run serve
+```
