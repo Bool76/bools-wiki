@@ -173,6 +173,10 @@ module.exports = {
                 title: "Margin Left + Right",
                 path: "/css/flexbox/margin-left-right/",
               },
+              {
+                title: "Single Row",
+                path: "/css/flexbox/flex-single-row/",
+              },
             ],
           },
           {
