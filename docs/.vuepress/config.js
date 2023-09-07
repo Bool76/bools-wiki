@@ -166,6 +166,10 @@ module.exports = {
             path: "/css/flexbox/",
             children: [
               {
+                title: "Flex Direction",
+                path: "/css/flexbox/flex-direction/",
+              },
+              {
                 title: "Flex Grow",
                 path: "/css/flexbox/flex-grow/",
               },
