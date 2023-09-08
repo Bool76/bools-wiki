@@ -302,8 +302,8 @@ module.exports = {
         path: "/music/",
         children: [
           {
-            title: "Voice",
-            path: "/music/voice/",
+            title: "Vocal Range",
+            path: "/music/vocal-range/",
           },
         ],
       },
