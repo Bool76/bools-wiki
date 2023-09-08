@@ -298,6 +298,16 @@ module.exports = {
         ],
       },
       {
+        title: "Music",
+        path: "/music/",
+        children: [
+          {
+            title: "Voice",
+            path: "/music/voice/",
+          },
+        ],
+      },
+      {
         title: "PMP",
         path: "/pmp/",
         children: [
