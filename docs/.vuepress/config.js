@@ -328,6 +328,16 @@ module.exports = {
         ],
       },
       {
+        title: "Music",
+        path: "/music/",
+        children: [
+          {
+            title: "Vocal Range",
+            path: "/music/vocal-range/",
+          },
+        ],
+      },
+      {
         title: "PMP",
         path: "/pmp/",
         children: [
