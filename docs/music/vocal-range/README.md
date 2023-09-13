@@ -1,4 +1,4 @@
-# Music | Voical Range
+# Music | Vocal Range
 
 Summary - tbd
 
