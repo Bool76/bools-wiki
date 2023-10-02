@@ -89,14 +89,31 @@ video {
 
 <br>
 
-Default look of sample video (alone):  
+#### Scenario 1: Default look of sample video (alone):  
    ![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_default-view.png)
+
+   *Breakdown*
+   - Video's default width and height are used since nothing is overriding it
+   - Video's default aspect ratio is used since nothing is overriding it 
+
 
 <br>
 
-Default look of sample video w/ a div next to it  
+#### Scenario 2: Default look of sample video w/ a div next to it  
 ![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_default-view-w-div.png)
 
+*Breakdown*
+- Video is an inline element by default
+- Since Video is an inline element the content `div` is placed right next to it (NOTE: The `div`'s display type was changed to inline)
+
+<br>
+
+#### Scenario 3: Video width set to 100% (alone)  
+![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_width-100-percent.png)
+
+*Breakdown*
+- Video expands the entire width of the page
+- Aspect ratio is kept (would have to scroll down to see the bottom of the video cause it's so big)
 
 #### Breakdown
 
