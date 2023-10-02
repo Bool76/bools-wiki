@@ -772,6 +772,16 @@ module.exports = {
           },
         ],
       },
+      {
+        title: "VuePress",
+        path: "/vue-press/",
+        children: [
+          {
+            title: "VuePress Styling",
+            path: "/vue-press/vue-press-styling/"
+          }
+        ]
+      }
     ],
   },
 

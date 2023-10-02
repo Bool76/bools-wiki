@@ -86,7 +86,17 @@ video {
     1. Width and height in the viewport is defined by the video being embedded.
 1. By 
 
+
 <br>
+
+Default look of sample video (alone):  
+   ![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_default-view.png)
+
+<br>
+
+Default look of sample video w/ a div next to it  
+![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_default-view-w-div.png)
+
 
 #### Breakdown
 
