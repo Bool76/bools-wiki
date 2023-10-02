@@ -208,8 +208,26 @@ module.exports = {
             ]
           },
           {
-            title: "Block Elements",
-            path: "/frontend-development/block-elements/",
+            title: "Aspect Ratio",
+            path: "/frontend-development/aspect-ratio/",
+          },
+          {
+            title: "HTML",
+            path: "/frontend-development/html/",
+            children: [
+              {
+                title: "Block Elements",
+                path: "/frontend-development/html/block-elements/",
+              },
+              {
+                title: "Video Element",
+                path: "/frontend-development/html/video-element/",
+              },
+            ]
+          },
+          {
+            title: "Tailwind",
+            path: "/frontend-development/tailwind/"
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup

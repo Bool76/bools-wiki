@@ -1,6 +1,6 @@
 # Block Elements
 
-Summary - One possible value for the "display" attribute for page element's is BLOCK
+Summary - One possible value for the "display" attribute for page element's is BLOCK. There are some page elements with the default display value of BLOCK.
 
 ```
 display: block
