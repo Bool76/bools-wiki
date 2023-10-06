@@ -1,5 +1,7 @@
 # HTML | Video Tag
 
+**Overview** - How to work with the Video element and some basic rules to understand
+
 **Example**
 
 ```
@@ -40,37 +42,35 @@ Summary - Self closing tag that's needed to point to the video that you want loa
 <br><br>
 
 ### Real World Challenge to Solve
-Problem - I want a video to span the entire container's width but have a set height
+**Problem** - I want a video to span the entire container's width but have a set height and keep the video's original aspect ratio.  However this is impossible with how the video in the `video` element works
 
-The video will maintain it's original aspect ratio
+**Solution** 
+1. Create a parent `div` for the `video` element to go inside of
+1. Set a specific height on the parent `div`
+1. Set the `overflow` attribute in the parent `div` to `hidden` 
 
-*Solution*  
 
+**What's the problem?**  
+With this solution you won't see all of the video. The top and the bottom of the video can get cut off. You could try to set some sort of `display: fixed` on the video element and then adjust the positioning up or down. 
+
+<br>
+
+*Example*
 ```
 #video-bg {
-  position: relative;
-  width: auto;
-  min-width: 100%;
-  height: auto;
-  background: transparent url(video-bg.jpg) no-repeat;
-  background-size: cover;
-}
-video {
-  display: block;
-}
-.video-container {
   width: 100%;
-  max-height: 600px;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
   right: 0;
-  z-index: -100;
+}
+
+.video-container {
+  border: 1px solid red;
+  height: 500px;
+  overflow: hidden;
 }
 
 <div class="video-container">
   <video autoplay loop muted id="video-bg">
-    <source src="http://www.sram.com/contentassets/e0d83a01114b46ee8111e3af132965b1/banner.mp4" type="video/mp4" />
+    <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4" /> />
   </video>
 </div>
 ```
@@ -84,7 +84,9 @@ video {
     1. Has a `display` value of `inline`
     1. Will honor the aspect ratio of the source video
     1. Width and height in the viewport is defined by the video being embedded.
-1. By 
+1. `video-container` is the parent div that we needed for the `video` element to be placed inside
+1. `video-container` is given a set height of 500px
+1. `video-container` has the attribute `overflow: hidden` which will remove any content that extends outside of the div 
 
 
 <br>
@@ -115,13 +117,15 @@ video {
 - Video expands the entire width of the page
 - Aspect ratio is kept (would have to scroll down to see the bottom of the video cause it's so big)
 
-#### Breakdown
-
-`<div class="video-container">` === By default has a `display` value of block
-
-
 <br>
 
-#### Questions + Comments
+#### Scenario 4: Video width solution in place / parent div  
+![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_overflow-hidden.png)
 
-Q - Why set the container the video element is in as a position:fixed?
+*Breakdown*
+- In a parent `div` has been added
+- In the parent `div` the following items are set:
+  - Height is set to a specific px height
+  - `overflow: hidden` which hides any content that expands beyond the div
+- Though it's hard to see in the image, the video is there with a limited height so you don't see much
+- The arrows point to the top and bottom of the parent div
