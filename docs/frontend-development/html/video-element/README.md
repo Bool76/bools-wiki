@@ -41,6 +41,14 @@ Summary - Self closing tag that's needed to point to the video that you want loa
 
 <br><br>
 
+### Video Element Basics
+1. Has a `display` value of `inline`
+1. Will honor the aspect ratio of the source video
+1. Width and height in the viewport is defined by the video being embedded.
+1. If you set the `width` of the `video` element to 100% then the video will expand to the entire width but the height will also auto adjust to that the aspect ratio is honored
+
+<br><br>
+
 ### Real World Challenge to Solve
 **Problem** - I want a video to span the entire container's width but have a set height and keep the video's original aspect ratio.  However this is impossible with how the video in the `video` element works
 
