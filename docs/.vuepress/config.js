@@ -204,8 +204,8 @@ module.exports = {
               {
                 title: "For Attribute",
                 path: "/frontend-development/accessibility/for-attribute/",
-              }
-            ]
+              },
+            ],
           },
           {
             title: "Aspect Ratio",
@@ -223,11 +223,11 @@ module.exports = {
                 title: "Video Element",
                 path: "/frontend-development/html/video-element/",
               },
-            ]
+            ],
           },
           {
             title: "Tailwind",
-            path: "/frontend-development/tailwind/"
+            path: "/frontend-development/tailwind/",
           },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
@@ -352,6 +352,16 @@ module.exports = {
           {
             title: "Vocal Range",
             path: "/music/vocal-range/",
+          },
+        ],
+      },
+      {
+        title: "Project Management",
+        path: "/pm/",
+        children: [
+          {
+            title: "Project Management Journal",
+            path: "/pm/pm-journal/",
           },
         ],
       },
@@ -778,10 +788,10 @@ module.exports = {
         children: [
           {
             title: "VuePress Styling",
-            path: "/vue-press/vue-press-styling/"
-          }
-        ]
-      }
+            path: "/vue-press/vue-press-styling/",
+          },
+        ],
+      },
     ],
   },
 
