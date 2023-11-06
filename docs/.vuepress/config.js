@@ -362,6 +362,20 @@ module.exports = {
           {
             title: "Project Management Journal",
             path: "/pm/pm-journal/",
+            children: [
+              {
+                title: "pm-2023-11-06",
+                path: "/pm/pm-journal/pm-2023-11-06/",
+              },
+              {
+                title: "pm-2023-10-30",
+                path: "/pm/pm-journal/pm-2023-10-30/",
+              },
+              {
+                title: "pm-2023-10-26",
+                path: "/pm/pm-journal/pm-2023-10-26/",
+              },
+            ]
           },
         ],
       },
