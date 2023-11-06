@@ -229,6 +229,14 @@ module.exports = {
             title: "Tailwind",
             path: "/frontend-development/tailwind/",
           },
+          {
+            title: "Testing",
+            path: "/frontend-development/testing/",
+          },
+          {
+            title: "Typescript",
+            path: "/frontend-development/typescript/",
+          },
         ],
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
