@@ -80,7 +80,7 @@ Overview - 3 different estimate calculations that are based on the 3 variables:
 | Total Float (Slack) | Late Finish - Early Finish OR Late Start - Early Start   |
 | Free Float          | Successor /w smallest ES - Current ES - Current Duration |
 
-<br>
+<br><br>
 
 ### Key Concepts
 
@@ -94,3 +94,21 @@ Overview - 3 different estimate calculations that are based on the 3 variables:
 #### Critical Path
 
 #### Scheduling Changes - YOU NEED TO WORK ON THIS!
+
+
+<br><br>
+
+### Project Schedule Network Diagram
+
+#### Example: How to make Lasagna
+
+![Image from images folder](~@source/images/pmp/predictive/phases/planning/schedule/planning_schedule_project-Network-Diagram.png)
+
+**Breakdown**
+
+1. 3 work streams can start at once
+    1. Boil Noodles
+    1. Brown Meat
+    1. Mix cheese filling
+
+1. "Layer lasagna" can't start until "Drain Noodles", "Mix cheese filling", and "Add red sauce" is complete
