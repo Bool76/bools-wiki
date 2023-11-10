@@ -372,6 +372,10 @@ module.exports = {
             path: "/pm/pm-journal/",
             children: [
               {
+                title: "pm-2023-11-09",
+                path: "/pm/pm-journal/pm-2023-11-09/",
+              },
+              {
                 title: "pm-2023-11-06",
                 path: "/pm/pm-journal/pm-2023-11-06/",
               },
@@ -801,6 +805,10 @@ module.exports = {
           {
             title: "Ref() + Reactive()",
             path: "/vue/ref-n-reactive/",
+          },
+          {
+            title: "v-model",
+            path: "/vue/v-model/",
           },
         ],
       },
