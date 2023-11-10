@@ -332,6 +332,16 @@ module.exports = {
         ],
       },
       {
+        title: "Javascript",
+        path: "/javascript/",
+        children: [
+          {
+            title: "Basics",
+            path: "/javascript/basics/",
+          },
+        ],
+      },
+      {
         title: "Markdown",
         path: "/markdown/",
         children: [
@@ -805,6 +815,10 @@ module.exports = {
           {
             title: "Ref() + Reactive()",
             path: "/vue/ref-n-reactive/",
+          },
+          {
+            title: "variables",
+            path: "/vue/variables/",
           },
           {
             title: "v-model",
