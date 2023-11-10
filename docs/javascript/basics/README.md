@@ -20,7 +20,15 @@ When you see these know that you're seeing an array or a list
 <br><br>
 
 ### .Value
-Quite often you'll see a `.value` notation regarding a variable.  
+Quite often you'll see a `.value` notation regarding a variable. This is called a **property accessor**. What this means is that it allows you to gain access to an objects properties.   
+
+Another important concept here is the dot notation and it's relationship to a variable or an object. Maybe think of it like the standard notation of accessing an oject.    
+
+First you must identify the thing or variable you want to work with and then use the **property accessor** to indicate that you want to dive deeper into that object.
+
+<br>
+
+*Example*
 
 ```
 bikes.value = results
