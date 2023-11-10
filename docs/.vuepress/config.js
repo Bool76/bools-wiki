@@ -813,6 +813,10 @@ module.exports = {
             path: "/vue/custom-prop-inheritance/",
           },
           {
+            title: "Nuxt",
+            path: "/vue/nuxt/",
+          },
+          {
             title: "Ref() + Reactive()",
             path: "/vue/ref-n-reactive/",
           },
