@@ -143,12 +143,33 @@ v-model.trim
 1. Passing data from a parent to a component
 1. Emitting any changes from child to parent using events
 
+- Default prop name for v-model is `modelValue`
+- Default event is `update:modelValue`
+- You can change the prop name or customize it by just placing a new name after v-model
+*Example*
+```
+v-model:newName
+```
+- This changes the prop name and the event
+
+<br><br>
+
+**Simplified Example**
+
+  ![Image from images folder](~@source/images/vue/vue_v-model_simplified.png)
+
+title == Name of the prop that will be available in the child component  
+pageTitle == Data in the parent component that we are binding
+
+- v-model then passes the prop and listens for the @update event
 
 
 
 <br><br>
 
-#### Thoughts on Vars, v-model, arrays, computed, emit event
+<hr>
+
+### (OLD) Thoughts on Vars, v-model, arrays, computed, emit event
 
 - I'm currently working on what is a piece of code that's a search feature. We want to take that search feature and make a UI component out of it. 
 
