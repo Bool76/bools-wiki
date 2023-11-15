@@ -84,7 +84,13 @@ Overview - I wanted to do an analysis of a piece of code that's in a Vue compone
 
 - v-model is a directive that lets us bind component data to template elements
 
-- Directive let us manipulate the DOM. It's been described as a "template token". (e.g. v-model, v-if, v-bind, v-show)
+- "Directives" let us manipulate the DOM. It's been described as a "template token"
+
+- Directive examples: 
+    - v-model
+    - v-if 
+    - v-bind 
+    - v-show
 
 - v-model creates a 2 way data binding between a value in our template and value in our data properties
 
