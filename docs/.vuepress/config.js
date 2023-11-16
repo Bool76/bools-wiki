@@ -339,6 +339,10 @@ module.exports = {
             title: "Basics",
             path: "/javascript/basics/",
           },
+          {
+            title: "Javascript + JQuery",
+            path: "/javascript/javascript-jquery/",
+          },
         ],
       },
       {
@@ -397,7 +401,7 @@ module.exports = {
                 title: "pm-2023-10-26",
                 path: "/pm/pm-journal/pm-2023-10-26/",
               },
-            ]
+            ],
           },
         ],
       },
