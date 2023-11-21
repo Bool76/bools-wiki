@@ -329,6 +329,10 @@ module.exports = {
             title: "Add SSH Key",
             path: "/github/add-ssh-key/",
           },
+          {
+            title: "SSH Keys",
+            path: "/github/ssh-keys/",
+          },
         ],
       },
       {
