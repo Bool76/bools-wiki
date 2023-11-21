@@ -2,6 +2,20 @@
 
 Overview - Breaking down some basic important concepts to remember about Javascript
 
+### Basic Concepts
+
+**Variables**
+
+**Arrays**
+
+**Objects**
+
+**Expressions**
+
+**Operators**
+
+<br>
+
 ### General Notes
 
 ### Objects
@@ -136,3 +150,31 @@ const singers = ['Bob', 'Georgie', 'Mike'];
 
 const firstSinger = singers[0];
 ```
+
+<br>
+
+### Expressions
+
+Definition - A line(s) of code that resolves into a single value
+
+#### 2 Types
+
+1. Unit of code that assigns just a single value to a variable
+
+```
+const height = '5.6';
+```
+
+2. Unit of code that uses two or more values which result in a single value
+
+```
+const age = 2023-1976;
+```
+
+### Operators
+
+1. Assignment Operators
+1. Arithmetic Operators
+1. String Operators
+1. Comparison Operators
+1. Logical Operators
