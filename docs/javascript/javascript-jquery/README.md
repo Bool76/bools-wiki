@@ -57,3 +57,82 @@ document.title
 <br>
 
 Utilizing the Document Object can not only control the content that's seen but also control how a user interacts with it
+
+### Variables
+
+Looks like multiple vars can be declared and set on the same line:
+
+- You use a comma to separate them
+- You only have to use the `var` keyword once
+
+_Example_
+
+```
+var price = 5, cost = 6;
+```
+
+<br>
+
+Variables can also hold a reference to an html element
+
+_Example_
+
+```
+var asdf = document.getElementById('cost');
+```
+
+<br>
+
+REMEMBER ABOUT VARIABLES:
+
+1. A custom variable name CANNOT have: Dashes
+1. A custom variable name CANNOT have: Start with a number
+1. Case sensitive
+
+<br>
+
+### Arrays
+
+An array is a list of values
+
+With an array you don't need to know how many items or values are in it
+
+The values in the array don't need to be the same data type
+
+#### Creating an Array
+
+1. Using Square Brackets
+
+_Example_
+
+```
+const colors;
+colors = ['white', 'red', 'black'];
+```
+
+2. Using keyword "New" and Array()
+
+_Example_
+
+```
+const colors = new Array
+  ('white',
+    'red',
+    'black');
+```
+
+<br>
+
+Each item in an Array has a number associated to it called either an index or a key
+
+The first items index in an array starts with "0" and then goes on to "1, 2, 3..."
+
+<br>
+
+#### Accessing Array Values and setting to a variable
+
+```
+const singers = ['Bob', 'Georgie', 'Mike'];
+
+const firstSinger = singers[0];
+```
