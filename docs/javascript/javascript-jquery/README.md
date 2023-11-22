@@ -58,14 +58,14 @@ Types of Objects:
 
 Window Object Property Example == Location -> Which can grab the URL
 
-```
-window.location
+```javascript
+window.location;
 ```
 
 Document Object Property Example == Title -> Which can grab the title of the page
 
-```
-document.title
+```javascript
+document.title;
 ```
 
 <br>
@@ -81,8 +81,9 @@ Looks like multiple vars can be declared and set on the same line:
 
 _Example_
 
-```
-var price = 5, cost = 6;
+```javascript
+var price = 5,
+  cost = 6;
 ```
 
 <br>
@@ -91,8 +92,8 @@ Variables can also hold a reference to an html element
 
 _Example_
 
-```
-var asdf = document.getElementById('cost');
+```javascript
+var asdf = document.getElementById("cost");
 ```
 
 <br>
@@ -128,11 +129,8 @@ colors = ['white', 'red', 'black'];
 
 _Example_
 
-```
-const colors = new Array
-  ('white',
-    'red',
-    'black');
+```javascript
+const colors = new Array("white", "red", "black");
 ```
 
 <br>
@@ -145,8 +143,8 @@ The first items index in an array starts with "0" and then goes on to "1, 2, 3..
 
 #### Accessing Array Values and setting to a variable
 
-```
-const singers = ['Bob', 'Georgie', 'Mike'];
+```javascript
+const singers = ["Bob", "Georgie", "Mike"];
 
 const firstSinger = singers[0];
 ```
@@ -161,14 +159,14 @@ Definition - A line(s) of code that resolves into a single value
 
 1. Unit of code that assigns just a single value to a variable
 
-```
-const height = '5.6';
+```javascript
+const height = "5.6";
 ```
 
 2. Unit of code that uses two or more values which result in a single value
 
-```
-const age = 2023-1976;
+```javascript
+const age = 2023 - 1976;
 ```
 
 ### Operators
@@ -178,3 +176,29 @@ const age = 2023-1976;
 1. String Operators
 1. Comparison Operators
 1. Logical Operators
+
+<br>
+
+#### Arithmetic Operators
+
+Operators that you can use with numbers
+
+NOTE: You can set a math based expression to a variable and then create a math expression between 2 variables
+
+```javascript
+const firstNumber = (14 + 2) * 5;
+const secondNumber = 3 * 4 * 5;
+const total = firstNumber + secondNumber;
+```
+
+<br>
+
+#### String Operator
+
+There's only one and that's the `+` symbol that concatenates strings together
+
+```javascript
+const fname = "Bob";
+const lname = "Cobb";
+const fullName = fname + " " + lname;
+```
