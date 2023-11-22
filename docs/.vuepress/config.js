@@ -398,6 +398,10 @@ module.exports = {
             path: "/pm/pm-journal/",
             children: [
               {
+                title: "pm-2023-11-21",
+                path: "/pm/pm-journal/pm-2023-11-21/",
+              },
+              {
                 title: "pm-2023-11-09",
                 path: "/pm/pm-journal/pm-2023-11-09/",
               },
