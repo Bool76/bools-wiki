@@ -354,8 +354,16 @@ module.exports = {
         path: "/markdown/",
         children: [
           {
+            title: "Code Block",
+            path: "/markdown/code-block/",
+          },
+          {
             title: "Escape HTML tag",
             path: "/markdown/escape-html-tag/",
+          },
+          {
+            title: "Footnotes",
+            path: "/markdown/footnotes/",
           },
           {
             title: "Hyperlink",
