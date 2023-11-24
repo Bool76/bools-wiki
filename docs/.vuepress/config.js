@@ -340,12 +340,28 @@ module.exports = {
         path: "/javascript/",
         children: [
           {
+            title: "Arrays",
+            path: "/javascript/arrays/",
+          },
+          {
             title: "Basics",
             path: "/javascript/basics/",
           },
           {
-            title: "Javascript + JQuery",
+            title: "Functions",
+            path: "/javascript/functions/",
+          },
+          {
+            title: "Javascript JQuery Book",
             path: "/javascript/javascript-jquery/",
+          },
+          {
+            title: "Operators",
+            path: "/javascript/operators/",
+          },
+          {
+            title: "Variables",
+            path: "/javascript/variables/",
           },
         ],
       },
