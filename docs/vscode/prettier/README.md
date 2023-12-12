@@ -16,7 +16,7 @@ In VS Code, in the configuration / settings - Seems like there are settings righ
 
 "Format on Save" - We might want to set this as a default
 
-YOu can select some files to ignore (and directories?). `.prettierignore`
+You can select some files to ignore (and directories?). `.prettierignore`
 - Needs to be located in the root of the project directory
 - `*.html` for example would ignore all html files. This could be useful
 
