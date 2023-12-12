@@ -853,6 +853,14 @@ module.exports = {
             path: "/vue/custom-prop-inheritance/",
           },
           {
+            title: "Event Handlers",
+            path: "/vue/event-handlers/",
+          },
+          {
+            title: "General Research",
+            path: "/vue/general-research/",
+          },
+          {
             title: "Nuxt",
             path: "/vue/nuxt/",
           },
