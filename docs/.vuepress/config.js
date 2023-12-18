@@ -162,6 +162,10 @@ module.exports = {
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
         children: [
           {
+            title: "Container Queries",
+            path: "/css/container-queries/",
+          },
+          {
             title: "Flexbox",
             path: "/css/flexbox/",
             children: [
@@ -186,6 +190,10 @@ module.exports = {
           {
             title: "Limit Text Rows",
             path: "/css/limit-text-rows/",
+          },
+          {
+            title: "min-width + max-width",
+            path: "/css/min-width-max-width/",
           },
           {
             title: "Truncate with Ellipsis",
