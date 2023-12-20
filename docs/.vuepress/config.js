@@ -123,7 +123,6 @@ module.exports = {
             path: "/c-sharp/namespace/",
           },
         ],
-        initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
       },
       {
         title: "Chrome",
@@ -161,6 +160,10 @@ module.exports = {
         path: "/css/",
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
         children: [
+          {
+            title: "Close Icon",
+            path: "/css/close-icon/",
+          },
           {
             title: "Container Queries",
             path: "/css/container-queries/",
