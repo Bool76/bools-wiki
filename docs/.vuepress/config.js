@@ -411,6 +411,16 @@ module.exports = {
         path: "/music/",
         children: [
           {
+            title: "Chord Progression",
+            path: "/music/chord-progression/",
+            children: [
+              {
+                title: "2023-12-22",
+                path:"/music/chord-progression/2023-12-22/",
+              }
+            ]
+          },
+          {
             title: "Vocal Range",
             path: "/music/vocal-range/",
           },
@@ -811,6 +821,10 @@ module.exports = {
         path: "/storybook/",
         children: [
           {
+            title: "Arguments",
+            path: "/storybook/arguments/",
+          },
+          {
             title: "Importing JSON",
             path: "/storybook/importing-json/",
           },
@@ -864,8 +878,8 @@ module.exports = {
             path: "/vue/custom-prop-inheritance/",
           },
           {
-            title: "General Research",
-            path: "/vue/general-research/",
+            title: "Directives",
+            path: "/vue/directives/",
           },
           {
             title: "Nuxt",

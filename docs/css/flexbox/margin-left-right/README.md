@@ -24,5 +24,5 @@ I was working in a mobile header where I wanted to keep the hamburger menu align
 4. What's happening:
     1. The first `<li>` is the mobile menu so we are bypassing that and targeting the 2nd child
     2. Use `margin-left: auto` on the 2nd `<li>`. Why? A good way to think of it is `margin-left` is applying a margin to the LEFT of the item  
-5. See the following example of how there's now a margin to the left of the Account icon:
+5. See the following example of how there's now a margin to the left of the Account icon:  
 ![Image from images folder](~@source/images/frontend-development/flexbox/margin-left-right/margin-right-left_margin-left.png)
