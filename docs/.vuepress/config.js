@@ -825,6 +825,10 @@ module.exports = {
             path: "/storybook/arguments/",
           },
           {
+            title: "Basics",
+            path: "/storybook/storybook-basics/",
+          },
+          {
             title: "Importing JSON",
             path: "/storybook/importing-json/",
           },
