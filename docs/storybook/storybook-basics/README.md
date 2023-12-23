@@ -98,6 +98,15 @@ import { Canvas } from '@storybook/addon-docs';
 #### What is it?
 <span class="warning">RIGHT NOW I DON'T KNOW WHAT IT DOES. I NEED MORE DETAILS.</span>
 
+To render stories and the source that creates those stories you need the Doc Blocks:
+- Story
+- Source
+- Canvas 
+
+**Source** - Creates the ability to see the source code / a copy and pasteable snippet used to produce that story (really story? Or the component?)
+
+**Canvas** - Is like Story and Source wrapped up into one
+
 #### Where is it seen?
 Typically I've seen it inside of the `<canvas>` block
 
