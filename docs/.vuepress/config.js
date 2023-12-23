@@ -829,11 +829,18 @@ module.exports = {
             path: "/storybook/storybook-basics/",
           },
           {
+            title: "Doc Blocks",
+            path: "/storybook/doc-blocks/",
+          },
+          {
             title: "Importing JSON",
             path: "/storybook/importing-json/",
           },
-        ],
-      },
+          {
+            title: "Meta Block",
+            path: "/storybook/meta-block/",
+          },
+      ]},
       {
         title: "VS Code",
         path: "/vscode/",

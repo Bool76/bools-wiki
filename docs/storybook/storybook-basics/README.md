@@ -1,6 +1,28 @@
 # Storybook | Basics
 
 
+### Basic Storybook Concepts
+
+1. Components
+1. Story
+
+<br>
+
+### What is typically used in Storybook 
+
+1. imports
+1. Markdown
+1. DocsPage
+1. Canvas Block
+1. Story Block
+1. Meta Block - Used in MDX file
+    - Attaches MDX file to a component and it's Stories  
+    OR
+    - Controls location of unattached documentation in the sidebar (nav)
+
+
+<br>
+
 ### DocsPage
 
 **What is it?**  
@@ -62,13 +84,14 @@ You can pass props into the Canvas block but I haven't done or seen anything wit
 #### How do you use it?  
 1. In order to use "Canvas" it must be imported 
 ```
-import { Meta, Story, Canvas, Source } from '@storybook/addon-docs';
+import { Canvas } from '@storybook/addon-docs';
 ```
 2. Use the `<canvas>` tag  
 1. Inside of `<canvas>` you'll see the `<story>` block
 
 
 <br>
+
 
 ### Story Block
 
@@ -83,3 +106,11 @@ Typically I've seen it inside of the `<canvas>` block
 **name** - Controls the title of the component on the left nav
 
 **args** - <span class="warning">TBD. Why do I need this and other args in an MDX file?</span>
+
+#### How do you use it?  
+1. In order to use "Story" it must be imported 
+```
+import { Story } from '@storybook/addon-docs';
+```
+
+2. <span class="warning">TBD</span>
