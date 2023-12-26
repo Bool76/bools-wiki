@@ -1,4 +1,4 @@
-# Storybook | Meta Block
+# Storybook | Source Block
 
 Overview - Used in MDX file. It does the following:
 1.  Attaches MDX file to a component and it's Stories  

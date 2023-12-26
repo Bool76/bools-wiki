@@ -1,6 +1,6 @@
 # Storybook | Doc Blocks
 
-Overview - The variety of Doc Blocks give the ability to document and share UI components with generated interface documentation
+Overview - The variety of Doc Blocks give the ability to document, share UI components with generated interface documentation, and the source code that creates those components.
 
 
 Doc Blocks are used in MDX files. 
