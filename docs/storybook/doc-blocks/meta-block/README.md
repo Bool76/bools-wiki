@@ -1,9 +1,9 @@
-# Storybook | Source Block
+# Storybook | Meta Block
 
 Overview - Used in MDX file. It does the following:
-1.  Attaches MDX file to a component and it's Stories  
-    OR
-2. Controls location of unattached documentation in the sidebar (nav)
+1. Controls the sidebar navigation title
+1. Attaches MDX file to a component and it's Stories  
+1. Controls location of unattached documentation in the sidebar (nav)
 
 <br>
 
@@ -12,10 +12,23 @@ Overview - Used in MDX file. It does the following:
 ```
 import { Meta } from '@storybook/addon-docs';
 ```
-2. In regards to the component you're using it with: 
-  1. What is the hierarchy (e.g. Atom, Molecule, etc)? 
-  1. What is the name you want to give it so it will appear that way in the sidebar? 
-3. Use the Meta tag and for the above answers fill out the `title` property like so:
+
+<br>
+
+### Control the sidebar nav title
+1. What is the name you want to give it so it will appear that way in the sidebar? 
+1. Recognize the hierarchy of the component you're working with (e.g. Atom, Molecule, etc)
+1. Use the Meta tag and for the above answers fill out the `title` property like so:
 ```mdx
 <Meta title="Atoms / Button" />
 ```
+
+<br>
+
+### Attache MDX file to a Component's Story
+1. You must know the name of the component you're working with
+1. Use the Meta tag and set the `component` property to the name of the component
+```mdx
+<Meta title="Atoms / Button Asdf" component={SramButton} />
+```
+3. In the above example the component is set to `SramButton`
