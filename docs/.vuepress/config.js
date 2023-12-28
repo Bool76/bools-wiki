@@ -825,11 +825,36 @@ module.exports = {
             path: "/storybook/arguments/",
           },
           {
+            title: "Basics",
+            path: "/storybook/storybook-basics/",
+          },
+          {
+            title: "Doc Blocks",
+            path: "/storybook/doc-blocks/",
+            children: [
+              {
+                title: "Canvas Block",
+                path: "/storybook/doc-blocks/canvas-block/",
+              },
+              {
+                title: "Meta Block",
+                path: "/storybook/doc-blocks/meta-block/",
+              },
+              {
+                title: "Source Block",
+                path: "/storybook/doc-blocks/source-block/"
+              },
+              {
+                title: "Story Block",
+                path: "/storybook/doc-blocks/story-block/"
+              }
+            ]
+          },
+          {
             title: "Importing JSON",
             path: "/storybook/importing-json/",
           },
-        ],
-      },
+      ]},
       {
         title: "VS Code",
         path: "/vscode/",
