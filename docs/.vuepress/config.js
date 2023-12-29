@@ -416,9 +416,9 @@ module.exports = {
             children: [
               {
                 title: "2023-12-22",
-                path:"/music/chord-progression/2023-12-22/",
-              }
-            ]
+                path: "/music/chord-progression/2023-12-22/",
+              },
+            ],
           },
           {
             title: "Vocal Range",
@@ -825,10 +825,6 @@ module.exports = {
             path: "/storybook/arguments/",
           },
           {
-            title: "Basics",
-            path: "/storybook/storybook-basics/",
-          },
-          {
             title: "Doc Blocks",
             path: "/storybook/doc-blocks/",
             children: [
@@ -842,19 +838,24 @@ module.exports = {
               },
               {
                 title: "Source Block",
-                path: "/storybook/doc-blocks/source-block/"
+                path: "/storybook/doc-blocks/source-block/",
               },
               {
                 title: "Story Block",
-                path: "/storybook/doc-blocks/story-block/"
-              }
-            ]
+                path: "/storybook/doc-blocks/story-block/",
+              },
+            ],
           },
           {
             title: "Importing JSON",
             path: "/storybook/importing-json/",
           },
-      ]},
+          {
+            title: "Story",
+            path: "/storybook/storybook-story/",
+          },
+        ],
+      },
       {
         title: "VS Code",
         path: "/vscode/",
