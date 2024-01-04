@@ -223,6 +223,10 @@ module.exports = {
             path: "/frontend-development/aspect-ratio/",
           },
           {
+            title: "Container Queries",
+            path: "/frontend-development/container-queries/",
+          },
+          {
             title: "HTML",
             path: "/frontend-development/html/",
             children: [
@@ -899,6 +903,10 @@ module.exports = {
         title: "Vue",
         path: "/vue/",
         children: [
+          {
+            title: "Container Queries",
+            path: "/vue/container-queries/",
+          },
           {
             title: "Custom Props",
             path: "/vue/custom-props/",

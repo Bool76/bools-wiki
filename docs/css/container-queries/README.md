@@ -1,6 +1,6 @@
 # CSS | Container Queries
 
-Overview - If you use Media queries to control designs, the design of a container's contents is all based on the browswer's viewport width. Container Queries change that logic and base the designing a container's contents on that specified conatiner's width rather than the browser's viewport.
+Overview - If you use Media queries to control designs, the design of a container's contents is all based on the browswer's viewport width. Container Queries change that logic and base design adjustments according to a specified container (and it's width) rather than the browser's viewport.
 
 
 <br>
