@@ -904,6 +904,10 @@ module.exports = {
         path: "/vue/",
         children: [
           {
+            title: "Components",
+            path: "/vue/vue-components/",
+          },
+          {
             title: "Container Queries",
             path: "/vue/container-queries/",
           },
