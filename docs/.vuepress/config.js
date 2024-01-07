@@ -862,6 +862,10 @@ module.exports = {
             title: "Story",
             path: "/storybook/storybook-story/",
           },
+          {
+            title: "Vue Slots",
+            path: "/storybook/vue-slots/",
+          },
         ],
       },
       {
