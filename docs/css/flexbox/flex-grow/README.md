@@ -5,7 +5,7 @@ Overview - When you have items that don't take up all of the main flex container
 <br/>
 
 **Where to place it?**  
-Main flex container
+Flex items
 
 
 ### Flex Grow Settings

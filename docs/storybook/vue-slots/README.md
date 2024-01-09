@@ -35,11 +35,25 @@ Overview - In a Storybook story, if you call an instance of a component that has
   1. Use `template` attribute use the component by it's component name in tag format
   1. To use the default Slot:
       1. Between the component tags use a `<template>` tag 
+      1. Place the `default` name inside of the `<template>` tag with the use of the #.  
       1. Place any content you want between the template tags
+      *Example*
+      ```
+      <template name=#default>
+        Some content
+      </template>
+      ```
+      
   1. To use a custom Slot:
       1. Between the component tags use a `<template>` tag 
       1. Using the name of the custom slot place that inside of the template tag with a # before the name `<template #customName>`
       1. Place any content you want between the templates tags
+      *Example*
+      ```
+      <template #left-slot>
+        Left slot content
+      </template>
+      ```
 
 <br><br>
 
@@ -89,7 +103,9 @@ Overview - In a Storybook story, if you call an instance of a component that has
 <br>
 
 ### Storybook | Use Default Slot
-1. Declare default slot in Vue file by using the `<slot>` tag (no need to give it a name)
+1. Inside of the component Vue file:    
+    1. Create a `<template>` section 
+    1. Declare default slot in Vue file by using the opening and closing <slot> tag w/ no name attribute given 
 
 ```vue
 <template>
@@ -98,13 +114,13 @@ Overview - In a Storybook story, if you call an instance of a component that has
   </div>
 </template>
 ```
-1. In the Storybook file use the `<Canvas>` and `<Story>` doc blocks
-1. In the Story block: 
-  1. Use `component` attribute to state what component you want to work with
-  1. Use `template` attribute use the component by it's component name in tag format
-  1. To use the default Slot:
-      1. Between the component tags use a `<template>` tag 
-      1. Place any content you want between the template tags
+2. Inside of the Storybook file:
+    1. Use the `<Canvas>` and `<Story>` doc blocks
+    1. In the Story block: 
+        1. Use `component` attribute to state what component you want to work with
+        1. Use `template` attribute. Write an open and closing tag of the component you want to work with
+        1. In between the open and closing tag place the content that you want in the default slot
+
 <br>
 
 ```mdx
@@ -128,10 +144,11 @@ Overview - In a Storybook story, if you call an instance of a component that has
 
 <br><br>
 
-### Storybook | Use 2 Custom Slot (w/ a Default Slot)
+### Storybook | Use 2 Custom Slots
 
-1. Open the Vue file with the component you want to work with
-1. Declare two custom slots in Vue file by using the `<slot>` tag and the name attribute 
+1. Inside of the component Vue file:    
+    1. Create a `<template>` section 
+    1. Declare two custom slots in Vue file by using the `<slot>` tag and the name attribute 
 
 ```vue
 <template>
@@ -143,13 +160,16 @@ Overview - In a Storybook story, if you call an instance of a component that has
   </div>
 </template>
 ```
-Breakdown:
-- Two custom slots were declared
-- First is called "header-nav-left"
-- Second is called "header-nav-right"
-<br>
+2. Inside of the Storybook file:
+    1. Use the `<Canvas>` and `<Story>` doc blocks
+    1. In the Story block: 
+        1. Use `component` attribute to state what component you want to work with
+        1. Use `template` attribute. Write an open and closing tag of the component you want to work with
+        1. In between the open and closing tag:
+            1. Write a open and closing `<template>` tag for each custom slot
+            1. For each `<template>` tag use the name of the custom slot with a `#` preceeding it
 
-*Storybook File*
+
 ```mdx
 <Canvas>
   <Story name="Default">
@@ -169,3 +189,52 @@ Breakdown:
 
 **Result:**  
 ![Image from images folder](~@source/images/storybook/vue-slot/storybook_vue-slot_2-custom-slots.png)
+
+
+<br><br>
+
+### Storybook | Use 2 Custom Slots and a Default Slot asdf
+
+1. Inside of the component Vue file:    
+    1. Create a `<template>` section 
+    1. Declare default slot in Vue file by using the opening and closing `<slot>` tag w/ no name attribute given 
+    1. Declare two custom slots in Vue file by using the `<slot>` tag and the name attribute 
+
+```vue
+<template>
+  <div class="header-nav-left">
+    <slot name="left-slot"></slot>
+  </div>
+  <div class="header-nav-center">
+    <slot></slot>
+  </div>
+  <div class="header-nav-right">
+    <slot name="right-slot"></slot>
+  </div>
+</template>
+```
+2. Inside of the Storybook file:
+    1. Use the `<Canvas>` and `<Story>` doc blocks
+    1. In the Story block: 
+        1. Use `component` attribute to state what component you want to work with
+        1. Use `template` attribute. Write an open and closing tag of the component you want to work with
+        1. In between the open and closing tag:
+            1. Write a open and closing `<template>` tag for each custom slot
+            1. For each `<template>` tag use the name of the custom slot with a `#` preceeding it
+
+
+```mdx
+<Canvas>
+  <Story name="Default">
+      {{
+        components: { SramHeaderNav },
+        template: 
+        `<SramHeaderNav>
+          <template #left-slot>Left slot content</template>
+          <template #right-slot>Right slot content</template>
+          <SramHeaderNav/>`
+      }}
+  </Story>
+</Canvas>
+```
+
