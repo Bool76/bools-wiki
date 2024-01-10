@@ -15,7 +15,7 @@ Repo == https://github.com/vuejs/vuepress
 
 1. Vue - Utilize Vue components
 2. JSON
-3. Node.js 10+
+3. Node.js > 10 and < 17
 4. Yarn (optional)
 
 ### Install
