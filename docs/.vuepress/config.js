@@ -241,6 +241,16 @@ module.exports = {
             ],
           },
           {
+            title: "Node",
+            path: "/frontend-development/node/",
+            children: [
+              {
+                title: "nvm",
+                path: "/frontend-development/node/nvm/"
+              }
+            ]
+          },
+          {
             title: "Tailwind",
             path: "/frontend-development/tailwind/",
           },

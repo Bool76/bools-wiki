@@ -27,18 +27,29 @@ display: flex;
 
 3. All of the items in the main Flexbox container will become "flex items"
 
-<br/>
+<br/><br>
 
-### Attributes / Values
+### Attributes
 
-#### flex (w/ display CSS attribute)
+| Attribute       | Value         | Location            | Description                                                                                               |
+| --------------- | ------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
+| display         | flex          | Main flex container | Sets container as a flex type and it's children as flex items                                             |
+| flex-direction  | row           | Main flex container | Arranges flex items in a row format (default)                                                             |
+|                 | column        |                     | Arranges flex items in a column format                                                                    |
+| flex-grow       | 0             | Flex Items          | All flex item sizes will vary depending on their content                                                  |
+|                 | 1             |                     | All flex item sizes will be the same size in order to fill up the entire size of the Main Flex container  |
+|                 | 2             |                     | When you want only 2 flex items per row                                                                   |
+|                 | _mixed_       |                     | Individual Flex Items can have different number values. This changes the sizes on those individual items. |
+| justify-content | flex-start    | Main flex container | Defines the alignment of content (flex items) based on x axis. "flex-start" aligns content to the left.   |
+|                 | flex-end      |                     | Aligns content to the right                                                                               |
+|                 | center        |                     | Aligns content in the middle                                                                              |
+|                 | space-between |                     | Items are evenly distributed in the row. First item on far left and last item is far right                |
+|                 | space-evenly  |                     | Items are distributed so that the spacing between any two items (and the space to the edges) is equal     |
+| flex-wrap       | nowrap        | Main flex container | All Flex Items will be on one line (default)                                                              |
+|                 | wrap          |                     | Flex Items will wrap onto multiple lines, from top to bottom                                              |
+|                 | wrap-reverse  |                     | Flex Items will wrap onto multiple lines from bottom to top                                               |
 
-|         |                                                                                                               |
-| ------- | ------------------------------------------------------------------------------------------------------------- |
-| Type    | Value for `display` CSS attribute                                                                             |
-| Purpose | When a div is given a display type of `flex` it becomes a Flex Container any object in it becomes a Flex Item |
-| Where   | In any `<div>`                                                                                                |
-| Notes   | Only need to declare it once                                                                                  |
+<br><br><br>
 
 <br/>
 
@@ -69,55 +80,10 @@ flex-shrink: auto
 
 <br/>
 
-#### flex-direction
-
-|         |                                                                                               |
-| ------- | --------------------------------------------------------------------------------------------- |
-| Type    | Flex specific CSS attribute                                                                   |
-| Purpose | Sets how flex items are placed in the flex container defining the main axis and the direction |
-| Where   | <span class="warning">(Verify)</span> Normally used in Flexbox Container                      |
-| Values  | `row` -> Places Flex Items in row                                                             |
-|         | `column`-> Places Flex Items in column                                                        |
-
-sets how flex items are placed in the flex container defining the main axis and the direction
-
 <br/>
 
-#### flex-grow
 
-_Please see "flex-grow" specific page_
 
-<br/>
-
-#### flex-start (w/ align-items CSS attribute)
-
-|         |                                                                                                                       |
-| ------- | --------------------------------------------------------------------------------------------------------------------- |
-| Type    | Value for `display` CSS attribute                                                                                     |
-| Purpose | <span class="warning">(Reword)</span> Moves items up and down if "justify content" is set to move items left to right |
-| Where   | <span class="warning">tbd</span>                                                                                      |
-
-<br/>
-
-#### flex-wrap
-
-|         |                                                                                          |
-| ------- | ---------------------------------------------------------------------------------------- |
-| Type    | Flex specific CSS attribute                                                              |
-| Purpose | Different wrapping options depending on value                                            |
-| Where   | <span class="warning">tbd</span>                                                         |
-| Values  | `wrap` -> Wraps content to next line when the content is too wide for the viewport width |
-
-<br/>
-
-#### justify-content
-
-|         |                                                                                                                        |
-| ------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Type    | Flex specific CSS attribute                                                                                            |
-| Purpose | <span class="warning">tbd</span>                                                                                       |
-| Where   | <span class="warning">tbd</span>                                                                                       |
-| Values  | <span class="warning">(varify)</span> `space-around` -> Places equal space between content items and centering content |
 
 <br/>
 
