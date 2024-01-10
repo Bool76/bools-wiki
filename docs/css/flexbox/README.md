@@ -8,13 +8,13 @@ Better for one dimensional applications. If you want something to work with more
 
 <br/>
 
-### Basic Concepts
+#### Basic Concepts
 
 **Flexbox Container** - Not an offical term but will be used to reference the main container for Flexbox
 
 **Flex Items** - All objects (divs, buttons, etc) inside of a Flexbox container become _Flex Items_
 
-<br/>
+<br/><br>
 
 ### How to Setup
 
@@ -27,105 +27,34 @@ display: flex;
 
 3. All of the items in the main Flexbox container will become "flex items"
 
-<br/>
+<br/><br>
 
-### Attributes / Values
+### Attributes
 
-#### flex (w/ display CSS attribute)
-
-|         |                                                                                                               |
-| ------- | ------------------------------------------------------------------------------------------------------------- |
-| Type    | Value for `display` CSS attribute                                                                             |
-| Purpose | When a div is given a display type of `flex` it becomes a Flex Container any object in it becomes a Flex Item |
-| Where   | In any `<div>`                                                                                                |
-| Notes   | Only need to declare it once                                                                                  |
-
-<br/>
-
-#### flex
-
-|         |                                                                           |
-| ------- | ------------------------------------------------------------------------- |
-| Type    | Flex specific CSS attribute                                               |
-| Purpose | To be used as a shortcut and includes: flex-grow, flex-basis, flex-shrink |
-| Where   | Used on an item within the Flexbox Container                              |
-
-Example:
-
-```
-.product-items {
-        flex: 2 1 auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: flex-start;
-}
-```
-
-BREAKDOWN - The above is a shortcut for the following  
-flex-grow: 2  
-flex-basis: 1  
-flex-shrink: auto
-
-<br/>
-
-#### flex-direction
-
-|         |                                                                                               |
-| ------- | --------------------------------------------------------------------------------------------- |
-| Type    | Flex specific CSS attribute                                                                   |
-| Purpose | Sets how flex items are placed in the flex container defining the main axis and the direction |
-| Where   | <span class="warning">(Verify)</span> Normally used in Flexbox Container                      |
-| Values  | `row` -> Places Flex Items in row                                                             |
-|         | `column`-> Places Flex Items in column                                                        |
-
-sets how flex items are placed in the flex container defining the main axis and the direction
-
-<br/>
-
-#### flex-grow
-
-_Please see "flex-grow" specific page_
-
-<br/>
-
-#### flex-start (w/ align-items CSS attribute)
-
-|         |                                                                                                                       |
-| ------- | --------------------------------------------------------------------------------------------------------------------- |
-| Type    | Value for `display` CSS attribute                                                                                     |
-| Purpose | <span class="warning">(Reword)</span> Moves items up and down if "justify content" is set to move items left to right |
-| Where   | <span class="warning">tbd</span>                                                                                      |
-
-<br/>
-
-#### flex-wrap
-
-|         |                                                                                          |
-| ------- | ---------------------------------------------------------------------------------------- |
-| Type    | Flex specific CSS attribute                                                              |
-| Purpose | Different wrapping options depending on value                                            |
-| Where   | <span class="warning">tbd</span>                                                         |
-| Values  | `wrap` -> Wraps content to next line when the content is too wide for the viewport width |
-
-<br/>
-
-#### justify-content
-
-|         |                                                                                                                        |
-| ------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Type    | Flex specific CSS attribute                                                                                            |
-| Purpose | <span class="warning">tbd</span>                                                                                       |
-| Where   | <span class="warning">tbd</span>                                                                                       |
-| Values  | <span class="warning">(varify)</span> `space-around` -> Places equal space between content items and centering content |
-
-<br/>
-
-#### stretch (w/ align-items CSS attribute)
-
-|         |                                                                                          |
-| ------- | ---------------------------------------------------------------------------------------- |
-| Type    | Value for `align-items` CSS attribute                                                    |
-| Purpose | Only the target will stretch along the whole cross height axis even when content varies. |
-| Where   | <span class="warning">tbd</span>                                                         |
-| Notes   | CSS property overrides a grid or flex item's align-items                                 |
+| Attribute       | Location            | Value          | Description                                                                                               |
+| --------------- | ------------------- | -------------- | --------------------------------------------------------------------------------------------------------- |
+| display         | Main flex container | flex           | Sets container as a flex type and it's children as flex items                                             |
+| flex-direction  | Main flex container |                | Establishes the arrangement of flex items. Row vs Columns.                                                |
+|                 |                     | row            | Arranges flex items in a row format (default)                                                             |
+|                 |                     | column         | Arranges flex items in a column format                                                                    |
+| flex-grow       | Flex Items          |                | Identifies how flex items will adjust to the space available in the main flex container                   |
+|                 |                     | 0              | All flex item sizes will vary depending on their content                                                  |
+|                 |                     | 1              | All flex item sizes will be the same size in order to fill up the entire size of the Main Flex container  |
+|                 |                     | 2              | When you want only 2 flex items per row                                                                   |
+|                 |                     | _mixed_        | Individual Flex Items can have different number values. This changes the sizes on those individual items. |
+| justify-content | Main flex container |                | Defines the alignment of content (flex items) based on x axis                                             |
+|                 |                     | flex-start     | Aligns content to the left                                                                                |
+|                 |                     | flex-end       | Aligns content to the right                                                                               |
+|                 |                     | center         | Aligns content in the middle                                                                              |
+|                 |                     | space-between  | Items are evenly distributed in the row. First item on far left and last item is far right                |
+|                 |                     | space-evenly   | Items are distributed so that the spacing between any two items (and the space to the edges) is equal     |
+| align-items     | Main flex container |                | Defines the alignment of content (flex items) based on y axis                                             |
+|                 |                     | stretch        | Flex items stretch to fill the entire height of the main flex container (default)                         |
+|                 |                     | center         | Flex items will be positioned in the middle of the y axis                                                 |
+|                 |                     | flex-end       | Flex items are placed at the bottom of the y axis                                                         |
+| flex-wrap       | Main flex container |                | How content is handled if there's more content that will normally allow in a row or column                |
+|                 |                     | nowrap         | All Flex Items will be on one line (default)                                                              |
+|                 |                     | wrap           | Flex Items will wrap onto multiple lines, from top to bottom                                              |
+|                 |                     | wrap-reverse   | Flex Items will wrap onto multiple lines from bottom to top                                               |
+| flex            | Main flex container |                | To be used as a shortcut and includes: flex-grow, flex-basis, flex-shrink                                 |
+|                 |                     | flex: 2 1 auto | BREAKDOWN: flex-grow: 2, flex-basis: 1, flex-shrink: auto                                                 |

@@ -7,6 +7,8 @@ I was working in a mobile header where I wanted to keep the hamburger menu align
 
 ![Image from images folder](~@source/images/frontend-development/flexbox/margin-left-right/margin-right-left_header-example.png)
 
+<br><br>
+
 ### Breakdown
 1. The parent to the account and cart icon is a `ul` with a display of FLEX
 ```
