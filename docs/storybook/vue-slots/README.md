@@ -4,29 +4,32 @@ Overview - In a Storybook story, if you call an instance of a component that has
 
 
 #### Outline
-1. What are Slots in Vue?
-1. Types of Slots
-1. How to use Slots in Storybook (highlevel) 
-1. Vue | Declare Default Slot
-1. Vue | Declare Custom Slot
-1. Storybook | Use Default Slot
-1. Storybook | Use Custom Slot
+1. Slot Basics
+    1. What are Slots in Vue?
+    1. Types of Slots
+1. Basic Steps to use Slots in Storybook
+1. [How to use Slots in Vue](/vue/slots/)
+1. Use Slots in Storybook
+    1. Use Default Slot
+    1. Use 2 Custom Slots
+    1. Use 2 Custom Slots and a Default Slot
 
 <br><br>
 
-### What are Slots in Vue?
+## Slot Basics
+
+#### What are Slots in Vue?
  When creating Vue components you can utilize something called "slots". Slots give containers if you will for content to be placed. A Vue component will have a default slot but you can create additional slots and give them a unique name so you can reference it. 
 
-<br><br>
+<br>
 
-### Two Types of Slots
+#### Two Types of Slots
 1. Default Slot - Each Vue component that has a `<template>` section has a default slot where content can be placed. A `<slot>` without name implicitly has the name "default".
 1. Custom Slot - A Vue component with a `<slot>` can be given a custom name by using the name attribute.  
 
 <br><br>
 
-### How to use Slots in Storybook 
-*Highlevel*
+## Basic Steps to use Slots in Storybook
 1. In Vue file create a component
 1. In the component declare Slots in Template section (whether just a default Slot or a custom slot)
 1. In Storybook file (mdx) import the use of the Vue component
@@ -57,55 +60,19 @@ Overview - In a Storybook story, if you call an instance of a component that has
 
 <br><br>
 
-## Vue | Declare Slots
-
-<br>
-
-### Vue | Declare Default Slot
-
-1. Find or create a `<template>` tag
-1. Where ever you want the default slot to be just add the slot tag
-1. No need to do anything further (e.g. No need to add a default name)
-
-*Example*
-```
-<template>
-  <div>
-    <slot></slot>
-  </div>
-</template>
-```
-
-<br><br>
-
-### Vue | Declare Custom Slot (w/ a default Slot)
-
-1. Find or create a `<template>` tag
-1. Where ever you want the default slot to be just add the slot tag
-1. No need to do anything further (e.g. No need to add a default name)
-
-*Example*
-```
-<template>
-  <div class="header-nav-left">
-    <slot name="left-slot"></slot>
-  </div>
-  <div>
-    <slot></slot>
-  </div>
-</template>
-```
+## How to use Slots in Vue
+[See Vue section on Slots](/vue/slots/)
 
 <br><br><br>
 
-## Storybook | Use Slots
+## Use Slots in Storybook
 
 <br>
 
-### Storybook | Use Default Slot
+### Use Default Slot
 1. Inside of the component Vue file:    
     1. Create a `<template>` section 
-    1. Declare default slot in Vue file by using the opening and closing <slot> tag w/ no name attribute given 
+    1. Declare default slot in Vue file by using the opening and closing `<slot>` tag w/ no name attribute given 
 
 ```vue
 <template>
@@ -144,7 +111,7 @@ Overview - In a Storybook story, if you call an instance of a component that has
 
 <br><br>
 
-### Storybook | Use 2 Custom Slots
+### Use 2 Custom Slots
 
 1. Inside of the component Vue file:    
     1. Create a `<template>` section 
@@ -193,7 +160,7 @@ Overview - In a Storybook story, if you call an instance of a component that has
 
 <br><br>
 
-### Storybook | Use 2 Custom Slots and a Default Slot asdf
+### Use 2 Custom Slots and a Default Slot
 
 1. Inside of the component Vue file:    
     1. Create a `<template>` section 

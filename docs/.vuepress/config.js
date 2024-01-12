@@ -427,12 +427,6 @@ module.exports = {
           {
             title: "Chord Progression",
             path: "/music/chord-progression/",
-            children: [
-              {
-                title: "2023-12-22",
-                path: "/music/chord-progression/2023-12-22/",
-              },
-            ],
           },
           {
             title: "Vocal Range",
@@ -725,6 +719,16 @@ module.exports = {
         ],
       },
       {
+        title: "Random Thoughts",
+        path: "/random-thoughts/",
+        children: [
+          {
+            title: "2023-12-22",
+            path: "/random-thoughts/2023-12-22/"
+          }
+        ]
+      },
+      {
         title: "SCSS",
         path: "/scss/",
         children: [
@@ -944,6 +948,10 @@ module.exports = {
           {
             title: "Ref() + Reactive()",
             path: "/vue/ref-n-reactive/",
+          },
+          {
+            title: "slots",
+            path: "/vue/slots/",
           },
           {
             title: "variables",
