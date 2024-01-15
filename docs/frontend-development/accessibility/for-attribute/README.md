@@ -18,6 +18,7 @@ For accessibility purposes it does the following:
 1. Set the `for` value to the value of the `id` from the `<input>` tag
 
 *Example*
+
 ```
 <label for="serialNumberInput">Serial Number</label>
 
