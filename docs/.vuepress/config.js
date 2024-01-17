@@ -161,6 +161,14 @@ module.exports = {
         initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
         children: [
           {
+            title: "Box Model",
+            path: "/css/box-model/",
+          },
+          {
+            title: "Box-Sizing",
+            path: "/css/box-sizing/",
+          },
+          {
             title: "Close Icon",
             path: "/css/close-icon/",
           },
@@ -185,8 +193,12 @@ module.exports = {
                 path: "/css/flexbox/margin-left-right/",
               },
               {
-                title: "Single Row",
-                path: "/css/flexbox/flex-single-row/",
+                title: "Single item per Row",
+                path: "/css/flexbox/flex-single-item-row/",
+              },
+              {
+                title: "Two items per Row",
+                path: "/css/flexbox/flex-two-items-row/",
               },
             ],
           },
@@ -956,6 +968,10 @@ module.exports = {
           {
             title: "variables",
             path: "/vue/variables/",
+          },
+          {
+            title: "v-bind",
+            path: "/vue/v-bind/",
           },
           {
             title: "v-model",
