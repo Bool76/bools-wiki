@@ -59,5 +59,6 @@ ul Styles
 
 li Styles
 - `box-sizing: border-box;` 
-    1. `box-sizing` - Can be used w/ Flexbox
-    1. `box-sizing` - Sets how the total width and height of an element is calculate
+    - `box-sizing` - Can be used w/ Flexbox
+    - `box-sizing` - For the Flex Items - It tells the browser to account for any border and padding values so that the container width and height still honors what's been defined in the width and height attributes.
+- `width: 50%` == Each Flex Item's width will be 50% of the parent container
