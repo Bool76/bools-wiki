@@ -1,4 +1,4 @@
-# Flex | Single Row
+# Flex | Single item per Row
 
 Summary - How to limit one item per row / single row in the Flexbox framework  (HINT: You're going to use `flex-direction: column`) 
 
