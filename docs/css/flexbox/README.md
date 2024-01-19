@@ -16,7 +16,7 @@ Better for one dimensional applications. If you want something to work with more
 
 <br/><br>
 
-### How to Setup
+### Basic Setup
 
 1. A main Flexbox container must be selected
 1. The main Flexbox container must have a display type of `flex`

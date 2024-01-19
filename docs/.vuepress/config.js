@@ -203,6 +203,10 @@ module.exports = {
             ],
           },
           {
+            title: "Grid",
+            path: "/css/grid/",
+          },
+          {
             title: "Limit Text Rows",
             path: "/css/limit-text-rows/",
           },

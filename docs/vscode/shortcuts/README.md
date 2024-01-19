@@ -4,7 +4,7 @@ Overview - What are some VS Code shortcuts to make your life brighter, shinier, 
 
 <br>
 
-| Topic        | Key Stroke                | Notes                                                                                                     |
-| ------------ | ------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Comment Code | ctrl + /                  |                                                                                                           |
-| Format Page  | [windows] alt + shift + f | This is best to use when you don't want code to auto format on save. This worked well for Markdown files. |
+| Topic               | Key Stroke                | Notes                                                                                                     |
+| ------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Comment Code        | ctrl + /                  |                                                                                                           |
+| Format Page / Table | [windows] alt + shift + f | This is best to use when you don't want code to auto format on save. This worked well for Markdown files. |
