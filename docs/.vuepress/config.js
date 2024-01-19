@@ -205,6 +205,12 @@ module.exports = {
           {
             title: "Grid",
             path: "/css/grid/",
+            children: [
+              {
+                title: "grid-template-columns",
+                path: "/css/grid/grid-template-columns/"
+              }
+            ]
           },
           {
             title: "Limit Text Rows",
