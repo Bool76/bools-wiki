@@ -1,7 +1,4 @@
-# Project Management | Journal
-
-#### 2023-11-30
-
+# Project 1 | 2023-11-30
 
 <br>
 

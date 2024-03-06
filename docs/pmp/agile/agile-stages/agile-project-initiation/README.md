@@ -15,7 +15,7 @@
 
 <br><br>
 
-### Project Initation Components Breakdown
+### Project Initiation Components Breakdown
 
 #### Project Vision
 

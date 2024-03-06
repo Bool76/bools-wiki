@@ -1,6 +1,4 @@
-# Project Management | Journal
-
-#### 2023-11-06
+# Project 1 | 2023-11-06
 
 Last week what worked:
 1. A___ and I worked well together. I would say that in part because he allowed for some give and take

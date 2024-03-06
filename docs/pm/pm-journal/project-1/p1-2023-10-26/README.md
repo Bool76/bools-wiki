@@ -1,6 +1,4 @@
-# Project Management | Journal
-
-#### 2023-10-26
+# Project 1 | 2023-10-26
 
 Bike Finder Planning meeting that seemed to go off the rails. Why? It was a topic of how to approach tickets in the backlog. Disagreement between myself and a co-worker.
 
