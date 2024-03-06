@@ -1,6 +1,4 @@
-# Project Management | Journal
-
-#### 2023-11-09
+# Project 1 | 2023-11-09
 
 Overview - This is more of a mid week review just cause I had thoughts I wanted to share
 

@@ -465,34 +465,44 @@ module.exports = {
             path: "/pm/pm-journal/",
             children: [
               {
-                title: "pm-2024-01-02",
-                path: "/pm/pm-journal/pm-2024-01-02/",
-              },
-              {
-                title: "pm-2023-11-30",
-                path: "/pm/pm-journal/pm-2023-11-30/",
-              },
-              {
-                title: "pm-2023-11-21",
-                path: "/pm/pm-journal/pm-2023-11-21/",
-              },
-              {
-                title: "pm-2023-11-09",
-                path: "/pm/pm-journal/pm-2023-11-09/",
-              },
-              {
-                title: "pm-2023-11-06",
-                path: "/pm/pm-journal/pm-2023-11-06/",
-              },
-              {
-                title: "pm-2023-10-30",
-                path: "/pm/pm-journal/pm-2023-10-30/",
-              },
-              {
-                title: "pm-2023-10-26",
-                path: "/pm/pm-journal/pm-2023-10-26/",
-              },
-            ],
+                title: "Project 1",
+                path:"/pm/pm-journal/project-1/",
+                children: [
+                  {
+                    title: "Lessons Learned",
+                    path: "/pm/pm-journal/project-1/lessons-learned/"
+                  },
+                  {
+                    title: "2024-01-02",
+                    path: "/pm/pm-journal/project-1/p1-2024-01-02/",
+                  },
+                  {
+                    title: "2023-11-30",
+                    path: "/pm/pm-journal/project-1/p1-2023-11-30/",
+                  },
+                  {
+                    title: "2023-11-21",
+                    path: "/pm/pm-journal/project-1/p1-2023-11-21/",
+                  },
+                  {
+                    title: "2023-11-09",
+                    path: "/pm/pm-journal/project-1/p1-2023-11-09/",
+                  },
+                  {
+                    title: "2023-11-06",
+                    path: "/pm/pm-journal/project-1/p1-2023-11-06/",
+                  },
+                  {
+                    title: "2023-10-30",
+                    path: "/pm/pm-journal/project-1/p1-2023-10-30/",
+                  },
+                  {
+                    title: "2023-10-26",
+                    path: "/pm/pm-journal/project-1/p1-2023-10-26/",
+                  },
+                ],
+              }
+            ]
           },
         ],
       },

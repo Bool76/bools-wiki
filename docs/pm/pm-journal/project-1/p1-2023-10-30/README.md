@@ -1,6 +1,4 @@
-# Project Management | Journal
-
-#### 2023-10-30
+# Project 1 | 2023-10-30
 
 Given the slight issues from last week lets come up with some basic items to focus on this week:
 
