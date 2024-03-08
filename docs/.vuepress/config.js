@@ -257,6 +257,10 @@ module.exports = {
                 path: "/frontend-development/html/block-elements/",
               },
               {
+                title: "Focusing Elements",
+                path: "/frontend-development/html/focusing-elements/",
+              },
+              {
                 title: "Video Element",
                 path: "/frontend-development/html/video-element/",
               },
