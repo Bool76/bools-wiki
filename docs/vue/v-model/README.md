@@ -1,6 +1,6 @@
 # Vue | v-model
 
-Overview - This is section will cover how to use Bool's Wiki
+<br>
 
 ### Research Notes
 
@@ -16,7 +16,7 @@ In this `message` is a variable name
 <input type="checkbox" id="checkbox" v-model="checked" />
 <label for="checkbox">{{ checked }}</label>
 ```
-- Value Bindings (v-model) for radio, checkbox and select options, the v-model binding values are usually static strings (or booleans for checkbox)
+- `v-model` values for `<input>` types such as "radio" or "select" are usually strings type values. However checkboxes are usually boolan type values.
 ```
 <!-- `picked` is a string "a" when checked -->
 <input type="radio" v-model="picked" value="a" />
