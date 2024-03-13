@@ -958,6 +958,10 @@ module.exports = {
         path: "/vue/",
         children: [
           {
+            title: "Basics",
+            path: "/vue/vue-basics/",
+          },
+          {
             title: "Components",
             path: "/vue/vue-components/",
           },
@@ -1000,6 +1004,10 @@ module.exports = {
           {
             title: "v-model",
             path: "/vue/v-model/",
+          },
+          {
+            title: "Vue File Types",
+            path: "/vue/vue-file-types/",
           },
         ],
       },

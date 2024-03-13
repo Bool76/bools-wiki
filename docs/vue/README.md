@@ -16,17 +16,27 @@
 
 <br>
 
+--- 
+
+
 ### Install
 
-#### OPTIONS:
+#### Options:
+1. npm
+1. Vue CLI
+1. Vite
 
-1. **npm** - Large scale projects
+#### npm
+
+Overivew - Use for large scale projects
 ```
 npm install vue@next
 ```
 <br>
 
-2. **Vue CLI** - Quick and dirty. Don't have to worry about any build process.
+#### Vue CLI
+
+Overview - Quick and dirty. Don't have to worry about any build process.
 
 ```
 npm install -g @vue/cli
@@ -36,12 +46,15 @@ vue create <project-name>
 
 <br>
 
-3. **Vite**  
+#### Vite
+  
 ```
 npm init vite-app <project-name>
 ```
 
-<br><br>    
+<br><br>  
+
+--- 
 
 ### Start / Launch Project
 
