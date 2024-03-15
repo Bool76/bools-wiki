@@ -1,18 +1,35 @@
-# Sramconnect | Start Environment
+# Sramconnect | Environment
 
 Summary - How to start the Sram.com (sramconnect repo) environment and also how do you see updates when changes are made
 
+<br>
+
+## Start Environment
+
+### Prerequisites
+1. VS Code installed on your local
+1. Visual Studio installed on your local
+1. You have the sramconnect repo in your local (but you know that)
+
+
+
+<br>
+
 ### Steps
 
-**Terminal**
+**VS Code (or a basic terminal)**
 
-1. Make sure you're in the product root directory  
-   _sramconnect/PublicSites/SRAM.Public.Web_
-2. RUN:
+1. Checkout `dev-axle` branch
+1. Pull recent version of `dev-axle`
+1. OPTIONAL: Create a new feature branch 
+1. From your local machine navigate to: `\Users\igall` 
+1. RUN:
 
 ```
 azurite
 ```
+
+<br>
 
 **Visual Studio (not VS Code)**
 
