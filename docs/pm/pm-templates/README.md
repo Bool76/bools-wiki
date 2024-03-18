@@ -1,6 +1,6 @@
 # Project Management | Templates
 
-Overview - asdf
+Overview - The following is information on project management structure and templates that are utilized for managing projects of all sizes
 
 #### List of Project Management Templates
 1. Assuptions Log
@@ -26,7 +26,7 @@ Overview - asdf
 <br>
 
 #### Assumptions Log
-The purpose of this of this document is to identify any project assumptions. These assumptions can be updated throughout the project and can lead to updates to other documents like the Decisions doc or the Risk Register.
+The purpose of this of this document is to identify any project oriented assumptions that pertain to the project scope or the project work. These assumptions can be updated throughout the project and can lead to updates to other documents like the Decisions doc or the Risk Register.
 
 Label: *project-name* | Assuptions Log 
 

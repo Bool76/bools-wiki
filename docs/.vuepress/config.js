@@ -513,6 +513,10 @@ module.exports = {
             path: "/pm/pm-templates/",
             children: [
               {
+                title: "Assumptions Log",
+                path: "/pm/pm-templates/templates-assumptions-log/",
+              },
+              {
                 title: "Decisions",
                 path: "/pm/pm-templates/templates-decisions/",
               },
@@ -523,6 +527,10 @@ module.exports = {
               {
                 title: "Meetings",
                 path: "/pm/pm-templates/templates-meetings/",
+              },
+              {
+                title: "Risk Register",
+                path: "/pm/pm-templates/templates-risk-register/",
               },
               {
                 title: "Stakeholder Register",
