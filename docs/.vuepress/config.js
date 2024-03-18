@@ -508,6 +508,40 @@ module.exports = {
               }
             ]
           },
+          {
+            title: "Templates",
+            path: "/pm/pm-templates/",
+            children: [
+              {
+                title: "Assumptions Log",
+                path: "/pm/pm-templates/templates-assumptions-log/",
+              },
+              {
+                title: "Decisions",
+                path: "/pm/pm-templates/templates-decisions/",
+              },
+              {
+                title: "Launch Communication",
+                path: "/pm/pm-templates/templates-launch-communication/",
+              },
+              {
+                title: "Meetings",
+                path: "/pm/pm-templates/templates-meetings/",
+              },
+              {
+                title: "Risk Register",
+                path: "/pm/pm-templates/templates-risk-register/",
+              },
+              {
+                title: "Stakeholder Register",
+                path: "/pm/pm-templates/templates-stakeholder-register/",
+              },
+              {
+                title: "Team Charter",
+                path: "/pm/pm-templates/templates-team-charter/",
+              },
+            ]
+          },
         ],
       },
       {
@@ -844,7 +878,7 @@ module.exports = {
                 path: "/sram-dev/sramconnect/debug/",
               },
               {
-                title: "Start Environment",
+                title: "Environment",
                 path: "/sram-dev/sramconnect/start-environment/",
               },
             ], // optional, defaults to 0, defines the index of initially opened subgroup
