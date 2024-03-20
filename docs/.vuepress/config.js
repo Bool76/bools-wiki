@@ -832,6 +832,10 @@ module.exports = {
                 title: "Locate Content Instance",
                 path: "/sram-dev/epi/locate-content-instance/",
               },
+              {
+                title: "Locate Template",
+                path: "/sram-dev/epi/locate-template/",
+              },
             ],
           },
           {
