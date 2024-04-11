@@ -81,6 +81,10 @@ module.exports = {
             path: "/c-sharp/constructor/",
           },
           {
+            title: "Core MVC",
+            path: "/c-sharp/core-mvc/",
+          },
+          {
             title: "List Class",
             path: "/c-sharp/list-class/",
           },
