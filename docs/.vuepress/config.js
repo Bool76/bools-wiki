@@ -509,6 +509,16 @@ module.exports = {
                     path: "/pm/pm-journal/project-1/p1-2023-10-26/",
                   },
                 ],
+              },
+              {
+                title: "Project 2",
+                path:"/pm/pm-journal/project-2/",
+                children: [
+                  {
+                    title: "Lessons Learned",
+                    path:"/pm/pm-journal/project-2/lessons-learned/",
+                  },
+                ]
               }
             ]
           },
